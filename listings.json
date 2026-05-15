@@ -1,0 +1,19 @@
+[
+  {
+    "listing": "/analyses/index.html",
+    "items": [
+      "/analyses/ai-startup-landscape.html",
+      "/analyses/visa-sponsor-search.html",
+      "/analyses/nyc-cannabis-market.html"
+    ]
+  },
+  {
+    "listing": "/products/index.html",
+    "items": [
+      "/products/startup-screener-pipeline.html",
+      "/products/news-aggregator.html",
+      "/products/resume-jd-review-tool.html",
+      "/products/sql-practice-agent.html"
+    ]
+  }
+]

@@ -1,0 +1,499 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "📍 Based in New York City  ·  Open to relocation"
+  },
+  {
+    "objectID": "about.html#how-i-got-here",
+    "href": "about.html#how-i-got-here",
+    "title": "About",
+    "section": "How I got here",
+    "text": "How I got here\nI started in financial services and spent a decade close to the messiest, highest-stakes problems in the industry: credit risk, underwriting, lending analytics, and decision systems.\nI built and validated models that decided whether real customers got real credit. Designed analytics that informed how capital was allocated. Translated regulatory and commercial constraints into systems that had to work — under scrutiny, at scale, with real money on the line.\nThe hard part was rarely the math. The hard part was structuring ambiguity, building shared understanding across functions, and shipping artifacts — products, models, memos — that survived contact with reality.\nThe last two years, my work has shifted toward AI-native execution. I build agent systems that compress weeks of research into hours. I run multi-source market scans that would have required a consulting team. I use AI to expand the surface area of what one operator can ship — not as a hobby, not as a tool I’m exploring, but as the central way I work.\n\nBoth halves of my career converge on the same thing — turning complex, data-heavy business problems into products, analyses, and decisions that hold up under scrutiny."
+  },
+  {
+    "objectID": "about.html#what-im-best-at",
+    "href": "about.html#what-im-best-at",
+    "title": "About",
+    "section": "What I’m best at",
+    "text": "What I’m best at\n\nTranslating ambiguity into structure. Messy markets, undefined opportunities, decisions under uncertainty — these are where I add the most.\nConnecting domain depth to execution. Financial services taught me what regulators, customers, and operators actually care about. AI-native workflows let me ship faster than the org chart would suggest.\nCross-functional range. I’ve operated as analyst, modeler, product partner, strategist, and builder. I read the business, the data, and the system simultaneously.\nBuilding artifacts, not just opinions. I’d rather ship a working prototype, a rigorous memo, or a decision-ready model than write a deck."
+  },
+  {
+    "objectID": "about.html#where-i-create-the-most-leverage",
+    "href": "about.html#where-i-create-the-most-leverage",
+    "title": "About",
+    "section": "Where I create the most leverage",
+    "text": "Where I create the most leverage\nThe strongest fit is where financial services depth and AI-native execution compound — at companies solving real, high-stakes problems under regulatory and commercial constraint, where shipping the right artifact matters more than writing the right deck.\n\nForward-deployed AI, decision intelligence, and AI-product roles at high-upside startups (seed–Series B)\nOperator and founding-team seats in vertical AI, financial services AI, RegTech, insurtech, or decision systems\nStrategy and product roles at fintech and financial services companies where AI-native execution is the differentiator, not the marketing"
+  },
+  {
+    "objectID": "about.html#how-i-work",
+    "href": "about.html#how-i-work",
+    "title": "About",
+    "section": "How I work",
+    "text": "How I work\n\n\nBuild reusable systems over ad-hoc analyses. One-off work has a half-life; reusable systems compound across problems.\n\n\nBe skeptical of AI marketing. Obsess over what actually works under regulatory and commercial constraint. Eval data beats demo videos.\n\n\nCompose tight, well-scoped artifacts. Skip monolithic prototypes and sprawling notebooks. Small, composable, shipped.\n\n\nShip in the medium that fits. Python, SQL, R, Claude Code agent pipelines, structured writing — match the artifact to the decision it serves.\n\n\n\nGet in touch\n\nEmail: xxshen752@gmail.com\nLinkedIn: linkedin.com/in/xuanxuan-shen\nGitHub: github.com/shenxuan752"
+  },
+  {
+    "objectID": "analyses/ai-startup-landscape.html",
+    "href": "analyses/ai-startup-landscape.html",
+    "title": "AI Startup Landscape — 653 Companies, May 2026",
+    "section": "",
+    "text": "The AI startup landscape in May 2026 contained roughly 5,000–10,000 companies globally at seed–Series B claiming some AI/data wedge. Standard job-search advice — “apply broadly, see what sticks” — doesn’t survive a universe where most companies are too early to sponsor a visa, too engineering-only to need a senior data operator, or too AI-veneer to last 24 months.\nThe question I needed an answer to: out of the addressable universe of vertical-AI / data-infrastructure / forward-deployed-AI startups, which ~10 are worth a serious application and interview cycle?"
+  },
+  {
+    "objectID": "analyses/ai-startup-landscape.html#the-question",
+    "href": "analyses/ai-startup-landscape.html#the-question",
+    "title": "AI Startup Landscape — 653 Companies, May 2026",
+    "section": "",
+    "text": "The AI startup landscape in May 2026 contained roughly 5,000–10,000 companies globally at seed–Series B claiming some AI/data wedge. Standard job-search advice — “apply broadly, see what sticks” — doesn’t survive a universe where most companies are too early to sponsor a visa, too engineering-only to need a senior data operator, or too AI-veneer to last 24 months.\nThe question I needed an answer to: out of the addressable universe of vertical-AI / data-infrastructure / forward-deployed-AI startups, which ~10 are worth a serious application and interview cycle?"
+  },
+  {
+    "objectID": "analyses/ai-startup-landscape.html#what-i-did",
+    "href": "analyses/ai-startup-landscape.html#what-i-did",
+    "title": "AI Startup Landscape — 653 Companies, May 2026",
+    "section": "What I did",
+    "text": "What I did\nBuilt and ran a multi-agent screening pipeline (see Startup Screener Pipeline) across the AI/data startup universe at seed-Series B. The pipeline:\n\nSurveyed 653 unique companies across 14 verticals (insurance, healthcare, fintech back-office, legal, PropTech, climate, HR, GTM, data infra, AI evals, stealth, wildcards)\nScored each on 12 dimensions weighted toward problem quality, defensibility, founder-market fit, immigration feasibility, and fit for a senior data/AI/operator profile\nDeep-researched the top 20 with 18-section case studies\nVerified visa evidence for the top 10 via primary-source LCA databases\nIdentified 3 actionable tiers: apply directly (5), find warm intro (3), monitor (2)\n\nSources: AlleyWatch funding announcements, TechCrunch, BusinessWire, Crunchbase, YC company directory, Tier-1 VC portfolio pages, Wellfound, niche industry press (Modern Healthcare, Insurance Journal, FinTech Futures, LegalTech News), MyVisaJobs, h1bgrader, h1bdata, USCIS E-Verify employer search, Glassdoor, LinkedIn."
+  },
+  {
+    "objectID": "analyses/ai-startup-landscape.html#key-findings",
+    "href": "analyses/ai-startup-landscape.html#key-findings",
+    "title": "AI Startup Landscape — 653 Companies, May 2026",
+    "section": "Key findings",
+    "text": "Key findings\n\n1. The senior-IC visible job-title taxonomy at AI startups is converging on “Forward-Deployed Engineer,” “AI Strategist,” and “Deployed Intelligence” — not “Data Scientist”\nAt most vertical-AI startups (Palantir-DNA companies especially), the senior-IC role for someone with a 10-year analytics background is not titled “Data Scientist.” That title often gets junior-coded or sits behind a PhD bar. The senior seats that map cleanly to an FS-analytics / decision-science profile carry titles like Forward Deployed Engineer, AI Strategist, Deployed Intelligence Strategist, or Solutions Architect.\nImplication: Searching for “Senior Data Scientist” openings will systematically miss the best-fit seats.\n\n\n2. PERM completion rate matters more than LCA volume\nThe conventional metric for “does this company sponsor visas?” is LCA filing count. I found this metric is misleading. Several companies in the verified top 10 had 10+ LCAs filed but 0 completed PERM applications — meaning sponsored employees consistently left before the green card process completed. One mature retailer outside the AI cohort had filed 11 PERM applications and only 1 was ever certified (the rest expired).\nImplication: For a 6-7 year H-1B-to-PERM horizon, you want to verify PERM completion rate, not just LCA volume. Ask in the first recruiter call: “Has anyone in your data/analytics team completed PERM here?”\n\n\n3. Insurance and healthcare AI verticals systematically over-index for senior-IC fit\nOf the top 20 companies by priority, 8 operated in regulated insurance or healthcare workflow domains (claims, underwriting, prior auth, denial management, RCM). These domains punish AI-veneer plays — the customers (carriers, hospitals, RCM teams) demand evidence and audit trails. They reward decision-science discipline and risk-modeling skill that transfers cleanly from financial services.\nImplication: If you have FS analytics background, vertical-AI startups in insurance/healthcare/compliance are the cleanest skill transfer — better than horizontal AI infrastructure or pure dev tooling.\n\n\n4. Geography and visa cluster: NYC + Series A+ + culturally-international founder is the strongest sponsorship-feasibility combination\nAmong the verified visa sponsors in the screen, the modal profile was: NYC-headquartered (or with a confirmed NYC office), Series A or later, and a founding team that included at least one international-origin operator. This combination shows up disproportionately in the visa-confirmed top tier.\nImplication: If visa is a constraint, focus the search on NYC + Series A+ + international-co-founder companies first. SF-only seed-stage is a worse bet on visa axis even when the company is otherwise excellent.\n\n\n5. “Cursor for X” / “AI agent marketplace” plays were the most consistently downrated category\nIn the YC W26 batch and recent seed announcements, ~10% of companies were “Cursor for [vertical]” or horizontal AI-agent marketplaces. The screen systematically downrated these:\n\nCursor-for-X plays have a 12-24 month window before Microsoft Copilot ships the equivalent in the underlying surface\nHorizontal agent marketplaces have unclear buyer (who pays?), unclear trust mechanism (who verifies agent quality?), and unclear repeat-usage economics\nA higher percentage of these companies (vs. vertical-AI peers) scored above 4 on the Hype/BS-Risk dimension\n\nImplication: Treat these categories with extra skepticism. They generate fundraising press but the unit economics often don’t survive the first refresh of the underlying foundation model."
+  },
+  {
+    "objectID": "analyses/ai-startup-landscape.html#recommendation",
+    "href": "analyses/ai-startup-landscape.html#recommendation",
+    "title": "AI Startup Landscape — 653 Companies, May 2026",
+    "section": "Recommendation",
+    "text": "Recommendation\nFor an immigrant senior data IC targeting AI/data startups in 2026:\n\nFilter aggressively on visa-confirmed companies. Don’t trust inferred-from-cap-table signals. Pull primary-source LCA + PERM data before investing interview cycles.\nApply to NYC + Series A+ + culturally-international-founder targets first. This profile has the best visa odds.\nTarget vertical-AI in regulated industries. Insurance, healthcare, compliance, RegTech, and finance back-office reward the same skills your FS analytics background built.\nTarget Forward-Deployed Engineer / AI Strategist / Solutions Architect titles, not Data Scientist. The senior-IC compensation tier hides under these names.\nNegotiate PERM commitment in writing at offer stage. Companies with LCA history but no PERM precedent need an explicit commitment."
+  },
+  {
+    "objectID": "analyses/ai-startup-landscape.html#what-surprised-me",
+    "href": "analyses/ai-startup-landscape.html#what-surprised-me",
+    "title": "AI Startup Landscape — 653 Companies, May 2026",
+    "section": "What surprised me",
+    "text": "What surprised me\nThe biggest surprise was the gap between inferred visa friendliness and verified visa friendliness. The initial scoring pass scored ~60% of “visa-friendly” candidates correctly when checked against MyVisaJobs / h1bgrader. The rest were corrected — usually downward — by primary-source verification. The inference signal (cap table size, headcount, NYC HQ) is correlated with but not equal to actual sponsorship willingness.\nSecond surprise: the founders’ national-origin background was a stronger predictor of sponsorship culture than the company’s funding stage. Two well-funded SF Series B companies with all-US-citizen founders sponsored less than a smaller Series A with a foreign-born CEO."
+  },
+  {
+    "objectID": "analyses/ai-startup-landscape.html#what-id-interrogate-further",
+    "href": "analyses/ai-startup-landscape.html#what-id-interrogate-further",
+    "title": "AI Startup Landscape — 653 Companies, May 2026",
+    "section": "What I’d interrogate further",
+    "text": "What I’d interrogate further\n\nPERM cohort outcomes. Of the H-1B holders sponsored 3+ years ago at top targets, how many are still at the company today vs. departed? This is the actual signal that matters.\nJob-title-to-LCA mapping at scale. I’d want to systematically map every job posting to the LCA-sponsored titles by company, so I could automatically flag postings unlikely to result in a visa-sponsorable role.\nCross-vertical second-order effects. Several “horizontal AI infra” companies in my screen had FS customer overlap (Stripe, Brex, Plaid). The FS background creates a usable wedge there even when the company isn’t FS-vertical."
+  },
+  {
+    "objectID": "analyses/ai-startup-landscape.html#data-code",
+    "href": "analyses/ai-startup-landscape.html#data-code",
+    "title": "AI Startup Landscape — 653 Companies, May 2026",
+    "section": "Data & code",
+    "text": "Data & code\nUnderlying company data and rankings are private (commercial sensitivity around individual companies and visa inferences). The methodology and scoring framework are documented in the Startup Screener Pipeline write-up.\nThe pipeline can be re-run monthly using the delta-template I built. As of this analysis date (May 2026), the universe had been refreshed twice — once in the initial scan and once via targeted gap-fill across underserved verticals (Legal, PropTech, HR, Climate)."
+  },
+  {
+    "objectID": "analyses/index.html",
+    "href": "analyses/index.html",
+    "title": "Analyses",
+    "section": "",
+    "text": "Each one is structured like an operator memo: explicit question, tight methodology, findings ranked by what would change the decision.\n\n\n\n\n\n\n\n\n\n\nAI Startup Landscape — 653 Companies, May 2026\n\n\nMethodology and findings from a thesis-driven scan of AI/data startups at seed–Series B\n\n\n\nMarket Analysis\n\nAI Startups\n\nDecision Systems\n\n\n\n\n\n\nMay 2026\n\n\n\n\n\n\n\nH-1B / PERM Sponsor Search — Structured Employer Prioritization\n\n\nScored, evidence-based shortlist of 100 US employers built from fragmented visa and hiring data\n\n\n\nDecision Support\n\nImmigration Analytics\n\nData Pipeline\n\nEmployer Research\n\n\n\n\n\n\nMay 2025\n\n\n\n\n\n\n\nNYC Cannabis Dispensary Market — Where the Unit Economics Actually Work\n\n\nOperator decision memo with framework, market scan, scoring model, and ranked shortlist for siting a NYC dispensary\n\n\n\nMarket Analysis\n\nRegulated Industry\n\nOperator Strategy\n\nUnit Economics\n\n\n\n\n\n\nApr 2025\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "products/startup-screener-pipeline.html",
+    "href": "products/startup-screener-pipeline.html",
+    "title": "Startup Thesis Screener Pipeline",
+    "section": "",
+    "text": "A reusable agent pipeline that surveys the AI/data startup universe (~600–1,000 companies at seed–Series B), applies a thesis-driven scoring framework, and produces a ranked shortlist with deep-dive analyses and visa-verification evidence — in 2–3 hours of parallel agent work instead of weeks of manual research."
+  },
+  {
+    "objectID": "products/startup-screener-pipeline.html#what-it-does",
+    "href": "products/startup-screener-pipeline.html#what-it-does",
+    "title": "Startup Thesis Screener Pipeline",
+    "section": "",
+    "text": "A reusable agent pipeline that surveys the AI/data startup universe (~600–1,000 companies at seed–Series B), applies a thesis-driven scoring framework, and produces a ranked shortlist with deep-dive analyses and visa-verification evidence — in 2–3 hours of parallel agent work instead of weeks of manual research."
+  },
+  {
+    "objectID": "products/startup-screener-pipeline.html#who-its-for",
+    "href": "products/startup-screener-pipeline.html#who-its-for",
+    "title": "Startup Thesis Screener Pipeline",
+    "section": "Who it’s for",
+    "text": "Who it’s for\nSenior operators running their own thesis-driven pipelines who need to:\n\nEvaluate hundreds of companies at depth, not just respond to recruiter inbound or VC noise\nApply consistent scoring (problem quality, founder-market fit, AI/data leverage, defensibility) across a wide surface\nPull visa-sponsorship evidence from primary sources (MyVisaJobs, h1bgrader, USCIS) — not infer from cap tables\nRefresh the universe monthly with a delta report rather than rerun the whole thing"
+  },
+  {
+    "objectID": "products/startup-screener-pipeline.html#architecture",
+    "href": "products/startup-screener-pipeline.html#architecture",
+    "title": "Startup Thesis Screener Pipeline",
+    "section": "Architecture",
+    "text": "Architecture\nflowchart TB\n    A1[Discovery Agent 1&lt;br/&gt;NYC AI/data] --&gt; B[Candidate files]\n    A2[Discovery Agent 2&lt;br/&gt;Remote-friendly US] --&gt; B\n    A3[Discovery Agent 3&lt;br/&gt;Recent YC batches] --&gt; B\n    A4[Discovery Agent 4&lt;br/&gt;Tier-1 VC portfolios] --&gt; B\n    A5[Discovery Agent 5&lt;br/&gt;Stealth + wildcards] --&gt; B\n    A6[Discovery Agent 6&lt;br/&gt;Vertical sweeps] --&gt; B\n    B --&gt; C[5 parallel scoring agents&lt;br/&gt;12-dimension rubric]\n    C --&gt; D[Python dedup + sort]\n    D --&gt; E[Top 50 shortlist]\n    E --&gt; F[4 parallel deep-research agents&lt;br/&gt;top 20 only]\n    F --&gt; G[2 visa-verification agents&lt;br/&gt;MyVisaJobs + h1bgrader + LCAs]\n    G --&gt; H[Final report + CSVs]"
+  },
+  {
+    "objectID": "products/startup-screener-pipeline.html#key-design-choices",
+    "href": "products/startup-screener-pipeline.html#key-design-choices",
+    "title": "Startup Thesis Screener Pipeline",
+    "section": "Key design choices",
+    "text": "Key design choices\n\nParallel agents over monolithic prompts. Each discovery agent owns one vertical or source, so eight ran in parallel instead of one slow sequential pass. Output landed in disk-persisted files — context compaction couldn’t lose hours of work.\nDisk persistence between phases. Every agent wrote a Markdown or CSV file rather than returning content in chat. In a 2+ hour pipeline, this is non-negotiable.\nInline-return fallback for Write permission denials. When five of eight agents hit Write permission errors on the first run, they returned content inline as their final message. The parent agent persisted it. The pipeline survived the failure mode.\nCross-batch dedup in Python, not in agents. LLMs hallucinate “same company” matches. I deduped by normalized company name in a Python script — cheap, exact, debuggable.\nVisa verification as a separate phase, not embedded. The first scoring pass inferred visa feasibility from cap table size, headcount, and HQ. The verification pass pulled live LCA records. The two passes disagreed on four of ten top picks — and the verified data produced material downgrades for several “obvious” candidates."
+  },
+  {
+    "objectID": "products/startup-screener-pipeline.html#key-result",
+    "href": "products/startup-screener-pipeline.html#key-result",
+    "title": "Startup Thesis Screener Pipeline",
+    "section": "Key result",
+    "text": "Key result\n\nUniverse surveyed: 653 unique AI/data startups at seed–Series B across 14 verticals\nTime investment: ~3 hours of agent runtime + ~2 hours of analyst review\nOutput: top-20 deep-dive case studies, top-10 with verified visa evidence, monthly-refresh template\nSurprising signal: the strongest predictor of long-term visa pathway is PERM completion rate, not LCA volume. Several well-funded sponsors had 10+ LCAs but zero completed PERMs — meaning their sponsored hires consistently left before the green card finished. This shifted the recommended action plan for the top three candidates."
+  },
+  {
+    "objectID": "products/startup-screener-pipeline.html#what-id-build-differently-next-time",
+    "href": "products/startup-screener-pipeline.html#what-id-build-differently-next-time",
+    "title": "Startup Thesis Screener Pipeline",
+    "section": "What I’d build differently next time",
+    "text": "What I’d build differently next time\n\nRun discovery and scoring in the same agent pass. Separating them across two phases doubled the LLM cost and added coordination overhead with no real quality gain.\nVersion-control the scoring rubric separately from agent prompts. I mixed them; when I changed the rubric mid-run, I had to re-dispatch agents instead of just re-scoring existing rows.\nPre-build a legal-entity-name mapping. Several visa lookups failed because the legal entity (e.g., “Cascading AI Inc” for Casca, “Eminent INC dba Revolve Clothing” for Revolve) differs from the brand. A pre-mapping step would have saved an hour and avoided two false-negative misses."
+  },
+  {
+    "objectID": "products/startup-screener-pipeline.html#tech-stack",
+    "href": "products/startup-screener-pipeline.html#tech-stack",
+    "title": "Startup Thesis Screener Pipeline",
+    "section": "Tech stack",
+    "text": "Tech stack\nClaude Code · Python 3.9 (pandas, csv) · Markdown for human-readable outputs · MyVisaJobs / h1bgrader / h1bdata for visa evidence · GitHub Actions for monthly refresh"
+  },
+  {
+    "objectID": "products/startup-screener-pipeline.html#code",
+    "href": "products/startup-screener-pipeline.html#code",
+    "title": "Startup Thesis Screener Pipeline",
+    "section": "Code",
+    "text": "Code\nPipeline code is private due to commercial sensitivity around the screened companies and personal visa data. Happy to walk through the architecture and methodology in conversation."
+  },
+  {
+    "objectID": "products/index.html",
+    "href": "products/index.html",
+    "title": "Products",
+    "section": "",
+    "text": "Working artifacts — tools, pipelines, and decision systems built to ship to real users.\n\n\n\n\n\n\n\n\n\n\nStartup Thesis Screener Pipeline\n\n\nMulti-agent pipeline that maps a 600+ company AI startup universe into a scored, visa-verified shortlist\n\n\n\nAI Agents\n\nPipeline\n\nDecision Systems\n\nFinancial Services\n\n\n\n\n\n\nMay 2026\n\n\n\n\n\n\n\nDaily News Aggregator with WhatsApp Push\n\n\nPersonalized AI ingestion, filtering, and summarization pipeline delivered as a morning digest to my phone\n\n\n\nAI Agents\n\nWorkflow Automation\n\nResearch Pipeline\n\nPersonal-AI\n\n\n\n\n\n\nOct 2025\n\n\n\n\n\n\n\nResume × JD Fit Review and Cover Letter Tool\n\n\nApplication workflow tool that evaluates candidate-role fit and generates targeted cover letters with explicit anti-cliché constraints\n\n\n\nAI Agents\n\nWorkflow Tool\n\nAnthropic Claude\n\nProductivity Systems\n\n\n\n\n\n\nMay 2025\n\n\n\n\n\n\n\nSQL Case Practice Agent\n\n\nEdge-case-driven SQL interview practice with AI evaluation and progress tracking\n\n\n\nAI Agents\n\nInterview Prep\n\nData Tooling\n\nWorkflow Design\n\n\n\n\n\n\nFeb 2025\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Xuanxuan (Ava) Shen",
+    "section": "",
+    "text": "Background\n\n\n10 years in financial services — credit risk, underwriting, lending analytics, decision systems\n\n\nFocus\n\n\nAI-native pipelines, operator memos, and decision tools\n\n\nStage\n\n\nSenior IC, lead, director, or founding-team\n\n\nLocation\n\n\nNew York City — open to relocation"
+  },
+  {
+    "objectID": "index.html#why-this-mix-matters",
+    "href": "index.html#why-this-mix-matters",
+    "title": "Xuanxuan (Ava) Shen",
+    "section": "Why this mix matters",
+    "text": "Why this mix matters\n\n\n\n01\n\n\nDomain depth that survives scrutiny\nA decade in financial services means I know what regulators, customers, and operators actually care about. Models that decide credit, analytics that allocate capital, systems built under real constraint.\n\n\n\n\n02\n\n\nAI-native execution as a leverage multiplier\nI use AI as core leverage for research, synthesis, prototyping, and shipping — not as a tool I’m interested in. It expands the surface area of what one operator can deliver.\n\n\n\n\n03\n\n\nThe combination is rare\nMost AI-native operators don’t have the domain depth. Most domain experts haven’t rebuilt their workflows around AI. The intersection is where I work."
+  },
+  {
+    "objectID": "index.html#what-i-work-on",
+    "href": "index.html#what-i-work-on",
+    "title": "Xuanxuan (Ava) Shen",
+    "section": "What I work on",
+    "text": "What I work on\n\n\nCapability 01\n\nRisk & Financial Systems\nA decade designing, validating, and shipping credit risk, underwriting, and lending analytics under regulatory and commercial constraint.\n\n\n\nCapability 02\n\nAI-native Execution\nMulti-agent pipelines and AI-assisted research that compress weeks of analysis into hours of run-time plus human review.\n\n\n\nCapability 03\n\nProducts & Decision Systems\nTools, internal pipelines, and workflows that move ambiguity into structure into shipped code — used by real operators.\n\n\n\nCapability 04\n\nStrategy & Operator Memos\nMarket scans, opportunity evaluations, and risk write-ups built to inform real decisions — not to look smart."
+  },
+  {
+    "objectID": "index.html#selected-work",
+    "href": "index.html#selected-work",
+    "title": "Xuanxuan (Ava) Shen",
+    "section": "Selected work",
+    "text": "Selected work\n\n\nFeatured Product\nStartup Thesis Screener Pipeline\nMulti-agent pipeline that maps a 600+ company AI startup universe into a scored, visa-verified shortlist — in three hours of parallel agent runtime instead of weeks of manual research.\nAI AgentsDecision SystemsFinancial Services\n\n\nFeatured Analysis\nAI Startup Landscape — 653 Companies\nMethodology and findings from a thesis-driven scan of AI/data startups at seed–Series B, with verified visa evidence and operator-grade recommendations.\nMarket AnalysisAI StartupsDecision Systems\n\n\n\nSee all products →     See all analyses →"
+  },
+  {
+    "objectID": "index.html#what-im-doing-now",
+    "href": "index.html#what-im-doing-now",
+    "title": "Xuanxuan (Ava) Shen",
+    "section": "What I’m doing now",
+    "text": "What I’m doing now\n\n\nBuilding\n\nAI-assisted research pipelines and decision systems\nOperator memos and market analyses for vertical-AI and financial services\nTools that compress weeks of work into hours\n\n\n\nExploring\n\nSenior IC, operator, founding-data, and product roles\nFounders and operators in fintech, RegTech, insurtech, decision intelligence\nWriting on credit risk, AI-native workflows, and operator strategy\n\n\n\n\nGet in touch\nBest way to reach me is xxshen752@gmail.com. I read every thoughtful note.\nFor warm intros and recruiter pings, LinkedIn. For code and pipelines, GitHub."
+  },
+  {
+    "objectID": "products/news-aggregator.html",
+    "href": "products/news-aggregator.html",
+    "title": "Daily News Aggregator with WhatsApp Push",
+    "section": "",
+    "text": "Type: Product · Domain: Information workflow / signal extraction Stack: Python · Anthropic Claude API · Twilio WhatsApp · RSS / source APIs · cron Status: Production-ready, running daily · Role: Builder"
+  },
+  {
+    "objectID": "products/news-aggregator.html#one-line-summary",
+    "href": "products/news-aggregator.html#one-line-summary",
+    "title": "Daily News Aggregator with WhatsApp Push",
+    "section": "One-line summary",
+    "text": "One-line summary\nA daily content pipeline that pulls articles from 12 curated tech and investment sources, filters out clickbait (~36% drop rate), deduplicates near-identical stories across publishers, summarizes the top-scoring items with Claude, and pushes the digest to WhatsApp every morning. Cuts daily news reading from ~105 minutes to ~35 minutes."
+  },
+  {
+    "objectID": "products/news-aggregator.html#why-i-built-this",
+    "href": "products/news-aggregator.html#why-i-built-this",
+    "title": "Daily News Aggregator with WhatsApp Push",
+    "section": "Why I built this",
+    "text": "Why I built this\nTech and investment news degraded sharply through 2024–25. Three problems:\n\nThe same press release shows up across four sites. Reading “Nvidia announces DGX Spark” on Ars Technica, then The Verge, then TechCrunch, then Hacker News is the modal news-browsing experience now. Most of the time is spent recognizing duplicates, not extracting signal.\nContent-farm noise expanded faster than signal. Even quality publishers are running AI-generated rewrites and SEO bait. Browsing TechCrunch homepage for thirty minutes returns five real stories.\nAI summarization tools work downstream of the problem. They summarize after the noise has already filled my reading queue. The leverage point is upstream: better source curation, better deduplication, then AI for signal extraction — not a chatbot that explains the noise more concisely.\n\nI wanted a pipeline that did the upstream work — curate sources, dedupe across publishers, AI-summarize survivors, deliver to a medium I’d actually see (WhatsApp, not another email folder I never open)."
+  },
+  {
+    "objectID": "products/news-aggregator.html#what-i-built",
+    "href": "products/news-aggregator.html#what-i-built",
+    "title": "Daily News Aggregator with WhatsApp Push",
+    "section": "What I built",
+    "text": "What I built\nA daily content pipeline (daily_digest.py) that:\n\nPulls from 12 curated sources — Ars Technica, Bloomberg Markets, Hacker News, The Verge, Wired, MIT Technology Review, MarketWatch, TechCrunch, plus others — configured in config/sources.yaml\nFilters clickbait and low-quality content — title heuristics + content checks; ~36% drop rate in production\nDeduplicates near-identical stories across publishers — clusters by headline + first-paragraph similarity, keeps the most credible publisher in each cluster\nSummarizes top-scoring articles with Claude — 2-3 sentence summary + 3-5 bullet points + relevance score (75–85/100 for AI-summarized items, 50/100 baseline for headline-only items)\nSplits into Tech vs Investment categories for scan-ability\nPushes the digest to WhatsApp via Twilio — formatted text message delivered to my phone every morning\nRuns via cron so it just shows up; I don’t have to remember to launch it"
+  },
+  {
+    "objectID": "products/news-aggregator.html#how-it-works",
+    "href": "products/news-aggregator.html#how-it-works",
+    "title": "Daily News Aggregator with WhatsApp Push",
+    "section": "How it works",
+    "text": "How it works\n\nSource ingestion: RSS feeds for sources that publish them, light HTML scraping for the ones that don’t, all configured per-source in YAML\nFiltering: title/content heuristics catch the obvious clickbait; per-source rate limits prevent over-fetching\nDeduplication: cluster articles by normalized headline + first-200-token similarity; pick the highest-quality publisher in each cluster\nScoring: a relevance score is computed from source quality, topic match (tech vs investment), and recency\nAI summarization: top N articles get Claude calls for structured summaries\nWhatsApp delivery via Twilio: this was the highest-friction part — the 24-hour WhatsApp Business messaging window is a real product constraint (multiple helper scripts in the repo handle account-state verification, message-window checks, opt-in flow)"
+  },
+  {
+    "objectID": "products/news-aggregator.html#my-role",
+    "href": "products/news-aggregator.html#my-role",
+    "title": "Daily News Aggregator with WhatsApp Push",
+    "section": "My role",
+    "text": "My role\nSole builder. Picked the source list and iterated on it (the source list is the product more than the summarization is). Wrote the dedup + scoring logic, the Claude summarization prompts, the Twilio integration with all the WhatsApp window handling. Set up the cron job so the digest just lands every morning."
+  },
+  {
+    "objectID": "products/news-aggregator.html#output-from-a-real-production-run",
+    "href": "products/news-aggregator.html#output-from-a-real-production-run",
+    "title": "Daily News Aggregator with WhatsApp Push",
+    "section": "Output: from a real production run",
+    "text": "Output: from a real production run\n\n\nArticles fetched: 33 from 12 sources\nFiltered out (clickbait / low quality): 12 (36% noise drop)\nDuplicates removed across sources: 11\nArticles delivered to digest: 21 (8 AI-summarized + 13 with title/URL/score)\nActive sources surfaced: 8 (out of 12 configured)\nAverage relevance (AI-summarized): 75–85/100\nOperating cost: ~$1.50/month at current volume\nDaily reading time: ~105 min before → ~35 min after (≈70 min/day saved)\n\n\nEach AI-enhanced article in the digest includes:\n\nConcise 2-3 sentence summary\n3-5 bullet-pointed key facts\nAutomatic topic detection\nRelevance score (typically 75-85/100)\nSource and publish date\nDirect link to full article"
+  },
+  {
+    "objectID": "products/news-aggregator.html#what-i-learned",
+    "href": "products/news-aggregator.html#what-i-learned",
+    "title": "Daily News Aggregator with WhatsApp Push",
+    "section": "What I learned",
+    "text": "What I learned\n\nCuration is upstream of summarization. The first version of this pipeline focused on better summaries. The second focused on better source picking and deduplication. The second was dramatically more useful — same summarization quality, much less noise to summarize.\nThe delivery medium matters more than the content quality. A great digest in an email folder I never open is worth less than a decent digest in a WhatsApp thread I check 50 times a day. Match the artifact to where the decision actually happens.\nWhatsApp’s 24-hour Business messaging window is a real product constraint. Handling it gracefully (verify account state, opt-in flow, fallback paths, multiple helper checks) took more code than the summarization pipeline. Twilio’s docs are accurate but the failure modes are subtle.\nCost-per-decision is the right metric for personal AI. $1.50/month for ~35 hours/month of attention saved is a 2,000× return at any reasonable hourly rate. Most personal-AI tools fail the cost-per-decision test; this one passes by a wide margin."
+  },
+  {
+    "objectID": "products/news-aggregator.html#links",
+    "href": "products/news-aggregator.html#links",
+    "title": "Daily News Aggregator with WhatsApp Push",
+    "section": "Links",
+    "text": "Links\nRepo is private (contains Twilio + Anthropic API patterns and account-state helpers). Happy to walk through the architecture or the WhatsApp-window handling."
+  },
+  {
+    "objectID": "products/sql-practice-agent.html",
+    "href": "products/sql-practice-agent.html",
+    "title": "SQL Case Practice Agent",
+    "section": "",
+    "text": "Type: Product · Domain: Data interview prep / SQL fluency Stack: Streamlit · DuckDB · OpenAI API · SQLite Status: Working internal tool · Role: Builder"
+  },
+  {
+    "objectID": "products/sql-practice-agent.html#one-line-summary",
+    "href": "products/sql-practice-agent.html#one-line-summary",
+    "title": "SQL Case Practice Agent",
+    "section": "One-line summary",
+    "text": "One-line summary\nA Streamlit-based interview-prep system that generates realistic SQL scenarios with intentional edge cases (NULLs, duplicates, orphaned foreign keys, same-second timestamps), evaluates my queries with an LLM against the scenario’s actual intent, and tracks my progress across sessions in a local SQLite database."
+  },
+  {
+    "objectID": "products/sql-practice-agent.html#why-i-built-this",
+    "href": "products/sql-practice-agent.html#why-i-built-this",
+    "title": "SQL Case Practice Agent",
+    "section": "Why I built this",
+    "text": "Why I built this\nConventional SQL interview prep fails in two specific ways.\nThe scenarios are too clean. LeetCode-style SQL problems and ad-hoc “ChatGPT, make me a SQL question” prompts both produce data without the dirt that real interviews test for — NULL handling, duplicate rows, orphaned foreign keys, ties on timestamps, edge cases on window functions. The questions you actually get in senior data interviews are about catching those edge cases, not about syntax.\nThere’s no progress signal. A practice tool that doesn’t track which patterns you’ve struggled with, what you’ve already seen, and what you keep missing isn’t a practice tool — it’s a problem generator. Real practice requires a feedback loop.\nI wanted a tool that surfaced realistic interview scenarios with intentional edge cases, evaluated my queries against the scenario’s underlying intent (not just the SQL correctness), and remembered what I’d worked on so I could see my own gaps."
+  },
+  {
+    "objectID": "products/sql-practice-agent.html#what-i-built",
+    "href": "products/sql-practice-agent.html#what-i-built",
+    "title": "SQL Case Practice Agent",
+    "section": "What I built",
+    "text": "What I built\nA Streamlit web app that:\n\nGenerates four interview-relevant test tables — users, transactions, logins, subscriptions — populated with deliberately seeded edge cases:\n\nNULL values in user status\nDuplicate transaction rows (same txn_id, same timestamp)\nOrphaned user_ids in the transactions table (FK violations against the users table)\nSame-second login timestamps for the same user (window-function trap)\nVarying subscription plan types and overlapping date ranges\n\nRuns my queries against in-memory DuckDB — same ANSI-SQL semantics as Postgres-class engines, but zero setup overhead\nEvaluates each query with OpenAI — does my query handle the NULLs correctly? Did I dedupe the duplicate transactions? Did I account for orphaned FKs? The LLM evaluates against the scenario’s intent, not just whether the SQL ran\nTracks progress in SQLite (progress.db) — every attempt is stored with timestamp, scenario type, query text, and pass/fail, so I can see which edge cases I keep missing"
+  },
+  {
+    "objectID": "products/sql-practice-agent.html#how-it-works",
+    "href": "products/sql-practice-agent.html#how-it-works",
+    "title": "SQL Case Practice Agent",
+    "section": "How it works",
+    "text": "How it works\n\nStreamlit handles the UI and session state — text editor for the SQL, run-button, results display, evaluation panel\nDuckDB runs the query against the test tables in-process. Fast, ANSI-SQL compliant, no installation\nOpenAI API receives the scenario description, the seeded data, and my query, then evaluates: which edge cases did I catch, which did I miss, and what would the interview-quality answer look like\nSQLite (progress.db) persists attempts across sessions — schema covers attempt timestamp, scenario tag, query text, outcome\n@st.cache_data on the data generators keeps the test tables stable across re-runs in the same session\n\nThe scenarios cover the patterns I kept missing in actual interviews — that’s how I picked them. The edge cases aren’t random; they’re encoded versions of the questions I got wrong."
+  },
+  {
+    "objectID": "products/sql-practice-agent.html#my-role",
+    "href": "products/sql-practice-agent.html#my-role",
+    "title": "SQL Case Practice Agent",
+    "section": "My role",
+    "text": "My role\nSole builder. Designed the scenario taxonomy (what categories of edge cases matter for senior data interviews), wrote the test-data generator with the trap conditions, wrote the evaluation prompts that make the LLM grade against scenario intent rather than just SQL correctness, wired the persistence layer, and iterated on the prompts based on what kept slipping through."
+  },
+  {
+    "objectID": "products/sql-practice-agent.html#what-i-learned",
+    "href": "products/sql-practice-agent.html#what-i-learned",
+    "title": "SQL Case Practice Agent",
+    "section": "What I learned",
+    "text": "What I learned\n\nThe hard part of SQL interview prep isn’t writing queries — it’s recognizing the trap the interviewer is testing for. A practice tool that surfaces those traps systematically is more useful than another 200 LeetCode problems.\nDuckDB is the right execution engine for a local practice tool. Same semantics as real warehouses, zero setup, instant feedback. Spinning up real Postgres for a practice loop is overkill.\nThe evaluation prompt is the differentiator vs. a static problem set. Anyone can generate questions; what makes this tool useful is the LLM reading what edge case the scenario tested and telling me whether my query caught it.\nProgress tracking matters more than scenario variety. I get a lot more value from re-attempting the cases I’ve missed than from generating new ones."
+  },
+  {
+    "objectID": "products/sql-practice-agent.html#links",
+    "href": "products/sql-practice-agent.html#links",
+    "title": "SQL Case Practice Agent",
+    "section": "Links",
+    "text": "Links\nRepo is private. Happy to demo or walk through the scenario taxonomy and evaluation prompts."
+  },
+  {
+    "objectID": "products/resume-jd-review-tool.html",
+    "href": "products/resume-jd-review-tool.html",
+    "title": "Resume × JD Fit Review and Cover Letter Tool",
+    "section": "",
+    "text": "Type: Product · Domain: Job application workflow / candidate-role fit Stack: Python · Flask · Anthropic Claude API · pdfplumber · python-docx · Docker · Render Status: Deployable web app · Role: Builder"
+  },
+  {
+    "objectID": "products/resume-jd-review-tool.html#one-line-summary",
+    "href": "products/resume-jd-review-tool.html#one-line-summary",
+    "title": "Resume × JD Fit Review and Cover Letter Tool",
+    "section": "One-line summary",
+    "text": "One-line summary\nA Flask-based workflow tool that parses a JD and a resume (PDF or DOCX), evaluates candidate-role fit by identifying the role’s actual business problems and matching them against the candidate’s strongest evidence, then generates a cover letter with strict anti-cliché constraints — designed for signal, not for prettier generic text."
+  },
+  {
+    "objectID": "products/resume-jd-review-tool.html#why-i-built-this",
+    "href": "products/resume-jd-review-tool.html#why-i-built-this",
+    "title": "Resume × JD Fit Review and Cover Letter Tool",
+    "section": "Why I built this",
+    "text": "Why I built this\nGeneric AI cover-letter tools write the way AI cover-letter tools write. Abstract phrasing. Endless em-dashes. Openings that could apply to any company. Sentences that stack three “intersection of X / Y / Z” clauses. The output looks polished and reads as obviously generated — exactly the wrong signal for senior roles.\nThe problem isn’t the writing step. The problem is the thinking step. Most tools jump straight from “JD + resume” to “write a cover letter,” which means the model has to invent fit on the fly. The result is text that gestures at fit instead of demonstrating it.\nI wanted a tool that did the analytical work upstream: identify the role’s two or three actual business problems, identify the two or three strongest pieces of evidence from the resume that prove the candidate can solve them, decide a central story in one sentence, and then write — stripping everything that doesn’t serve that story."
+  },
+  {
+    "objectID": "products/resume-jd-review-tool.html#what-i-built",
+    "href": "products/resume-jd-review-tool.html#what-i-built",
+    "title": "Resume × JD Fit Review and Cover Letter Tool",
+    "section": "What I built",
+    "text": "What I built\nA Flask web app that:\n\nAccepts a JD (paste or URL) and a resume upload (PDF parsed via pdfplumber, DOCX via python-docx)\nCalls Claude with a structured system prompt that forces the model to do the analytical work before generation — silently identify the role’s biggest business problems, pick matching resume evidence, decide a central story, strip everything else\nReturns a cover letter in standard business-letter format with explicit constraints: name the company in the opening paragraph, no “I am excited to apply,” at most one em-dash in the whole letter, no abstract phrases like “sits at the intersection,” “growth enablement,” “portfolio economics,” “at scale,” “evolving X stack”\nHas a domain-specific variant for financial services, credit risk, risk analytics, and data science roles — emphasizes credit judgment, business tradeoffs, and cross-functional trust as evidence, rather than tools and model architectures\nDeploys to Render via Dockerfile + render.yaml — one-click hosted"
+  },
+  {
+    "objectID": "products/resume-jd-review-tool.html#how-it-works",
+    "href": "products/resume-jd-review-tool.html#how-it-works",
+    "title": "Resume × JD Fit Review and Cover Letter Tool",
+    "section": "How it works",
+    "text": "How it works\nThe bulk of the engineering is in the system prompt. The prompt enforces:\n\nPre-writing analysis (silent, model-internal): identify the 2-3 biggest business problems the role is hiring to solve, identify the 2-3 strongest resume signals, decide the central story\nStrict format: standard business-letter greeting + 4-5 short paragraphs + sign-off\nOpening discipline: must name the company in the first paragraph, must connect the company’s specific business or problem to the candidate’s experience, must not be reusable for any other company\nNo resume regurgitation: the cover letter adds interpretation, prioritization, motivation, and fit — it doesn’t restate the experience the resume already lists\nAnti-cliché constraints: explicit blocklist of phrases the model loves to use, hard limit of one em-dash in the entire letter, no list-style sentences\nDomain branching: FS/credit-risk roles use the FS-specific prompt that emphasizes business judgment and tradeoffs, not technical tools\n\nThe model can be re-run on individual paragraphs for refinement without regenerating the whole letter."
+  },
+  {
+    "objectID": "products/resume-jd-review-tool.html#my-role",
+    "href": "products/resume-jd-review-tool.html#my-role",
+    "title": "Resume × JD Fit Review and Cover Letter Tool",
+    "section": "My role",
+    "text": "My role\nSole builder. The Flask + parsing layer was straightforward (a day). The system prompts were 80% of the work — tuning each constraint, testing against multiple JD types (consulting, fintech, risk, generic SaaS), and iteratively removing the specific failure modes I kept seeing in the output. Deployed to Render with Docker."
+  },
+  {
+    "objectID": "products/resume-jd-review-tool.html#what-i-learned",
+    "href": "products/resume-jd-review-tool.html#what-i-learned",
+    "title": "Resume × JD Fit Review and Cover Letter Tool",
+    "section": "What I learned",
+    "text": "What I learned\n\nCover-letter quality is upstream of generation. Forcing the model to do explicit business-problem identification before writing changes the output more than any post-generation editing prompt. Move the work upstream.\nAnti-cliché rules have to be specific and enumerated. “Avoid clichés” doesn’t work. “Do not use the phrases X, Y, Z” works. The model is trained to write the clichés; you have to list them by name and block them.\nDomain variants matter more than I expected. A generic prompt produces a generic letter. A prompt that knows the target is a credit-risk role (and therefore frames technical work as evidence of business judgment, not as the main story) produces a noticeably stronger letter.\nThe most useful product feature is the silent pre-analysis. Users don’t see it, but it’s why the output reads like a person wrote it."
+  },
+  {
+    "objectID": "products/resume-jd-review-tool.html#links",
+    "href": "products/resume-jd-review-tool.html#links",
+    "title": "Resume × JD Fit Review and Cover Letter Tool",
+    "section": "Links",
+    "text": "Links\nRepo is private. Happy to walk through the system prompts and the FS-domain variant."
+  },
+  {
+    "objectID": "analyses/nyc-cannabis-market.html",
+    "href": "analyses/nyc-cannabis-market.html",
+    "title": "NYC Cannabis Dispensary Market — Where the Unit Economics Actually Work",
+    "section": "",
+    "text": "Type: Analysis (operator decision memo) · Domain: Regulated cannabis market, NY Office of Cannabis Management (OCM) Method: Public OCM licensing data · Comparative submarket analysis · Scoring framework Status: Final report · Role: Analyst"
+  },
+  {
+    "objectID": "analyses/nyc-cannabis-market.html#core-question",
+    "href": "analyses/nyc-cannabis-market.html#core-question",
+    "title": "NYC Cannabis Dispensary Market — Where the Unit Economics Actually Work",
+    "section": "Core question",
+    "text": "Core question\nAdult-use cannabis legalized in NY in 2023. The NYC dispensary market has been a fragmented, partially-illegal rollout — uneven license issuance, parallel unlicensed market, regulatory uncertainty, sharp variance across submarkets.\nThe decision this memo answers:\n\nOut of the operating environments available in NYC, which submarkets and operator strategies have unit economics that survive the first 3–5 years of regulatory tightening — and which look attractive in the aggregate data but are bait traps for new entrants?"
+  },
+  {
+    "objectID": "analyses/nyc-cannabis-market.html#why-this-matters",
+    "href": "analyses/nyc-cannabis-market.html#why-this-matters",
+    "title": "NYC Cannabis Dispensary Market — Where the Unit Economics Actually Work",
+    "section": "Why this matters",
+    "text": "Why this matters\nThe first wave of post-CAURD operators has produced wildly different outcomes depending on location, license type, and operational discipline. Generic industry forecasts treat the NYC dispensary market as one number; the reality is high variance across submarkets driven by zoning, enforcement pressure, foot traffic, demographic mix, and competitive density (both licensed and unlicensed).\nPicking the right submarket is the single biggest predictor of whether a dispensary survives. A scoring framework that holds up under operational scrutiny — not just an industry-overview deck — is what an actual operator needs."
+  },
+  {
+    "objectID": "analyses/nyc-cannabis-market.html#method",
+    "href": "analyses/nyc-cannabis-market.html#method",
+    "title": "NYC Cannabis Dispensary Market — Where the Unit Economics Actually Work",
+    "section": "Method",
+    "text": "Method\nThree-stage operator analysis. Deliverables A, B, and C correspond to the three stages.\n\nStage 1 — Framework definition (Deliverable A: full report)\nDefined the decision criteria explicitly:\n\nUnit economics — revenue per sqft, expected gross margin, payback period, working capital intensity\nCompetitive density — licensed dispensary count + unlicensed retailer footprint within a measurable radius\nRegulatory exposure — zoning, enforcement track record by precinct, license-type constraints\nOperator-side requirements — capex, license type implications, location lock-in\nDemographic and foot-traffic signal — density, daytime vs. residential, retail corridor character\n\nBuilt a scoring rubric that could be applied consistently across candidate locations and operator strategies — the same lens applied uniformly is what lets the analysis hold up under interrogation.\n\n\nStage 2 — Market analysis\n\nMapped the licensed and unlicensed retailer footprint across NYC at the time of analysis\nProfiled vertical segments: retail dispensary, delivery, processing/manufacturing, cultivation, ancillary services to licensed operators\nIdentified the structural dynamics compressing margins fastest (license-issuance acceleration, unlicensed enforcement variance, supply-side capex)\n\n\n\nStage 3 — Scoring and shortlist (Deliverables B and C)\n\nApplied the scoring model from Stage 1 to candidate locations and strategies\nProduced a ranked shortlist with a unit-economics view per option\nFlagged which strategies looked attractive in aggregate market data but were vulnerable to the specific failure modes surfaced in Stage 2"
+  },
+  {
+    "objectID": "analyses/nyc-cannabis-market.html#key-findings",
+    "href": "analyses/nyc-cannabis-market.html#key-findings",
+    "title": "NYC Cannabis Dispensary Market — Where the Unit Economics Actually Work",
+    "section": "Key findings",
+    "text": "Key findings\n\nLicensed retail margins compress fast as license issuance accelerates. First-mover advantage is real but short; the early-licensee economics are not replicable for entrants who arrive 18 months later. Modeling the early-cohort margin as a forecast for entrants in 2026 is the most common mistake in the industry decks.\nDelivery is structurally worse than the marketing suggests. Last-mile compliance costs, narrow basket sizes, and platform fees crush unit economics for any operator without an existing retail anchor. Pure-play delivery operators in the analyzed dataset consistently underperformed retail on a contribution-margin basis.\nProcessing and manufacturing show the most defensible margins. Capex is meaningful but workflow IP and B2B relationships create real moat. Several strongest operators in NYC at the time of analysis were vertically integrated upstream — that’s where the spread between the public narrative and the actual P&L is widest.\nAncillary services to licensed operators (compliance software, lab testing, security) are the under-discussed opportunity. Lower regulatory exposure, transferable across states, and the buyer is a regulated operator with a real procurement budget and no incumbent vendor of substance.\nThe unlicensed market is the binding constraint on every licensed submarket. Until enforcement materially changes storefront density, licensed retail competes on a tilted field — and the variance is per-block, not aggregate. The single biggest predictor of licensed-retail revenue at the time of analysis was the count of unlicensed storefronts within a ten-block radius."
+  },
+  {
+    "objectID": "analyses/nyc-cannabis-market.html#recommendation",
+    "href": "analyses/nyc-cannabis-market.html#recommendation",
+    "title": "NYC Cannabis Dispensary Market — Where the Unit Economics Actually Work",
+    "section": "Recommendation",
+    "text": "Recommendation\nFor a new operator in 2026:\n\nDon’t enter retail unless you have a unique cost-of-capital or location advantage that isn’t already priced into early-licensee bids\nTwo strongest entry points: upstream processing/manufacturing (defensible margins, real moat) or ancillary services to licensed operators (lower regulatory exposure, multi-state portability)\nDelivery is a value trap absent existing retail anchors\nThe asymmetric upside is in compliance and operations software for licensed operators — a small, growing buyer base with a real procurement budget and no incumbent solution\n\nThe detailed location- and strategy-level shortlist sits in Deliverable C."
+  },
+  {
+    "objectID": "analyses/nyc-cannabis-market.html#what-id-investigate-next",
+    "href": "analyses/nyc-cannabis-market.html#what-id-investigate-next",
+    "title": "NYC Cannabis Dispensary Market — Where the Unit Economics Actually Work",
+    "section": "What I’d investigate next",
+    "text": "What I’d investigate next\n\nConcrete bottom-up unit economics on the top three vertically-integrated operators (most public data is operator-friendly press, not financials)\nActual basket size and CAC trajectory for delivery operators after the 2024–25 enforcement actions (the enforcement step-change should materially shift delivery economics — needs a follow-up scan)\nWhether 2025–26 MSO capital changes the licensed-retail calculus — large multi-state operators entering NY at scale could re-rate the competitive density faster than the current trajectory implies"
+  },
+  {
+    "objectID": "analyses/nyc-cannabis-market.html#deliverables",
+    "href": "analyses/nyc-cannabis-market.html#deliverables",
+    "title": "NYC Cannabis Dispensary Market — Where the Unit Economics Actually Work",
+    "section": "Deliverables",
+    "text": "Deliverables\n\nStage 1 — Framework: Scoring criteria, decision rubric, regulatory map (8KB memo)\nStage 2 — Market analysis: Submarket dynamics, competitive density, regulatory exposure (18KB)\nDeliverable A — Full report: Compiled 32-page memo\nDeliverable B — Scoring model: Per-location and per-strategy scoring with weights\nDeliverable C — Ranked shortlist: Top siting options + strategy recommendations\nFinal PDF report (1.3MB) — available on request\n\nUnderlying data combines public OCM licensing filings with comparative submarket analysis. Available on request."
+  },
+  {
+    "objectID": "analyses/visa-sponsor-search.html",
+    "href": "analyses/visa-sponsor-search.html",
+    "title": "H-1B / PERM Sponsor Search — Structured Employer Prioritization",
+    "section": "",
+    "text": "Type: Analysis (decision-support pipeline) · Domain: US employment-based immigration / employer hiring data Sources: H1BGrader · MyVisaJobs · H1BData.info · USCIS H-1B Employer Data Hub · ICE SEVIS top-200 STEM-OPT employers · DOL OFLC public disclosures Status: Live working analysis · Role: Analyst"
+  },
+  {
+    "objectID": "analyses/visa-sponsor-search.html#core-question",
+    "href": "analyses/visa-sponsor-search.html#core-question",
+    "title": "H-1B / PERM Sponsor Search — Structured Employer Prioritization",
+    "section": "Core question",
+    "text": "Core question\nFor a candidate on F-1 STEM OPT looking to bridge to H-1B and then PERM at a senior IC level, the standard “list of sponsors” is misleading. Most “top 100 H-1B employers” lists are dominated by IT staffing firms running cap-exempt transfers — useless for someone targeting product / risk / analytics / strategy roles at companies that actually run senior IC ladders.\nThe real question:\n\nOut of all US employers with public visa-sponsorship evidence, which 100 actually sponsor senior IC and director-level hires through the H-1B cap lottery AND have followed through with PERM at scale — at companies whose roles match a financial services, decision systems, or AI-product profile?"
+  },
+  {
+    "objectID": "analyses/visa-sponsor-search.html#why-this-matters",
+    "href": "analyses/visa-sponsor-search.html#why-this-matters",
+    "title": "H-1B / PERM Sponsor Search — Structured Employer Prioritization",
+    "section": "Why this matters",
+    "text": "Why this matters\nA bad sponsorship match wastes a year of cap-lottery cycles and risks a PERM that never completes. The downstream consequence of getting this wrong is 6–7 years of uncertainty.\nThe data exists publicly — DOL OFLC LCA disclosures, USCIS H-1B Employer Data Hub, ICE SEVIS STEM-OPT top-200, plus MyVisaJobs / H1BGrader / H1BData.info aggregations — but it’s fragmented across 5+ sources with different fiscal-year cuts, different legal-entity-name conventions, and very different reliability levels. Standard “top sponsor” rankings combine signal that shouldn’t be combined.\nI built a structured pipeline to turn the fragmented data into a decision-ready shortlist."
+  },
+  {
+    "objectID": "analyses/visa-sponsor-search.html#method",
+    "href": "analyses/visa-sponsor-search.html#method",
+    "title": "H-1B / PERM Sponsor Search — Structured Employer Prioritization",
+    "section": "Method",
+    "text": "Method\n\nGenerated a candidate company universe from US large- and mid-cap firms across financial services, data infrastructure, fintech, healthcare/biopharma data, enterprise SaaS, decision intelligence, and tech-consulting — the sectors with role surfaces matching a senior FS / analytics / AI-product profile.\nPulled LCA filing counts and PERM filings per company from H1BGrader, MyVisaJobs, and H1BData.info — cross-referenced across all three to catch legal-entity-name variants (e.g., “Capital One Services LLC” vs. “Capital One Financial Corp,” “Bloomberg LP” vs. subsidiaries).\nVerified E-Verify enrollment using the ICE SEVIS top-200 STEM-OPT employer list plus direct careers-page checks where possible. E-Verify is a hard requirement for STEM OPT extension — companies that aren’t enrolled are non-starters regardless of how many H-1Bs they file.\nCategorized H-1B cap vs. transfer behavior. Excluded staffing firms and bodyshops outright. Flagged companies whose pattern looked like cap-exempt transfers (Verisk pattern: 0 LCAs FY2025) or unusual subsidiary structures (Fidelity pattern: 0 LCAs but 303 USCIS petitions — likely cap-exempt or filing under a different legal entity).\nScored each company on five dimensions:\n\nSTEM OPT support (E-Verify enrollment evidence)\nH-1B cap-lottery sponsorship volume (specifically new cap filings, not transfers)\nPERM completion evidence (the green-card follow-through signal, not just initial filings)\nRole-type fit (does the company actually hire senior FS / analytics / AI-product ICs?)\nSource confidence (how recent, how well-cross-referenced)\n\nTagged each company with a strategy bucket: Immigration Safe / Bridge Role / Fit High but Sponsorship Unclear / Caution / Future Upgrade / Exclude."
+  },
+  {
+    "objectID": "analyses/visa-sponsor-search.html#key-findings",
+    "href": "analyses/visa-sponsor-search.html#key-findings",
+    "title": "H-1B / PERM Sponsor Search — Structured Employer Prioritization",
+    "section": "Key findings",
+    "text": "Key findings\nFrom the 100-company analysis:\n\n\n\n\n\n\n\n\nStrategy tag\nCount\nDescription\n\n\n\n\nImmigration Safe\n19\nHigh-volume sponsor + verified E-Verify + PERM track record + strong role-fit. Examples: Databricks, Snowflake, Stripe, DoorDash, Airbnb, Capital One, Two Sigma, BlackRock, Citadel Securities, S&P Global, Mastercard, Affirm.\n\n\nBridge Role\n55\nSponsorship pattern is solid; role surface is narrower for senior FS/analytics IC. The right target for a 1–2 year cap-lottery bridge while building toward Immigration Safe + strong role-fit options.\n\n\nFit High / Sponsorship Unclear\n7\nSmaller companies (Hightouch, Monte Carlo, Harness) with strong role-fit but thin sponsorship signal — needs direct verification before relying on.\n\n\nCaution\n3\nVerisk (0 LCAs FY2025 — significant red flag), Fidelity (unusual 0-LCA / 303-petition pattern — flagged for entity-mapping).\n\n\nExcluded\n(separate list)\nLemonade (explicit “we are unable to sponsor”), Compass (0 FY2026 LCAs), all IT staffing firms.\n\n\n\nThe highest-confidence insights:\n\nLCA volume is a misleading metric on its own. Several large-volume sponsors are running transfers, not new cap. The signal that matters for a STEM-OPT candidate is new cap-lottery filing volume specifically. Verisk’s drop to 0 LCAs FY2025 was the clearest red flag in the dataset, even though they’d historically been a strong sponsor.\nPERM completion rate, not LCA count, predicts the green-card outcome. Some companies file many H-1Bs but rarely follow through with PERM at scale — sponsored employees consistently leave before the green card completes. This shifts the recommended target list materially: the right metric is “% of H-1B cohort that still works there at PERM completion,” not “how many H-1Bs filed last year.”\nThe Bridge Role category is the most useful product of the analysis. 55 companies have sponsorship infrastructure but a role surface that isn’t natively senior-FS-IC. They’re the right targets for a cap-lottery bridge during the first 1–2 years.\nA second pass expanded the universe to mid-sized and smaller sponsors where the cap-lottery odds are structurally better (smaller applicant pool per company). This surfaced several FS / AI startups that don’t appear on standard “top sponsor” lists but have real sponsorship behavior."
+  },
+  {
+    "objectID": "analyses/visa-sponsor-search.html#recommendation",
+    "href": "analyses/visa-sponsor-search.html#recommendation",
+    "title": "H-1B / PERM Sponsor Search — Structured Employer Prioritization",
+    "section": "Recommendation",
+    "text": "Recommendation\nDon’t optimize for the top of the H-1B sponsor leaderboard. Optimize for the intersection of:\n\nDemonstrated PERM follow-through (not just LCA filing count)\nRole surface that matches the candidate’s senior-IC profile (not just any open role)\nE-Verify confirmation (hard prerequisite for STEM-OPT extension)\n\nThe Immigration Safe + strong-role-fit overlap is small but non-zero — those are the high-value targets for direct application. The Bridge Role list is where most candidates should actually apply during the first cap-lottery cycle to maximize lottery odds while role-skill compounds in parallel."
+  },
+  {
+    "objectID": "analyses/visa-sponsor-search.html#what-id-investigate-next",
+    "href": "analyses/visa-sponsor-search.html#what-id-investigate-next",
+    "title": "H-1B / PERM Sponsor Search — Structured Employer Prioritization",
+    "section": "What I’d investigate next",
+    "text": "What I’d investigate next\n\nPERM cohort outcomes — of the H-1Bs each top target sponsored 3–5 years ago, what percentage were still at the company at PERM completion vs. departed? This is the actual signal that matters, and it’s reconstructible from cross-year LCA data with entity-mapping.\nSubsidiary-level entity mapping — large parent companies file under different legal entities (Fidelity pattern is the obvious case). Better entity mapping would close the false-negative gap on several large sponsors.\nCap-exempt employers as a separate analysis — research universities, qualifying non-profits, and government contractors have entirely different sponsorship dynamics not captured in the standard cap-lottery framing. Worth a separate scan."
+  },
+  {
+    "objectID": "analyses/visa-sponsor-search.html#deliverables",
+    "href": "analyses/visa-sponsor-search.html#deliverables",
+    "title": "H-1B / PERM Sponsor Search — Structured Employer Prioritization",
+    "section": "Deliverables",
+    "text": "Deliverables\n\n100-company shortlist CSV with full scoring, source citations, strategy tags\nSummary memo with category breakdowns, data-quality notes, and the specific entity-mapping flags that affect interpretation\nExpanded second-pass dataset (~mid/small sponsor targets) with additional FS / AI-startup coverage where the standard “top sponsor” lists miss\n\nAll available on request. Refreshed semi-monthly as new fiscal-year filings post to DOL OFLC."
+  },
+  {
+    "objectID": "analyses/visa-sponsor-search.html#sources",
+    "href": "analyses/visa-sponsor-search.html#sources",
+    "title": "H-1B / PERM Sponsor Search — Structured Employer Prioritization",
+    "section": "Sources",
+    "text": "Sources\nDOL OFLC LCA Disclosures · USCIS H-1B Employer Data Hub · ICE SEVIS 2024 Top 200 STEM-OPT Employers · H1BGrader · MyVisaJobs · H1BData.info · USCIS E-Verify Employer Search · individual company careers-page sponsorship language"
+  }
+]
