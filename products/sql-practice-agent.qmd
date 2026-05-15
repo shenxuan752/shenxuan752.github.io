@@ -1,0 +1,66 @@
+---
+title: "SQL Case Practice Agent"
+subtitle: "Edge-case-driven SQL interview practice with AI evaluation and progress tracking"
+date: "2025-02-24"
+categories: [AI Agents, Interview Prep, Data Tooling, Workflow Design]
+toc: true
+---
+
+::: {.section-intro}
+**Type:** Product · **Domain:** Data interview prep / SQL fluency
+**Stack:** Streamlit · DuckDB · OpenAI API · SQLite
+**Status:** Working internal tool · **Role:** Builder
+:::
+
+## One-line summary
+
+A Streamlit-based interview-prep system that generates realistic SQL scenarios with intentional edge cases (NULLs, duplicates, orphaned foreign keys, same-second timestamps), evaluates my queries with an LLM against the scenario's actual intent, and tracks my progress across sessions in a local SQLite database.
+
+## Why I built this
+
+Conventional SQL interview prep fails in two specific ways.
+
+**The scenarios are too clean.** LeetCode-style SQL problems and ad-hoc "ChatGPT, make me a SQL question" prompts both produce data without the dirt that real interviews test for — NULL handling, duplicate rows, orphaned foreign keys, ties on timestamps, edge cases on window functions. The questions you actually get in senior data interviews are about catching those edge cases, not about syntax.
+
+**There's no progress signal.** A practice tool that doesn't track which patterns you've struggled with, what you've already seen, and what you keep missing isn't a practice tool — it's a problem generator. Real practice requires a feedback loop.
+
+I wanted a tool that surfaced realistic interview scenarios with intentional edge cases, evaluated my queries against the scenario's underlying *intent* (not just the SQL correctness), and remembered what I'd worked on so I could see my own gaps.
+
+## What I built
+
+A Streamlit web app that:
+
+- **Generates four interview-relevant test tables** — users, transactions, logins, subscriptions — populated with deliberately seeded edge cases:
+  - `NULL` values in user status
+  - Duplicate transaction rows (same `txn_id`, same timestamp)
+  - Orphaned `user_id`s in the transactions table (FK violations against the users table)
+  - Same-second login timestamps for the same user (window-function trap)
+  - Varying subscription plan types and overlapping date ranges
+- **Runs my queries against in-memory DuckDB** — same ANSI-SQL semantics as Postgres-class engines, but zero setup overhead
+- **Evaluates each query with OpenAI** — does my query handle the NULLs correctly? Did I dedupe the duplicate transactions? Did I account for orphaned FKs? The LLM evaluates against the scenario's *intent*, not just whether the SQL ran
+- **Tracks progress in SQLite** (`progress.db`) — every attempt is stored with timestamp, scenario type, query text, and pass/fail, so I can see which edge cases I keep missing
+
+## How it works
+
+- **Streamlit** handles the UI and session state — text editor for the SQL, run-button, results display, evaluation panel
+- **DuckDB** runs the query against the test tables in-process. Fast, ANSI-SQL compliant, no installation
+- **OpenAI API** receives the scenario description, the seeded data, and my query, then evaluates: which edge cases did I catch, which did I miss, and what would the interview-quality answer look like
+- **SQLite (`progress.db`)** persists attempts across sessions — schema covers attempt timestamp, scenario tag, query text, outcome
+- **`@st.cache_data`** on the data generators keeps the test tables stable across re-runs in the same session
+
+The scenarios cover the patterns I kept missing in actual interviews — that's how I picked them. The edge cases aren't random; they're encoded versions of the questions I got wrong.
+
+## My role
+
+Sole builder. Designed the scenario taxonomy (what categories of edge cases matter for senior data interviews), wrote the test-data generator with the trap conditions, wrote the evaluation prompts that make the LLM grade against scenario intent rather than just SQL correctness, wired the persistence layer, and iterated on the prompts based on what kept slipping through.
+
+## What I learned
+
+- **The hard part of SQL interview prep isn't writing queries — it's recognizing the trap the interviewer is testing for.** A practice tool that surfaces those traps systematically is more useful than another 200 LeetCode problems.
+- **DuckDB is the right execution engine for a local practice tool.** Same semantics as real warehouses, zero setup, instant feedback. Spinning up real Postgres for a practice loop is overkill.
+- **The evaluation prompt is the differentiator vs. a static problem set.** Anyone can generate questions; what makes this tool useful is the LLM reading what edge case the scenario tested and telling me whether my query caught it.
+- **Progress tracking matters more than scenario variety.** I get a lot more value from re-attempting the cases I've missed than from generating new ones.
+
+## Links
+
+Repo is private. Happy to demo or walk through the scenario taxonomy and evaluation prompts.

@@ -1,0 +1,63 @@
+---
+title: "Resume × JD Fit Review and Cover Letter Tool"
+subtitle: "Application workflow tool that evaluates candidate-role fit and generates targeted cover letters with explicit anti-cliché constraints"
+date: "2025-05-06"
+categories: [AI Agents, Workflow Tool, Anthropic Claude, Productivity Systems]
+toc: true
+---
+
+::: {.section-intro}
+**Type:** Product · **Domain:** Job application workflow / candidate-role fit
+**Stack:** Python · Flask · Anthropic Claude API · pdfplumber · python-docx · Docker · Render
+**Status:** Deployable web app · **Role:** Builder
+:::
+
+## One-line summary
+
+A Flask-based workflow tool that parses a JD and a resume (PDF or DOCX), evaluates candidate-role fit by identifying the role's actual business problems and matching them against the candidate's strongest evidence, then generates a cover letter with strict anti-cliché constraints — designed for signal, not for prettier generic text.
+
+## Why I built this
+
+Generic AI cover-letter tools write the way AI cover-letter tools write. Abstract phrasing. Endless em-dashes. Openings that could apply to any company. Sentences that stack three "intersection of X / Y / Z" clauses. The output looks polished and reads as obviously generated — exactly the wrong signal for senior roles.
+
+The problem isn't the writing step. The problem is the thinking step. Most tools jump straight from "JD + resume" to "write a cover letter," which means the model has to invent fit on the fly. The result is text that gestures at fit instead of demonstrating it.
+
+I wanted a tool that did the analytical work upstream: identify the role's two or three actual business problems, identify the two or three strongest pieces of evidence from the resume that prove the candidate can solve them, decide a central story in one sentence, and *then* write — stripping everything that doesn't serve that story.
+
+## What I built
+
+A Flask web app that:
+
+- **Accepts a JD** (paste or URL) and a **resume upload** (PDF parsed via pdfplumber, DOCX via python-docx)
+- **Calls Claude with a structured system prompt** that forces the model to do the analytical work before generation — silently identify the role's biggest business problems, pick matching resume evidence, decide a central story, strip everything else
+- **Returns a cover letter** in standard business-letter format with explicit constraints: name the company in the opening paragraph, no "I am excited to apply," at most one em-dash in the whole letter, no abstract phrases like "sits at the intersection," "growth enablement," "portfolio economics," "at scale," "evolving X stack"
+- **Has a domain-specific variant** for financial services, credit risk, risk analytics, and data science roles — emphasizes credit judgment, business tradeoffs, and cross-functional trust as evidence, rather than tools and model architectures
+- **Deploys to Render** via Dockerfile + render.yaml — one-click hosted
+
+## How it works
+
+The bulk of the engineering is in the system prompt. The prompt enforces:
+
+1. **Pre-writing analysis** (silent, model-internal): identify the 2-3 biggest business problems the role is hiring to solve, identify the 2-3 strongest resume signals, decide the central story
+2. **Strict format**: standard business-letter greeting + 4-5 short paragraphs + sign-off
+3. **Opening discipline**: must name the company in the first paragraph, must connect the company's specific business or problem to the candidate's experience, must not be reusable for any other company
+4. **No resume regurgitation**: the cover letter adds interpretation, prioritization, motivation, and fit — it doesn't restate the experience the resume already lists
+5. **Anti-cliché constraints**: explicit blocklist of phrases the model loves to use, hard limit of one em-dash in the entire letter, no list-style sentences
+6. **Domain branching**: FS/credit-risk roles use the FS-specific prompt that emphasizes business judgment and tradeoffs, not technical tools
+
+The model can be re-run on individual paragraphs for refinement without regenerating the whole letter.
+
+## My role
+
+Sole builder. The Flask + parsing layer was straightforward (a day). The system prompts were 80% of the work — tuning each constraint, testing against multiple JD types (consulting, fintech, risk, generic SaaS), and iteratively removing the specific failure modes I kept seeing in the output. Deployed to Render with Docker.
+
+## What I learned
+
+- **Cover-letter quality is upstream of generation.** Forcing the model to do explicit business-problem identification before writing changes the output more than any post-generation editing prompt. Move the work upstream.
+- **Anti-cliché rules have to be specific and enumerated.** "Avoid clichés" doesn't work. "Do not use the phrases X, Y, Z" works. The model is trained to write the clichés; you have to list them by name and block them.
+- **Domain variants matter more than I expected.** A generic prompt produces a generic letter. A prompt that knows the target is a credit-risk role (and therefore frames technical work as evidence of business judgment, not as the main story) produces a noticeably stronger letter.
+- **The most useful product feature is the silent pre-analysis.** Users don't see it, but it's why the output reads like a person wrote it.
+
+## Links
+
+Repo is private. Happy to walk through the system prompts and the FS-domain variant.

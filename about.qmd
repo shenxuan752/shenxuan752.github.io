@@ -1,0 +1,54 @@
+---
+title: "About"
+toc: false
+---
+
+::: {.about-meta}
+📍 **Based in New York City** &nbsp;·&nbsp; Open to relocation
+:::
+
+## How I got here
+
+I started in financial services and spent a decade close to the messiest, highest-stakes problems in the industry: credit risk, underwriting, lending analytics, and decision systems.
+
+I built and validated models that decided whether real customers got real credit. Designed analytics that informed how capital was allocated. Translated regulatory and commercial constraints into systems that had to work — under scrutiny, at scale, with real money on the line.
+
+The hard part was rarely the math. The hard part was structuring ambiguity, building shared understanding across functions, and shipping artifacts — products, models, memos — that survived contact with reality.
+
+The last two years, my work has shifted toward AI-native execution. I build agent systems that compress weeks of research into hours. I run multi-source market scans that would have required a consulting team. I use AI to expand the surface area of what one operator can ship — not as a hobby, not as a tool I'm exploring, but as the central way I work.
+
+::: {.pull-quote}
+Both halves of my career converge on the same thing — turning complex, data-heavy business problems into products, analyses, and decisions that hold up under scrutiny.
+:::
+
+## What I'm best at
+
+- **Translating ambiguity into structure.** Messy markets, undefined opportunities, decisions under uncertainty — these are where I add the most.
+- **Connecting domain depth to execution.** Financial services taught me what regulators, customers, and operators actually care about. AI-native workflows let me ship faster than the org chart would suggest.
+- **Cross-functional range.** I've operated as analyst, modeler, product partner, strategist, and builder. I read the business, the data, and the system simultaneously.
+- **Building artifacts, not just opinions.** I'd rather ship a working prototype, a rigorous memo, or a decision-ready model than write a deck.
+
+## Where I create the most leverage
+
+The strongest fit is where financial services depth and AI-native execution compound — at companies solving real, high-stakes problems under regulatory and commercial constraint, where shipping the right artifact matters more than writing the right deck.
+
+- **Forward-deployed AI, decision intelligence, and AI-product** roles at high-upside startups (seed–Series B)
+- **Operator and founding-team seats** in vertical AI, financial services AI, RegTech, insurtech, or decision systems
+- **Strategy and product roles** at fintech and financial services companies where AI-native execution is the differentiator, not the marketing
+
+## How I work
+
+<ol class="principles-list">
+<li><strong>Build reusable systems over ad-hoc analyses.</strong> One-off work has a half-life; reusable systems compound across problems.</li>
+<li><strong>Be skeptical of AI marketing.</strong> Obsess over what actually works under regulatory and commercial constraint. Eval data beats demo videos.</li>
+<li><strong>Compose tight, well-scoped artifacts.</strong> Skip monolithic prototypes and sprawling notebooks. Small, composable, shipped.</li>
+<li><strong>Ship in the medium that fits.</strong> Python, SQL, R, Claude Code agent pipelines, structured writing — match the artifact to the decision it serves.</li>
+</ol>
+
+::: {.cta-block}
+### Get in touch
+
+- **Email:** [xxshen752@gmail.com](mailto:xxshen752@gmail.com)
+- **LinkedIn:** [linkedin.com/in/xuanxuan-shen](https://www.linkedin.com/in/xuanxuan-shen-321a54128/)
+- **GitHub:** [github.com/shenxuan752](https://github.com/shenxuan752)
+:::

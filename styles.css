@@ -1,0 +1,687 @@
+/* ============================================================
+   Custom styles — Xuanxuan (Ava) Shen portfolio
+   Built on Quarto cosmo theme. Static-only. Minimal, editorial.
+   ============================================================ */
+
+/* === Typography === */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+               Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.7;
+  color: #1f2937;
+  font-size: 17px;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  color: #0f172a;
+}
+
+h1 {
+  font-weight: 700;
+  letter-spacing: -0.025em;
+}
+
+h2 {
+  margin-top: 3em;
+  margin-bottom: 1em;
+  font-size: 1.5em;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+h3 {
+  margin-top: 1.75em;
+  font-size: 1.2em;
+}
+
+h4 {
+  font-size: 1.05em;
+  margin-bottom: 0.5em;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+/* === Readable content width === */
+main.content,
+#quarto-document-content {
+  max-width: 800px;
+}
+
+/* === Links === */
+a {
+  color: #2563eb;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.15s ease, color 0.15s ease;
+}
+
+a:hover {
+  border-bottom-color: #2563eb;
+  color: #1d4ed8;
+}
+
+a.navbar-brand,
+a.nav-link,
+a.featured-work-card,
+.quarto-listing-default .listing-item a {
+  border-bottom: none;
+}
+
+/* === Navbar === */
+.navbar {
+  border-bottom: 1px solid #e5e7eb;
+  background-color: #ffffff !important;
+  padding-top: 0.55em;
+  padding-bottom: 0.55em;
+}
+
+.navbar-brand {
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.nav-link {
+  font-weight: 500;
+  font-size: 0.95em;
+}
+
+/* === Hero section (about template) === */
+.quarto-about-solana .about-entity h1.title,
+.about-entity .about-entity-titles h1 {
+  font-size: 2.6em;
+  margin-bottom: 0.3em;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+}
+
+.quarto-about-solana .about-entity p.subtitle,
+.about-entity .about-entity-titles p.subtitle {
+  font-size: 1.2em;
+  line-height: 1.5;
+  color: #475569;
+  max-width: 34em;
+  margin: 0 auto 1.5em;
+  font-weight: 400;
+}
+
+/* === Hero CTA buttons (Quarto about.links) === */
+.about-link {
+  display: inline-flex !important;
+  align-items: center;
+  gap: 0.4em;
+  padding: 0.6em 1.2em !important;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 0.95em;
+  transition: all 0.15s ease;
+  border-bottom: none;
+}
+
+.about-link:first-of-type {
+  background: #0f172a;
+  color: #ffffff;
+  border: 1px solid #0f172a;
+}
+
+.about-link:first-of-type:hover {
+  background: #1e293b;
+  color: #ffffff;
+  border-color: #1e293b;
+  border-bottom: none;
+}
+
+.about-link:not(:first-of-type) {
+  background: #ffffff;
+  color: #374151;
+  border: 1px solid #d1d5db;
+}
+
+.about-link:not(:first-of-type):hover {
+  background: #f9fafb;
+  color: #111827;
+  border-color: #9ca3af;
+  border-bottom: none;
+}
+
+/* ============================================================
+   Credentials block (replaces background snapshot)
+   ============================================================ */
+.credentials-block {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 0.6em 1.75em;
+  margin: 2.5em 0 4em;
+  padding: 1.5em 1.75em;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  background: #fafbfc;
+}
+
+.credentials-block dt {
+  font-size: 0.72em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #64748b;
+  padding-top: 0.25em;
+  margin: 0;
+}
+
+.credentials-block dd {
+  margin: 0;
+  color: #1f2937;
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+/* === About meta line === */
+.about-meta {
+  color: #64748b;
+  font-size: 0.95em;
+  margin-bottom: 2em;
+}
+
+/* ============================================================
+   Why this mix matters — differentiator section
+   ============================================================ */
+.differentiator-row {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0;
+  margin: 1.5em 0 2em;
+}
+
+.differentiator-item {
+  display: grid;
+  grid-template-columns: 3em 1fr;
+  gap: 0;
+  align-items: start;
+  padding: 1.2em 0;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+.differentiator-item:last-child {
+  border-bottom: none;
+}
+
+.differentiator-number {
+  font-size: 0.95em;
+  font-weight: 700;
+  color: #cbd5e1;
+  letter-spacing: 0.04em;
+  font-variant-numeric: tabular-nums;
+  padding-top: 0.15em;
+}
+
+.differentiator-content h4 {
+  margin: 0 0 0.4em;
+  font-size: 1.05em;
+  color: #0f172a;
+  font-weight: 600;
+}
+
+.differentiator-content p {
+  margin: 0;
+  color: #475569;
+  line-height: 1.6;
+  font-size: 0.97em;
+}
+
+/* ============================================================
+   Capability cards (Home: What I work on)
+   ============================================================ */
+.capability-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1em;
+  margin: 1.5em 0 2em;
+}
+
+.capability-card {
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 1.35em 1.5em;
+  background: #ffffff;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.capability-card:hover {
+  border-color: #cbd5e1;
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.04);
+}
+
+.capability-label {
+  display: block;
+  font-size: 0.7em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: #94a3b8;
+  margin-bottom: 0.5em;
+}
+
+.capability-card h4 {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  font-size: 1.05em;
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.capability-card p {
+  margin: 0;
+  color: #475569;
+  font-size: 0.96em;
+  line-height: 1.6;
+}
+
+/* ============================================================
+   Featured work — stacked single-column for fewer/larger cards
+   ============================================================ */
+.featured-work-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin: 1.5em 0 1.5em;
+}
+
+.featured-work-card {
+  display: block;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 1.65em 1.75em;
+  background: #ffffff;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease,
+              transform 0.15s ease;
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.featured-work-card:hover {
+  border-color: #3b82f6;
+  box-shadow: 0 4px 14px rgba(15, 23, 42, 0.06);
+  transform: translateY(-1px);
+  color: inherit;
+  border-bottom-color: #3b82f6;
+}
+
+.featured-work-card .featured-tag {
+  display: inline-block;
+  font-size: 0.7em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #475569;
+  margin-bottom: 0.7em;
+}
+
+.featured-work-card h4 {
+  margin: 0 0 0.5em;
+  font-size: 1.2em;
+  font-weight: 600;
+  color: #0f172a;
+  line-height: 1.3;
+}
+
+.featured-work-card p {
+  margin: 0 0 1em;
+  font-size: 1em;
+  color: #475569;
+  line-height: 1.55;
+}
+
+.featured-work-card .featured-tags {
+  display: flex;
+  gap: 0.4em;
+  flex-wrap: wrap;
+}
+
+.featured-work-card .featured-tags span {
+  background: transparent;
+  border: 1px solid #e2e8f0;
+  font-size: 0.7em;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: #64748b;
+  padding: 0.18em 0.7em;
+  border-radius: 999px;
+}
+
+/* See-all row (under selected work) */
+.see-all-row {
+  margin: 0.5em 0 1em;
+  font-size: 0.95em;
+}
+
+.see-all-row a {
+  color: #64748b;
+  font-weight: 500;
+  border-bottom: none;
+}
+
+.see-all-row a:hover {
+  color: #0f172a;
+  border-bottom: 1px solid #0f172a;
+}
+
+/* ============================================================
+   "What I'm doing now" — Building / Exploring two-column
+   ============================================================ */
+.now-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1em;
+  margin: 1.5em 0 2em;
+}
+
+.now-column {
+  padding: 1.35em 1.5em;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  background: #fafbfc;
+}
+
+.now-column h4 {
+  margin: 0 0 0.85em;
+  font-size: 0.72em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: #64748b;
+}
+
+.now-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.now-column ul li {
+  padding: 0.4em 0;
+  color: #1f2937;
+  font-size: 0.95em;
+  line-height: 1.55;
+}
+
+.now-column ul li:not(:last-child) {
+  border-bottom: 1px solid #f1f5f9;
+}
+
+/* ============================================================
+   Pull quote — About page thesis statement
+   ============================================================ */
+.pull-quote {
+  font-size: 1.4em;
+  line-height: 1.45;
+  font-weight: 500;
+  color: #0f172a;
+  border-left: 3px solid #0f172a;
+  padding: 0.45em 0 0.45em 1.4em;
+  margin: 3em 0;
+  letter-spacing: -0.015em;
+}
+
+/* ============================================================
+   Principles list — About: How I work
+   ============================================================ */
+.principles-list {
+  list-style: none;
+  padding: 0;
+  counter-reset: principle;
+  margin: 1em 0 2em;
+}
+
+.principles-list li {
+  position: relative;
+  padding-left: 3em;
+  margin-bottom: 1.4em;
+  counter-increment: principle;
+  color: #1f2937;
+  line-height: 1.65;
+}
+
+.principles-list li::before {
+  content: counter(principle, decimal-leading-zero);
+  position: absolute;
+  left: 0;
+  top: 0.15em;
+  font-size: 0.85em;
+  font-weight: 700;
+  color: #cbd5e1;
+  letter-spacing: 0.05em;
+}
+
+.principles-list li strong {
+  color: #0f172a;
+}
+
+/* ============================================================
+   CTA block (Home + About: Get in touch)
+   ============================================================ */
+.cta-block {
+  background: #f8fafc;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 1.5em 1.75em;
+  margin: 3em 0 1em;
+}
+
+.cta-block h3 {
+  margin-top: 0;
+  margin-bottom: 0.6em;
+  font-size: 1.15em;
+}
+
+.cta-block p,
+.cta-block ul {
+  margin-bottom: 0.5em;
+  color: #475569;
+}
+
+.cta-block ul {
+  padding-left: 1.2em;
+}
+
+.cta-block ul li {
+  margin-bottom: 0.35em;
+}
+
+/* === Section intro (Products/Analyses pages) === */
+.section-intro {
+  font-size: 1.05em;
+  line-height: 1.65;
+  color: #475569;
+  max-width: 36em;
+  margin: 1em 0 2.5em;
+}
+
+.section-intro p {
+  margin: 0;
+}
+
+/* === Section dividers === */
+hr {
+  border: none;
+  border-top: 1px solid #e5e7eb;
+  margin: 2.5em 0;
+}
+
+/* === Code blocks === */
+pre.sourceCode {
+  background: #f8fafc;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  padding: 1em;
+}
+
+code {
+  background: #f1f5f9;
+  padding: 0.1em 0.35em;
+  border-radius: 3px;
+  font-size: 0.92em;
+  color: #0f172a;
+}
+
+/* === Tables === */
+table {
+  font-size: 0.95em;
+  margin: 1em 0;
+}
+
+table th {
+  background-color: #f9fafb;
+  font-weight: 600;
+}
+
+table td, table th {
+  padding: 0.55em 0.75em;
+}
+
+/* ============================================================
+   Listing pages (Products / Analyses index)
+   ============================================================ */
+
+/* Hide thumbnail placeholders when no image is provided */
+.quarto-listing .listing-item .listing-item-img,
+.quarto-listing .listing-item .thumbnail-image,
+.quarto-listing .listing-item .listing-item-img-placeholder,
+.quarto-listing .listing-item img.thumbnail-image,
+.quarto-listing-default .listing-item .listing-item-img,
+.quarto-listing-default .listing-item img {
+  display: none !important;
+}
+
+/* Force full-width content when thumbnails are hidden */
+.quarto-listing-default .listing-item .listing-item-content,
+.quarto-listing-default .listing-item > div:not(.listing-item-img) {
+  flex: 1 1 100% !important;
+  width: 100% !important;
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+.quarto-listing-default .listing-item {
+  display: block !important;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 1.4em 1.6em;
+  margin-bottom: 1em;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease,
+              transform 0.15s ease;
+  background: #ffffff;
+}
+
+.quarto-listing-default .listing-item:hover {
+  border-color: #3b82f6;
+  box-shadow: 0 4px 14px rgba(15, 23, 42, 0.06);
+  transform: translateY(-1px);
+}
+
+.quarto-listing-default .listing-item .listing-title,
+.quarto-listing-default .listing-item h3 {
+  font-size: 1.15em;
+  font-weight: 600;
+  margin-bottom: 0.35em;
+  border-bottom: none;
+  margin-top: 0;
+  padding: 0;
+}
+
+.quarto-listing-default .listing-item .listing-title a {
+  color: #0f172a;
+  border-bottom: none;
+}
+
+.quarto-listing-default .listing-item .listing-title a:hover {
+  color: #2563eb;
+}
+
+.quarto-listing-default .listing-item .listing-subtitle {
+  color: #475569;
+  font-size: 0.98em;
+  line-height: 1.55;
+  margin-bottom: 0.7em;
+}
+
+.quarto-listing-default .listing-item .listing-date {
+  color: #94a3b8;
+  font-size: 0.78em;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  display: block;
+  margin-bottom: 0.4em;
+}
+
+.quarto-listing-default .listing-item .listing-categories {
+  margin-top: 0.7em;
+  display: flex;
+  gap: 0.4em;
+  flex-wrap: wrap;
+}
+
+/* Editorial tag treatment — bordered, uppercase, subtle */
+.quarto-listing-default .listing-item .listing-categories .listing-category {
+  background: transparent;
+  border: 1px solid #e2e8f0;
+  font-size: 0.7em;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: #64748b;
+  padding: 0.2em 0.7em;
+  border-radius: 999px;
+}
+
+.quarto-listing-default .listing-item .listing-categories .listing-category:hover {
+  border-color: #cbd5e1;
+  color: #334155;
+  background: transparent;
+}
+
+/* === Footer === */
+.nav-footer {
+  border-top: 1px solid #e5e7eb;
+  color: #94a3b8;
+  font-size: 0.88em;
+  padding: 1.5em 0;
+  margin-top: 4em;
+}
+
+/* === Mobile === */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 1.85em;
+  }
+  .quarto-about-solana .about-entity h1.title {
+    font-size: 2em;
+  }
+  .capability-grid,
+  .now-grid {
+    grid-template-columns: 1fr;
+  }
+  .credentials-block {
+    grid-template-columns: 1fr;
+    gap: 0.25em 0;
+  }
+  .credentials-block dt {
+    margin-top: 0.6em;
+  }
+  .credentials-block dt:first-of-type {
+    margin-top: 0;
+  }
+  main.content,
+  #quarto-document-content {
+    max-width: 100%;
+    padding: 0 1em;
+  }
+}

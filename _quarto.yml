@@ -1,0 +1,35 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Xuanxuan (Ava) Shen"
+  description: "Operator and builder turning complex, high-stakes business problems into products, analyses, and decisions. A decade in financial services — credit risk, underwriting, decision systems — combined with AI-native execution."
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: products/index.qmd
+        text: Products
+      - href: analyses/index.qmd
+        text: Analyses
+      - href: about.qmd
+        text: About
+    right:
+      - icon: github
+        href: https://github.com/shenxuan752
+      - icon: linkedin
+        href: https://www.linkedin.com/in/xuanxuan-shen-321a54128/
+      - icon: envelope
+        href: mailto:xxshen752@gmail.com
+  page-footer:
+    center: "© 2026 Xuanxuan (Ava) Shen"
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    css: styles.css
+    code-copy: true
+    anchor-sections: true
+    smooth-scroll: true

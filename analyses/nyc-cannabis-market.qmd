@@ -1,0 +1,95 @@
+---
+title: "NYC Cannabis Dispensary Market — Where the Unit Economics Actually Work"
+subtitle: "Operator decision memo with framework, market scan, scoring model, and ranked shortlist for siting a NYC dispensary"
+date: "2025-04-23"
+categories: [Market Analysis, Regulated Industry, Operator Strategy, Unit Economics]
+toc: true
+---
+
+::: {.section-intro}
+**Type:** Analysis (operator decision memo) · **Domain:** Regulated cannabis market, NY Office of Cannabis Management (OCM)
+**Method:** Public OCM licensing data · Comparative submarket analysis · Scoring framework
+**Status:** Final report · **Role:** Analyst
+:::
+
+## Core question
+
+Adult-use cannabis legalized in NY in 2023. The NYC dispensary market has been a fragmented, partially-illegal rollout — uneven license issuance, parallel unlicensed market, regulatory uncertainty, sharp variance across submarkets.
+
+The decision this memo answers:
+
+> **Out of the operating environments available in NYC, which submarkets and operator strategies have unit economics that survive the first 3–5 years of regulatory tightening — and which look attractive in the aggregate data but are bait traps for new entrants?**
+
+## Why this matters
+
+The first wave of post-CAURD operators has produced wildly different outcomes depending on location, license type, and operational discipline. Generic industry forecasts treat the NYC dispensary market as one number; the reality is high variance across submarkets driven by zoning, enforcement pressure, foot traffic, demographic mix, and competitive density (both licensed and unlicensed).
+
+Picking the right submarket is the single biggest predictor of whether a dispensary survives. A scoring framework that holds up under operational scrutiny — not just an industry-overview deck — is what an actual operator needs.
+
+## Method
+
+Three-stage operator analysis. Deliverables A, B, and C correspond to the three stages.
+
+### Stage 1 — Framework definition (Deliverable A: full report)
+
+Defined the decision criteria explicitly:
+
+- **Unit economics** — revenue per sqft, expected gross margin, payback period, working capital intensity
+- **Competitive density** — licensed dispensary count + unlicensed retailer footprint within a measurable radius
+- **Regulatory exposure** — zoning, enforcement track record by precinct, license-type constraints
+- **Operator-side requirements** — capex, license type implications, location lock-in
+- **Demographic and foot-traffic signal** — density, daytime vs. residential, retail corridor character
+
+Built a scoring rubric that could be applied consistently across candidate locations and operator strategies — the same lens applied uniformly is what lets the analysis hold up under interrogation.
+
+### Stage 2 — Market analysis
+
+- Mapped the licensed and unlicensed retailer footprint across NYC at the time of analysis
+- Profiled vertical segments: retail dispensary, delivery, processing/manufacturing, cultivation, ancillary services to licensed operators
+- Identified the structural dynamics compressing margins fastest (license-issuance acceleration, unlicensed enforcement variance, supply-side capex)
+
+### Stage 3 — Scoring and shortlist (Deliverables B and C)
+
+- Applied the scoring model from Stage 1 to candidate locations and strategies
+- Produced a ranked shortlist with a unit-economics view per option
+- Flagged which strategies looked attractive in aggregate market data but were vulnerable to the specific failure modes surfaced in Stage 2
+
+## Key findings
+
+1. **Licensed retail margins compress fast as license issuance accelerates.** First-mover advantage is real but short; the early-licensee economics are not replicable for entrants who arrive 18 months later. Modeling the early-cohort margin as a forecast for entrants in 2026 is the most common mistake in the industry decks.
+
+2. **Delivery is structurally worse than the marketing suggests.** Last-mile compliance costs, narrow basket sizes, and platform fees crush unit economics for any operator without an existing retail anchor. Pure-play delivery operators in the analyzed dataset consistently underperformed retail on a contribution-margin basis.
+
+3. **Processing and manufacturing show the most defensible margins.** Capex is meaningful but workflow IP and B2B relationships create real moat. Several strongest operators in NYC at the time of analysis were vertically integrated upstream — that's where the spread between the public narrative and the actual P&L is widest.
+
+4. **Ancillary services to licensed operators (compliance software, lab testing, security) are the under-discussed opportunity.** Lower regulatory exposure, transferable across states, and the buyer is a regulated operator with a real procurement budget and no incumbent vendor of substance.
+
+5. **The unlicensed market is the binding constraint on every licensed submarket.** Until enforcement materially changes storefront density, licensed retail competes on a tilted field — and the variance is per-block, not aggregate. The single biggest predictor of licensed-retail revenue at the time of analysis was the count of unlicensed storefronts within a ten-block radius.
+
+## Recommendation
+
+For a new operator in 2026:
+
+- **Don't enter retail** unless you have a unique cost-of-capital or location advantage that isn't already priced into early-licensee bids
+- **Two strongest entry points**: upstream processing/manufacturing (defensible margins, real moat) or ancillary services to licensed operators (lower regulatory exposure, multi-state portability)
+- **Delivery is a value trap** absent existing retail anchors
+- **The asymmetric upside is in compliance and operations software** for licensed operators — a small, growing buyer base with a real procurement budget and no incumbent solution
+
+The detailed location- and strategy-level shortlist sits in Deliverable C.
+
+## What I'd investigate next
+
+- **Concrete bottom-up unit economics** on the top three vertically-integrated operators (most public data is operator-friendly press, not financials)
+- **Actual basket size and CAC trajectory** for delivery operators after the 2024–25 enforcement actions (the enforcement step-change should materially shift delivery economics — needs a follow-up scan)
+- **Whether 2025–26 MSO capital changes the licensed-retail calculus** — large multi-state operators entering NY at scale could re-rate the competitive density faster than the current trajectory implies
+
+## Deliverables
+
+- **Stage 1 — Framework:** Scoring criteria, decision rubric, regulatory map (8KB memo)
+- **Stage 2 — Market analysis:** Submarket dynamics, competitive density, regulatory exposure (18KB)
+- **Deliverable A — Full report:** Compiled 32-page memo
+- **Deliverable B — Scoring model:** Per-location and per-strategy scoring with weights
+- **Deliverable C — Ranked shortlist:** Top siting options + strategy recommendations
+- **Final PDF report** (1.3MB) — available on request
+
+Underlying data combines public OCM licensing filings with comparative submarket analysis. Available on request.

@@ -1,0 +1,154 @@
+---
+title: "Xuanxuan (Ava) Shen"
+subtitle: "Operator and builder. Financial services depth meets AI-native execution."
+toc: false
+page-layout: full
+about:
+  template: solana
+  image: profile.jpg
+  image-shape: round
+  image-width: 13em
+  links:
+    - icon: collection
+      text: View Products
+      href: products/
+    - icon: file-text
+      text: Read Analyses
+      href: analyses/
+---
+
+<dl class="credentials-block">
+<dt>Background</dt>
+<dd>10 years in financial services — credit risk, underwriting, lending analytics, decision systems</dd>
+<dt>Focus</dt>
+<dd>AI-native pipelines, operator memos, and decision tools</dd>
+<dt>Stage</dt>
+<dd>Senior IC, lead, director, or founding-team</dd>
+<dt>Location</dt>
+<dd>New York City — open to relocation</dd>
+</dl>
+
+## Why this mix matters
+
+::: {.differentiator-row}
+
+::: {.differentiator-item}
+::: {.differentiator-number}
+01
+:::
+::: {.differentiator-content}
+#### Domain depth that survives scrutiny
+A decade in financial services means I know what regulators, customers, and operators actually care about. Models that decide credit, analytics that allocate capital, systems built under real constraint.
+:::
+:::
+
+::: {.differentiator-item}
+::: {.differentiator-number}
+02
+:::
+::: {.differentiator-content}
+#### AI-native execution as a leverage multiplier
+I use AI as core leverage for research, synthesis, prototyping, and shipping — not as a tool I'm interested in. It expands the surface area of what one operator can deliver.
+:::
+:::
+
+::: {.differentiator-item}
+::: {.differentiator-number}
+03
+:::
+::: {.differentiator-content}
+#### The combination is rare
+Most AI-native operators don't have the domain depth. Most domain experts haven't rebuilt their workflows around AI. The intersection is where I work.
+:::
+:::
+
+:::
+
+## What I work on
+
+::: {.capability-grid}
+
+::: {.capability-card}
+[Capability 01]{.capability-label}
+
+#### Risk & Financial Systems
+
+A decade designing, validating, and shipping credit risk, underwriting, and lending analytics under regulatory and commercial constraint.
+:::
+
+::: {.capability-card}
+[Capability 02]{.capability-label}
+
+#### AI-native Execution
+
+Multi-agent pipelines and AI-assisted research that compress weeks of analysis into hours of run-time plus human review.
+:::
+
+::: {.capability-card}
+[Capability 03]{.capability-label}
+
+#### Products & Decision Systems
+
+Tools, internal pipelines, and workflows that move ambiguity into structure into shipped code — used by real operators.
+:::
+
+::: {.capability-card}
+[Capability 04]{.capability-label}
+
+#### Strategy & Operator Memos
+
+Market scans, opportunity evaluations, and risk write-ups built to inform real decisions — not to look smart.
+:::
+
+:::
+
+## Selected work
+
+```{=html}
+<div class="featured-work-grid">
+<a href="products/startup-screener-pipeline.html" class="featured-work-card">
+<span class="featured-tag">Featured Product</span>
+<h4>Startup Thesis Screener Pipeline</h4>
+<p>Multi-agent pipeline that maps a 600+ company AI startup universe into a scored, visa-verified shortlist — in three hours of parallel agent runtime instead of weeks of manual research.</p>
+<div class="featured-tags"><span>AI Agents</span><span>Decision Systems</span><span>Financial Services</span></div>
+</a>
+<a href="analyses/ai-startup-landscape.html" class="featured-work-card">
+<span class="featured-tag">Featured Analysis</span>
+<h4>AI Startup Landscape — 653 Companies</h4>
+<p>Methodology and findings from a thesis-driven scan of AI/data startups at seed–Series B, with verified visa evidence and operator-grade recommendations.</p>
+<div class="featured-tags"><span>Market Analysis</span><span>AI Startups</span><span>Decision Systems</span></div>
+</a>
+</div>
+```
+
+::: {.see-all-row}
+[See all products →](products/) &nbsp;&nbsp;&nbsp; [See all analyses →](analyses/)
+:::
+
+## What I'm doing now
+
+::: {.now-grid}
+
+::: {.now-column}
+#### Building
+- AI-assisted research pipelines and decision systems
+- Operator memos and market analyses for vertical-AI and financial services
+- Tools that compress weeks of work into hours
+:::
+
+::: {.now-column}
+#### Exploring
+- Senior IC, operator, founding-data, and product roles
+- Founders and operators in fintech, RegTech, insurtech, decision intelligence
+- Writing on credit risk, AI-native workflows, and operator strategy
+:::
+
+:::
+
+::: {.cta-block}
+### Get in touch
+
+Best way to reach me is **[xxshen752@gmail.com](mailto:xxshen752@gmail.com)**. I read every thoughtful note.
+
+For warm intros and recruiter pings, **[LinkedIn](https://www.linkedin.com/in/xuanxuan-shen-321a54128/)**. For code and pipelines, **[GitHub](https://github.com/shenxuan752)**.
+:::

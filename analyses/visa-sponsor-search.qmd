@@ -1,0 +1,98 @@
+---
+title: "H-1B / PERM Sponsor Search — Structured Employer Prioritization"
+subtitle: "Scored, evidence-based shortlist of 100 US employers built from fragmented visa and hiring data"
+date: "2025-05-07"
+categories: [Decision Support, Immigration Analytics, Data Pipeline, Employer Research]
+toc: true
+---
+
+::: {.section-intro}
+**Type:** Analysis (decision-support pipeline) · **Domain:** US employment-based immigration / employer hiring data
+**Sources:** H1BGrader · MyVisaJobs · H1BData.info · USCIS H-1B Employer Data Hub · ICE SEVIS top-200 STEM-OPT employers · DOL OFLC public disclosures
+**Status:** Live working analysis · **Role:** Analyst
+:::
+
+## Core question
+
+For a candidate on F-1 STEM OPT looking to bridge to H-1B and then PERM at a senior IC level, the standard "list of sponsors" is misleading. Most "top 100 H-1B employers" lists are dominated by IT staffing firms running cap-exempt transfers — useless for someone targeting product / risk / analytics / strategy roles at companies that actually run senior IC ladders.
+
+The real question:
+
+> **Out of all US employers with public visa-sponsorship evidence, which 100 actually sponsor senior IC and director-level hires through the H-1B cap lottery AND have followed through with PERM at scale — at companies whose roles match a financial services, decision systems, or AI-product profile?**
+
+## Why this matters
+
+A bad sponsorship match wastes a year of cap-lottery cycles and risks a PERM that never completes. The downstream consequence of getting this wrong is 6–7 years of uncertainty.
+
+The data exists publicly — DOL OFLC LCA disclosures, USCIS H-1B Employer Data Hub, ICE SEVIS STEM-OPT top-200, plus MyVisaJobs / H1BGrader / H1BData.info aggregations — but it's fragmented across 5+ sources with different fiscal-year cuts, different legal-entity-name conventions, and very different reliability levels. Standard "top sponsor" rankings combine signal that shouldn't be combined.
+
+I built a structured pipeline to turn the fragmented data into a decision-ready shortlist.
+
+## Method
+
+1. **Generated a candidate company universe** from US large- and mid-cap firms across financial services, data infrastructure, fintech, healthcare/biopharma data, enterprise SaaS, decision intelligence, and tech-consulting — the sectors with role surfaces matching a senior FS / analytics / AI-product profile.
+
+2. **Pulled LCA filing counts and PERM filings per company** from H1BGrader, MyVisaJobs, and H1BData.info — cross-referenced across all three to catch legal-entity-name variants (e.g., "Capital One Services LLC" vs. "Capital One Financial Corp," "Bloomberg LP" vs. subsidiaries).
+
+3. **Verified E-Verify enrollment** using the ICE SEVIS top-200 STEM-OPT employer list plus direct careers-page checks where possible. E-Verify is a hard requirement for STEM OPT extension — companies that aren't enrolled are non-starters regardless of how many H-1Bs they file.
+
+4. **Categorized H-1B cap vs. transfer behavior.** Excluded staffing firms and bodyshops outright. Flagged companies whose pattern looked like cap-exempt transfers (Verisk pattern: 0 LCAs FY2025) or unusual subsidiary structures (Fidelity pattern: 0 LCAs but 303 USCIS petitions — likely cap-exempt or filing under a different legal entity).
+
+5. **Scored each company on five dimensions:**
+   - STEM OPT support (E-Verify enrollment evidence)
+   - H-1B cap-lottery sponsorship volume (specifically *new cap* filings, not transfers)
+   - PERM completion evidence (the green-card follow-through signal, not just initial filings)
+   - Role-type fit (does the company actually hire senior FS / analytics / AI-product ICs?)
+   - Source confidence (how recent, how well-cross-referenced)
+
+6. **Tagged each company with a strategy bucket:** Immigration Safe / Bridge Role / Fit High but Sponsorship Unclear / Caution / Future Upgrade / Exclude.
+
+## Key findings
+
+From the 100-company analysis:
+
+| Strategy tag | Count | Description |
+|---|---|---|
+| **Immigration Safe** | 19 | High-volume sponsor + verified E-Verify + PERM track record + strong role-fit. Examples: Databricks, Snowflake, Stripe, DoorDash, Airbnb, Capital One, Two Sigma, BlackRock, Citadel Securities, S&P Global, Mastercard, Affirm. |
+| **Bridge Role** | 55 | Sponsorship pattern is solid; role surface is narrower for senior FS/analytics IC. The right target for a 1–2 year cap-lottery bridge while building toward Immigration Safe + strong role-fit options. |
+| **Fit High / Sponsorship Unclear** | 7 | Smaller companies (Hightouch, Monte Carlo, Harness) with strong role-fit but thin sponsorship signal — needs direct verification before relying on. |
+| **Caution** | 3 | Verisk (0 LCAs FY2025 — significant red flag), Fidelity (unusual 0-LCA / 303-petition pattern — flagged for entity-mapping). |
+| **Excluded** | (separate list) | Lemonade (explicit "we are unable to sponsor"), Compass (0 FY2026 LCAs), all IT staffing firms. |
+
+The highest-confidence insights:
+
+1. **LCA volume is a misleading metric on its own.** Several large-volume sponsors are running transfers, not new cap. The signal that matters for a STEM-OPT candidate is **new cap-lottery filing volume specifically**. Verisk's drop to 0 LCAs FY2025 was the clearest red flag in the dataset, even though they'd historically been a strong sponsor.
+
+2. **PERM completion rate, not LCA count, predicts the green-card outcome.** Some companies file many H-1Bs but rarely follow through with PERM at scale — sponsored employees consistently leave before the green card completes. This shifts the recommended target list materially: the right metric is "% of H-1B cohort that still works there at PERM completion," not "how many H-1Bs filed last year."
+
+3. **The Bridge Role category is the most useful product of the analysis.** 55 companies have sponsorship infrastructure but a role surface that isn't natively senior-FS-IC. They're the right targets for a cap-lottery bridge during the first 1–2 years.
+
+4. **A second pass expanded the universe to mid-sized and smaller sponsors** where the cap-lottery odds are structurally better (smaller applicant pool per company). This surfaced several FS / AI startups that don't appear on standard "top sponsor" lists but have real sponsorship behavior.
+
+## Recommendation
+
+Don't optimize for the top of the H-1B sponsor leaderboard. Optimize for the intersection of:
+
+- **Demonstrated PERM follow-through** (not just LCA filing count)
+- **Role surface that matches the candidate's senior-IC profile** (not just any open role)
+- **E-Verify confirmation** (hard prerequisite for STEM-OPT extension)
+
+The Immigration Safe + strong-role-fit overlap is small but non-zero — those are the high-value targets for direct application. The Bridge Role list is where most candidates should actually apply during the first cap-lottery cycle to maximize lottery odds while role-skill compounds in parallel.
+
+## What I'd investigate next
+
+- **PERM cohort outcomes** — of the H-1Bs each top target sponsored 3–5 years ago, what percentage were still at the company at PERM completion vs. departed? This is the actual signal that matters, and it's reconstructible from cross-year LCA data with entity-mapping.
+- **Subsidiary-level entity mapping** — large parent companies file under different legal entities (Fidelity pattern is the obvious case). Better entity mapping would close the false-negative gap on several large sponsors.
+- **Cap-exempt employers as a separate analysis** — research universities, qualifying non-profits, and government contractors have entirely different sponsorship dynamics not captured in the standard cap-lottery framing. Worth a separate scan.
+
+## Deliverables
+
+- **100-company shortlist CSV** with full scoring, source citations, strategy tags
+- **Summary memo** with category breakdowns, data-quality notes, and the specific entity-mapping flags that affect interpretation
+- **Expanded second-pass dataset** (~mid/small sponsor targets) with additional FS / AI-startup coverage where the standard "top sponsor" lists miss
+
+All available on request. Refreshed semi-monthly as new fiscal-year filings post to DOL OFLC.
+
+## Sources
+
+DOL OFLC LCA Disclosures · USCIS H-1B Employer Data Hub · ICE SEVIS 2024 Top 200 STEM-OPT Employers · H1BGrader · MyVisaJobs · H1BData.info · USCIS E-Verify Employer Search · individual company careers-page sponsorship language

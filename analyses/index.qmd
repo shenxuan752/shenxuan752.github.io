@@ -1,0 +1,18 @@
+---
+title: "Analyses"
+subtitle: "Operator memos and market analyses written when the answer actually matters."
+toc: false
+listing:
+  contents: "*.qmd"
+  type: default
+  fields: [title, subtitle, date, categories]
+  sort: "date desc"
+  filter-ui: false
+  sort-ui: false
+  feed: false
+  date-format: "MMM YYYY"
+---
+
+::: {.section-intro}
+Each one is structured like an operator memo: explicit question, tight methodology, findings ranked by what would change the decision.
+:::
