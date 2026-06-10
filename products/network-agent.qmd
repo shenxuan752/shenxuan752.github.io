@@ -1,0 +1,77 @@
+---
+title: "Personal Networking Agent"
+subtitle: "A networking CRM and chief-of-staff — natural-language intake, judgment-based follow-up cadence, Google Calendar reminders. Never auto-sends."
+date: "2026-06-09"
+categories: [AI Agents, CRM, Anthropic Claude, Personal-AI, Productivity Systems]
+toc: true
+---
+
+::: {.section-intro}
+**Type:** Product · **Domain:** Networking / career relationship management
+**Stack:** Next.js 15 · React 19 · TypeScript · Tailwind v4 · SQLite · Prisma · Anthropic Claude API (Opus 4.7 + Sonnet 4.6) · Google Calendar API · Web Speech API
+**Status:** Running locally on my Mac via launchd · **Role:** Sole builder
+:::
+
+## One-line summary
+
+A personal CRM for managing alumni, recruiters, hiring managers, founders, and warm intros across a long career — built to *help me think* about timing, fit, and next steps, not to send messages on my behalf.
+
+## Why I built this
+
+Networking tools mostly come in two shapes: automation bots that blast templated messages at scale, or enterprise CRMs designed for sales pipelines. Neither is what an individual professional actually needs.
+
+The work of networking isn't writing more messages. It's remembering who you met, what you talked about, how warm the relationship is, what you owe them and they owe you, and — most importantly — *when* to follow up so you don't seem pushy or, equally bad, forgotten. Most of that is judgment, not throughput. The bottleneck is memory and timing, not message volume.
+
+I wanted a tool that:
+
+- intakes contacts in plain English (voice or text) — so the friction of logging a conversation is zero
+- holds a structured record of every interaction over time, not just a snapshot
+- recommends a next-best-action that's a concrete sentence, not a vague "follow up"
+- decides *when* to follow up using both deterministic rules and contextual judgment
+- writes follow-up reminders to my personal Google Calendar so the prompt to act shows up where I already live
+- never, ever sends a message on my behalf
+
+The hard rule is the last one. Auto-sent networking outreach feels exactly like what it is, and it burns the relationship the moment the recipient suspects it's not really you. The judgment of *whether* and *what* to send has to stay with me.
+
+## What I built
+
+A Next.js application I run on my own Mac. Single user, no auth, fully local data.
+
+- **Quick Add** — type or dictate a free-form description of a contact ("I met a Columbia alum at a fintech event, she works at Citi in first-party fraud analytics, connected on LinkedIn but no reply, remind me in 7 days"). A Claude Sonnet 4.6 call with tool-use returns a fully structured contact record with ~25 fields, which I review and edit before saving.
+- **Log new interaction** — on any existing contact, I can dictate "had a 20-min call today, she's open to introing me to her manager," and the system parses it into a timeline entry, replaces the contact's current status, regenerates the recommended action, and patches the calendar event in place.
+- **Next best action engine** — a deterministic rules engine (e.g. "active reply thread → 5 days," "LinkedIn nudge no reply → 7-day nudge then 21-day, then archive at 45") feeds a Claude Opus 4.7 call that returns both a one-sentence recommendation and a follow-up day count, with explicit guidance to lean longer when the default would feel pushy.
+- **Google Calendar reminders** — each contact gets one event on their next follow-up date. Edit the date in the app and the event moves on Calendar. Clear the date and the event is deleted. Log a new interaction and the description updates with the latest context.
+- **Coach** — a chat interface that reads the full snapshot of every active contact and answers questions like "who should I contact this week," "draft a follow-up for Jane," "who has accepted my LinkedIn but not replied." Voice in, optional voice out. Read-only — can't modify data, can't send anything.
+- **Bulk delete and timeline editing** — checkboxes to clean up the contact list, per-row delete on the interaction timeline, manual date and action override on any contact's recommendation card.
+
+## How it works
+
+A few choices that shaped the design:
+
+1. **Contact as snapshot, interactions as timeline.** The contact record holds the *current* state (latest status, who they are, what's next). A separate interactions table holds the append-only history of every touchpoint. The contact's "last contact summary" is always the newest interaction; the full history is preserved underneath. Claude sees both when generating recommendations.
+
+2. **Cadence rules as prior, Claude as judgment layer.** A small rules engine in `lib/cadence.ts` produces a default day count from string patterns in the contact's status. Claude receives that default as a prior — not a ceiling — and is explicitly told to override longer when the default would feel pushy, shorter when there's an offer or question cooling on the table. This gave a meaningful quality bump over rules-only output, especially for the "they said let's reconnect next month" case that string-matching can't catch.
+
+3. **No auth, no cloud, no exposure.** The app is single-user and lives on my Mac. SQLite holds the data. A macOS LaunchAgent runs the production build on login and restarts it on crash. No public URL. No login screen needed, because the device itself is the access boundary.
+
+4. **Prompt caching everywhere it matters.** The intake parsing system prompt, the cadence rules, and the coach's instructions are all marked `cache_control: ephemeral`. The first call writes the cache; every subsequent call within the 5-min window reads it at ~10% the cost. For the coach in particular — which ships a snapshot of every active contact in every turn — this kept per-question cost in the single-digit cents range even with adaptive thinking on.
+
+5. **Tool use for structured extraction, `messages.create` for everything else.** Anywhere the model needs to return strict structured output (intake parsing, NBA recommendation with day count), the call uses tool use with a Zod-validated schema and `tool_choice` forced to the tool name. Anywhere it's open-ended (coach replies, message drafts), it's plain text generation.
+
+6. **Voice as a first-class input, not an add-on.** The browser's built-in `webkitSpeechRecognition` handles dictation everywhere: intake, log interaction, coach. The coach has an "auto-send after voice" toggle so you can push to talk, release, and have it fire — no extra click. Optional `speechSynthesis` for replies, so it can be a hands-free conversation.
+
+## My role
+
+Sole builder. Built and shipped in roughly a day and a half across architecture, scaffolding, the schema and API surface, the cadence engine, the OAuth flow for Calendar, the voice integration, and the production deployment via launchd. Used Claude Code as the development environment.
+
+## What I learned
+
+- **The judgment layer is more valuable than the automation layer.** I started by building rules for cadence, then put Claude on top of them. The rules alone produced recommendations that felt mechanical ("3 days for active threads") and were often wrong for the specific contact. Adding Claude as the override layer — with explicit guidance about when to lean longer — closed most of that gap without sacrificing the determinism of the defaults. The tool is most useful when it has opinions, not when it follows a flowchart.
+- **Auto-send is a feature ceiling, not a floor.** It's the obvious next thing to build, and it's the thing that would make the product worth less, not more. The whole point is that the user remains the sender. Anything that looks like a templated outreach immediately defeats the purpose of personal networking. The product is more useful precisely because it doesn't do the most automatable thing.
+- **Tool use is the right shape for structured intake.** Versus prompt-engineered JSON output, forced `tool_choice` with a Zod-validated schema gave me predictable extraction with very few retries. The intake parser handles partial information cleanly — every field nullable — which matches how people actually describe contacts (rarely with a full bio in one go).
+- **Calendar is a better persistence layer than the app itself for the "act now" moment.** I don't want to open the networking tool to check who to reach out to today. I want to see "Follow up: Jane Doe — Citi" on my calendar where I'm already looking. Treating Google Calendar as the source-of-truth for *when* to act, and the app as the source-of-truth for *who/why/what*, kept both surfaces honest about their role.
+- **Personal-use software has different deploy semantics than product software.** This doesn't need to be on Vercel. It doesn't need real auth. It doesn't need a Postgres tier. Running it on my own Mac with `launchd` auto-start gives me persistent local access, zero ongoing cost, and an attack surface of exactly one device. The right deploy for a single-user tool is the boring one.
+
+## Links
+
+Repo is private. Happy to walk through the cadence rules, the intake tool-use schema, or the calendar integration.
