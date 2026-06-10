@@ -1,311 +1,10 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Xuanxuan (Ava) Shen",
-    "section": "",
-    "text": "Background\n\n\n10 years in financial services — credit risk, underwriting, lending analytics, decision systems\n\n\nFocus\n\n\nAI-native pipelines, operator memos, and decision tools\n\n\nStage\n\n\nSenior IC, lead, director, or founding-team\n\n\nLocation\n\n\nNew York City — open to relocation"
-  },
-  {
-    "objectID": "index.html#why-this-mix-matters",
-    "href": "index.html#why-this-mix-matters",
-    "title": "Xuanxuan (Ava) Shen",
-    "section": "Why this mix matters",
-    "text": "Why this mix matters\n\n\n\n01\n\n\nDomain depth that survives scrutiny\nA decade in financial services means I know what regulators, customers, and operators actually care about. Models that decide credit, analytics that allocate capital, systems built under real constraint.\n\n\n\n\n02\n\n\nAI-native execution as a leverage multiplier\nI use AI as core leverage for research, synthesis, prototyping, and shipping — not as a tool I’m interested in. It expands the surface area of what one operator can deliver.\n\n\n\n\n03\n\n\nThe combination is rare\nMost AI-native operators don’t have the domain depth. Most domain experts haven’t rebuilt their workflows around AI. The intersection is where I work."
-  },
-  {
-    "objectID": "index.html#what-i-work-on",
-    "href": "index.html#what-i-work-on",
-    "title": "Xuanxuan (Ava) Shen",
-    "section": "What I work on",
-    "text": "What I work on\n\n\nCapability 01\n\nRisk & Financial Systems\nA decade designing, validating, and shipping credit risk, underwriting, and lending analytics under regulatory and commercial constraint.\n\n\n\nCapability 02\n\nAI-native Execution\nMulti-agent pipelines and AI-assisted research that compress weeks of analysis into hours of run-time plus human review.\n\n\n\nCapability 03\n\nProducts & Decision Systems\nTools, internal pipelines, and workflows that move ambiguity into structure into shipped code — used by real operators.\n\n\n\nCapability 04\n\nStrategy & Operator Memos\nMarket scans, opportunity evaluations, and risk write-ups built to inform real decisions — not to look smart."
-  },
-  {
-    "objectID": "index.html#selected-work",
-    "href": "index.html#selected-work",
-    "title": "Xuanxuan (Ava) Shen",
-    "section": "Selected work",
-    "text": "Selected work\n\n\nFeatured Product\nStartup Thesis Screener Pipeline\nMulti-agent pipeline that maps a 600+ company AI startup universe into a scored, visa-verified shortlist — in three hours of parallel agent runtime instead of weeks of manual research.\nAI AgentsDecision SystemsFinancial Services\n\n\nFeatured Analysis\nAI Startup Landscape — 653 Companies\nMethodology and findings from a thesis-driven scan of AI/data startups at seed–Series B, with verified visa evidence and operator-grade recommendations.\nMarket AnalysisAI StartupsDecision Systems\n\n\n\nSee all products →     See all analyses →"
-  },
-  {
-    "objectID": "index.html#what-im-doing-now",
-    "href": "index.html#what-im-doing-now",
-    "title": "Xuanxuan (Ava) Shen",
-    "section": "What I’m doing now",
-    "text": "What I’m doing now\n\n\nBuilding\n\nAI-assisted research pipelines and decision systems\nOperator memos and market analyses for vertical-AI and financial services\nTools that compress weeks of work into hours\n\n\n\nExploring\n\nSenior IC, operator, founding-data, and product roles\nFounders and operators in fintech, RegTech, insurtech, decision intelligence\nWriting on credit risk, AI-native workflows, and operator strategy\n\n\n\n\nGet in touch\nBest way to reach me is xxshen752@gmail.com. I read every thoughtful note.\nFor warm intros and recruiter pings, LinkedIn. For code and pipelines, GitHub."
-  },
-  {
-    "objectID": "analyses/index.html",
-    "href": "analyses/index.html",
-    "title": "Analyses",
-    "section": "",
-    "text": "Each one is structured like an operator memo: explicit question, tight methodology, findings ranked by what would change the decision.\n\n\n\n\n\n\n\n\n\n\nAI Startup Landscape — 653 Companies, May 2026\n\n\nMethodology and findings from a thesis-driven scan of AI/data startups at seed–Series B\n\n\n\nMarket Analysis\n\nAI Startups\n\nDecision Systems\n\n\n\n\n\n\nMay 2026\n\n\n\n\n\n\n\nH-1B / PERM Sponsor Search — Structured Employer Prioritization\n\n\nScored, evidence-based shortlist of 100 US employers built from fragmented visa and hiring data\n\n\n\nDecision Support\n\nImmigration Analytics\n\nData Pipeline\n\nEmployer Research\n\n\n\n\n\n\nMay 2025\n\n\n\n\n\n\n\nNYC Cannabis Dispensary Market — Where the Unit Economics Actually Work\n\n\nOperator decision memo with framework, market scan, scoring model, and ranked shortlist for siting a NYC dispensary\n\n\n\nMarket Analysis\n\nRegulated Industry\n\nOperator Strategy\n\nUnit Economics\n\n\n\n\n\n\nApr 2025\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "analyses/nyc-cannabis-market.html",
-    "href": "analyses/nyc-cannabis-market.html",
-    "title": "NYC Cannabis Dispensary Market — Where the Unit Economics Actually Work",
-    "section": "",
-    "text": "Type: Analysis (operator decision memo) · Domain: Regulated cannabis market, NY Office of Cannabis Management (OCM) Method: Public OCM licensing data · Comparative submarket analysis · Scoring framework Status: Final report · Role: Analyst"
-  },
-  {
-    "objectID": "analyses/nyc-cannabis-market.html#core-question",
-    "href": "analyses/nyc-cannabis-market.html#core-question",
-    "title": "NYC Cannabis Dispensary Market — Where the Unit Economics Actually Work",
-    "section": "Core question",
-    "text": "Core question\nAdult-use cannabis legalized in NY in 2023. The NYC dispensary market has been a fragmented, partially-illegal rollout — uneven license issuance, parallel unlicensed market, regulatory uncertainty, sharp variance across submarkets.\nThe decision this memo answers:\n\nOut of the operating environments available in NYC, which submarkets and operator strategies have unit economics that survive the first 3–5 years of regulatory tightening — and which look attractive in the aggregate data but are bait traps for new entrants?"
-  },
-  {
-    "objectID": "analyses/nyc-cannabis-market.html#why-this-matters",
-    "href": "analyses/nyc-cannabis-market.html#why-this-matters",
-    "title": "NYC Cannabis Dispensary Market — Where the Unit Economics Actually Work",
-    "section": "Why this matters",
-    "text": "Why this matters\nThe first wave of post-CAURD operators has produced wildly different outcomes depending on location, license type, and operational discipline. Generic industry forecasts treat the NYC dispensary market as one number; the reality is high variance across submarkets driven by zoning, enforcement pressure, foot traffic, demographic mix, and competitive density (both licensed and unlicensed).\nPicking the right submarket is the single biggest predictor of whether a dispensary survives. A scoring framework that holds up under operational scrutiny — not just an industry-overview deck — is what an actual operator needs."
-  },
-  {
-    "objectID": "analyses/nyc-cannabis-market.html#method",
-    "href": "analyses/nyc-cannabis-market.html#method",
-    "title": "NYC Cannabis Dispensary Market — Where the Unit Economics Actually Work",
-    "section": "Method",
-    "text": "Method\nThree-stage operator analysis. Deliverables A, B, and C correspond to the three stages.\n\nStage 1 — Framework definition (Deliverable A: full report)\nDefined the decision criteria explicitly:\n\nUnit economics — revenue per sqft, expected gross margin, payback period, working capital intensity\nCompetitive density — licensed dispensary count + unlicensed retailer footprint within a measurable radius\nRegulatory exposure — zoning, enforcement track record by precinct, license-type constraints\nOperator-side requirements — capex, license type implications, location lock-in\nDemographic and foot-traffic signal — density, daytime vs. residential, retail corridor character\n\nBuilt a scoring rubric that could be applied consistently across candidate locations and operator strategies — the same lens applied uniformly is what lets the analysis hold up under interrogation.\n\n\nStage 2 — Market analysis\n\nMapped the licensed and unlicensed retailer footprint across NYC at the time of analysis\nProfiled vertical segments: retail dispensary, delivery, processing/manufacturing, cultivation, ancillary services to licensed operators\nIdentified the structural dynamics compressing margins fastest (license-issuance acceleration, unlicensed enforcement variance, supply-side capex)\n\n\n\nStage 3 — Scoring and shortlist (Deliverables B and C)\n\nApplied the scoring model from Stage 1 to candidate locations and strategies\nProduced a ranked shortlist with a unit-economics view per option\nFlagged which strategies looked attractive in aggregate market data but were vulnerable to the specific failure modes surfaced in Stage 2"
-  },
-  {
-    "objectID": "analyses/nyc-cannabis-market.html#key-findings",
-    "href": "analyses/nyc-cannabis-market.html#key-findings",
-    "title": "NYC Cannabis Dispensary Market — Where the Unit Economics Actually Work",
-    "section": "Key findings",
-    "text": "Key findings\n\nLicensed retail margins compress fast as license issuance accelerates. First-mover advantage is real but short; the early-licensee economics are not replicable for entrants who arrive 18 months later. Modeling the early-cohort margin as a forecast for entrants in 2026 is the most common mistake in the industry decks.\nDelivery is structurally worse than the marketing suggests. Last-mile compliance costs, narrow basket sizes, and platform fees crush unit economics for any operator without an existing retail anchor. Pure-play delivery operators in the analyzed dataset consistently underperformed retail on a contribution-margin basis.\nProcessing and manufacturing show the most defensible margins. Capex is meaningful but workflow IP and B2B relationships create real moat. Several strongest operators in NYC at the time of analysis were vertically integrated upstream — that’s where the spread between the public narrative and the actual P&L is widest.\nAncillary services to licensed operators (compliance software, lab testing, security) are the under-discussed opportunity. Lower regulatory exposure, transferable across states, and the buyer is a regulated operator with a real procurement budget and no incumbent vendor of substance.\nThe unlicensed market is the binding constraint on every licensed submarket. Until enforcement materially changes storefront density, licensed retail competes on a tilted field — and the variance is per-block, not aggregate. The single biggest predictor of licensed-retail revenue at the time of analysis was the count of unlicensed storefronts within a ten-block radius."
-  },
-  {
-    "objectID": "analyses/nyc-cannabis-market.html#recommendation",
-    "href": "analyses/nyc-cannabis-market.html#recommendation",
-    "title": "NYC Cannabis Dispensary Market — Where the Unit Economics Actually Work",
-    "section": "Recommendation",
-    "text": "Recommendation\nFor a new operator in 2026:\n\nDon’t enter retail unless you have a unique cost-of-capital or location advantage that isn’t already priced into early-licensee bids\nTwo strongest entry points: upstream processing/manufacturing (defensible margins, real moat) or ancillary services to licensed operators (lower regulatory exposure, multi-state portability)\nDelivery is a value trap absent existing retail anchors\nThe asymmetric upside is in compliance and operations software for licensed operators — a small, growing buyer base with a real procurement budget and no incumbent solution\n\nThe detailed location- and strategy-level shortlist sits in Deliverable C."
-  },
-  {
-    "objectID": "analyses/nyc-cannabis-market.html#what-id-investigate-next",
-    "href": "analyses/nyc-cannabis-market.html#what-id-investigate-next",
-    "title": "NYC Cannabis Dispensary Market — Where the Unit Economics Actually Work",
-    "section": "What I’d investigate next",
-    "text": "What I’d investigate next\n\nConcrete bottom-up unit economics on the top three vertically-integrated operators (most public data is operator-friendly press, not financials)\nActual basket size and CAC trajectory for delivery operators after the 2024–25 enforcement actions (the enforcement step-change should materially shift delivery economics — needs a follow-up scan)\nWhether 2025–26 MSO capital changes the licensed-retail calculus — large multi-state operators entering NY at scale could re-rate the competitive density faster than the current trajectory implies"
-  },
-  {
-    "objectID": "analyses/nyc-cannabis-market.html#deliverables",
-    "href": "analyses/nyc-cannabis-market.html#deliverables",
-    "title": "NYC Cannabis Dispensary Market — Where the Unit Economics Actually Work",
-    "section": "Deliverables",
-    "text": "Deliverables\n\nStage 1 — Framework: Scoring criteria, decision rubric, regulatory map (8KB memo)\nStage 2 — Market analysis: Submarket dynamics, competitive density, regulatory exposure (18KB)\nDeliverable A — Full report: Compiled 32-page memo\nDeliverable B — Scoring model: Per-location and per-strategy scoring with weights\nDeliverable C — Ranked shortlist: Top siting options + strategy recommendations\nFinal PDF report (1.3MB) — available on request\n\nUnderlying data combines public OCM licensing filings with comparative submarket analysis. Available on request."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "📍 Based in New York City  ·  Open to relocation"
-  },
-  {
-    "objectID": "about.html#how-i-got-here",
-    "href": "about.html#how-i-got-here",
-    "title": "About",
-    "section": "How I got here",
-    "text": "How I got here\nI started in financial services and spent a decade close to the messiest, highest-stakes problems in the industry: credit risk, underwriting, lending analytics, and decision systems.\nI built and validated models that decided whether real customers got real credit. Designed analytics that informed how capital was allocated. Translated regulatory and commercial constraints into systems that had to work — under scrutiny, at scale, with real money on the line.\nThe hard part was rarely the math. The hard part was structuring ambiguity, building shared understanding across functions, and shipping artifacts — products, models, memos — that survived contact with reality.\nThe last two years, my work has shifted toward AI-native execution. I build agent systems that compress weeks of research into hours. I run multi-source market scans that would have required a consulting team. I use AI to expand the surface area of what one operator can ship — not as a hobby, not as a tool I’m exploring, but as the central way I work.\n\nBoth halves of my career converge on the same thing — turning complex, data-heavy business problems into products, analyses, and decisions that hold up under scrutiny."
-  },
-  {
-    "objectID": "about.html#what-im-best-at",
-    "href": "about.html#what-im-best-at",
-    "title": "About",
-    "section": "What I’m best at",
-    "text": "What I’m best at\n\nTranslating ambiguity into structure. Messy markets, undefined opportunities, decisions under uncertainty — these are where I add the most.\nConnecting domain depth to execution. Financial services taught me what regulators, customers, and operators actually care about. AI-native workflows let me ship faster than the org chart would suggest.\nCross-functional range. I’ve operated as analyst, modeler, product partner, strategist, and builder. I read the business, the data, and the system simultaneously.\nBuilding artifacts, not just opinions. I’d rather ship a working prototype, a rigorous memo, or a decision-ready model than write a deck."
-  },
-  {
-    "objectID": "about.html#where-i-create-the-most-leverage",
-    "href": "about.html#where-i-create-the-most-leverage",
-    "title": "About",
-    "section": "Where I create the most leverage",
-    "text": "Where I create the most leverage\nThe strongest fit is where financial services depth and AI-native execution compound — at companies solving real, high-stakes problems under regulatory and commercial constraint, where shipping the right artifact matters more than writing the right deck.\n\nForward-deployed AI, decision intelligence, and AI-product roles at high-upside startups (seed–Series B)\nOperator and founding-team seats in vertical AI, financial services AI, RegTech, insurtech, or decision systems\nStrategy and product roles at fintech and financial services companies where AI-native execution is the differentiator, not the marketing"
-  },
-  {
-    "objectID": "about.html#how-i-work",
-    "href": "about.html#how-i-work",
-    "title": "About",
-    "section": "How I work",
-    "text": "How I work\n\n\nBuild reusable systems over ad-hoc analyses. One-off work has a half-life; reusable systems compound across problems.\n\n\nBe skeptical of AI marketing. Obsess over what actually works under regulatory and commercial constraint. Eval data beats demo videos.\n\n\nCompose tight, well-scoped artifacts. Skip monolithic prototypes and sprawling notebooks. Small, composable, shipped.\n\n\nShip in the medium that fits. Python, SQL, R, Claude Code agent pipelines, structured writing — match the artifact to the decision it serves.\n\n\n\nGet in touch\n\nEmail: xxshen752@gmail.com\nLinkedIn: linkedin.com/in/xuanxuan-shen\nGitHub: github.com/shenxuan752"
-  },
-  {
-    "objectID": "products/network-agent.html",
-    "href": "products/network-agent.html",
-    "title": "Personal Networking Agent",
-    "section": "",
-    "text": "Type: Product · Domain: Networking / career relationship management Stack: Next.js 15 · React 19 · TypeScript · Tailwind v4 · SQLite · Prisma · Anthropic Claude API (Opus 4.7 + Sonnet 4.6) · Google Calendar API · Web Speech API Status: Running locally on my Mac via launchd · Role: Sole builder"
-  },
-  {
-    "objectID": "products/network-agent.html#one-line-summary",
-    "href": "products/network-agent.html#one-line-summary",
-    "title": "Personal Networking Agent",
-    "section": "One-line summary",
-    "text": "One-line summary\nA personal CRM for managing alumni, recruiters, hiring managers, founders, and warm intros across a long career — built to help me think about timing, fit, and next steps, not to send messages on my behalf."
-  },
-  {
-    "objectID": "products/network-agent.html#why-i-built-this",
-    "href": "products/network-agent.html#why-i-built-this",
-    "title": "Personal Networking Agent",
-    "section": "Why I built this",
-    "text": "Why I built this\nNetworking tools mostly come in two shapes: automation bots that blast templated messages at scale, or enterprise CRMs designed for sales pipelines. Neither is what an individual professional actually needs.\nThe work of networking isn’t writing more messages. It’s remembering who you met, what you talked about, how warm the relationship is, what you owe them and they owe you, and — most importantly — when to follow up so you don’t seem pushy or, equally bad, forgotten. Most of that is judgment, not throughput. The bottleneck is memory and timing, not message volume.\nI wanted a tool that:\n\nintakes contacts in plain English (voice or text) — so the friction of logging a conversation is zero\nholds a structured record of every interaction over time, not just a snapshot\nrecommends a next-best-action that’s a concrete sentence, not a vague “follow up”\ndecides when to follow up using both deterministic rules and contextual judgment\nwrites follow-up reminders to my personal Google Calendar so the prompt to act shows up where I already live\nnever, ever sends a message on my behalf\n\nThe hard rule is the last one. Auto-sent networking outreach feels exactly like what it is, and it burns the relationship the moment the recipient suspects it’s not really you. The judgment of whether and what to send has to stay with me."
-  },
-  {
-    "objectID": "products/network-agent.html#what-i-built",
-    "href": "products/network-agent.html#what-i-built",
-    "title": "Personal Networking Agent",
-    "section": "What I built",
-    "text": "What I built\nA Next.js application I run on my own Mac. Single user, no auth, fully local data.\n\nQuick Add — type or dictate a free-form description of a contact (“I met a Columbia alum at a fintech event, she works at Citi in first-party fraud analytics, connected on LinkedIn but no reply, remind me in 7 days”). A Claude Sonnet 4.6 call with tool-use returns a fully structured contact record with ~25 fields, which I review and edit before saving.\nLog new interaction — on any existing contact, I can dictate “had a 20-min call today, she’s open to introing me to her manager,” and the system parses it into a timeline entry, replaces the contact’s current status, regenerates the recommended action, and patches the calendar event in place.\nNext best action engine — a deterministic rules engine (e.g. “active reply thread → 5 days,” “LinkedIn nudge no reply → 7-day nudge then 21-day, then archive at 45”) feeds a Claude Opus 4.7 call that returns both a one-sentence recommendation and a follow-up day count, with explicit guidance to lean longer when the default would feel pushy.\nGoogle Calendar reminders — each contact gets one event on their next follow-up date. Edit the date in the app and the event moves on Calendar. Clear the date and the event is deleted. Log a new interaction and the description updates with the latest context.\nCoach — a chat interface that reads the full snapshot of every active contact and answers questions like “who should I contact this week,” “draft a follow-up for Jane,” “who has accepted my LinkedIn but not replied.” Voice in, optional voice out. Read-only — can’t modify data, can’t send anything.\nBulk delete and timeline editing — checkboxes to clean up the contact list, per-row delete on the interaction timeline, manual date and action override on any contact’s recommendation card."
-  },
-  {
-    "objectID": "products/network-agent.html#how-it-works",
-    "href": "products/network-agent.html#how-it-works",
-    "title": "Personal Networking Agent",
-    "section": "How it works",
-    "text": "How it works\nA few choices that shaped the design:\n\nContact as snapshot, interactions as timeline. The contact record holds the current state (latest status, who they are, what’s next). A separate interactions table holds the append-only history of every touchpoint. The contact’s “last contact summary” is always the newest interaction; the full history is preserved underneath. Claude sees both when generating recommendations.\nCadence rules as prior, Claude as judgment layer. A small rules engine in lib/cadence.ts produces a default day count from string patterns in the contact’s status. Claude receives that default as a prior — not a ceiling — and is explicitly told to override longer when the default would feel pushy, shorter when there’s an offer or question cooling on the table. This gave a meaningful quality bump over rules-only output, especially for the “they said let’s reconnect next month” case that string-matching can’t catch.\nNo auth, no cloud, no exposure. The app is single-user and lives on my Mac. SQLite holds the data. A macOS LaunchAgent runs the production build on login and restarts it on crash. No public URL. No login screen needed, because the device itself is the access boundary.\nPrompt caching everywhere it matters. The intake parsing system prompt, the cadence rules, and the coach’s instructions are all marked cache_control: ephemeral. The first call writes the cache; every subsequent call within the 5-min window reads it at ~10% the cost. For the coach in particular — which ships a snapshot of every active contact in every turn — this kept per-question cost in the single-digit cents range even with adaptive thinking on.\nTool use for structured extraction, messages.create for everything else. Anywhere the model needs to return strict structured output (intake parsing, NBA recommendation with day count), the call uses tool use with a Zod-validated schema and tool_choice forced to the tool name. Anywhere it’s open-ended (coach replies, message drafts), it’s plain text generation.\nVoice as a first-class input, not an add-on. The browser’s built-in webkitSpeechRecognition handles dictation everywhere: intake, log interaction, coach. The coach has an “auto-send after voice” toggle so you can push to talk, release, and have it fire — no extra click. Optional speechSynthesis for replies, so it can be a hands-free conversation."
-  },
-  {
-    "objectID": "products/network-agent.html#my-role",
-    "href": "products/network-agent.html#my-role",
-    "title": "Personal Networking Agent",
-    "section": "My role",
-    "text": "My role\nSole builder. Built and shipped in roughly a day and a half across architecture, scaffolding, the schema and API surface, the cadence engine, the OAuth flow for Calendar, the voice integration, and the production deployment via launchd. Used Claude Code as the development environment."
-  },
-  {
-    "objectID": "products/network-agent.html#what-i-learned",
-    "href": "products/network-agent.html#what-i-learned",
-    "title": "Personal Networking Agent",
-    "section": "What I learned",
-    "text": "What I learned\n\nThe judgment layer is more valuable than the automation layer. I started by building rules for cadence, then put Claude on top of them. The rules alone produced recommendations that felt mechanical (“3 days for active threads”) and were often wrong for the specific contact. Adding Claude as the override layer — with explicit guidance about when to lean longer — closed most of that gap without sacrificing the determinism of the defaults. The tool is most useful when it has opinions, not when it follows a flowchart.\nAuto-send is a feature ceiling, not a floor. It’s the obvious next thing to build, and it’s the thing that would make the product worth less, not more. The whole point is that the user remains the sender. Anything that looks like a templated outreach immediately defeats the purpose of personal networking. The product is more useful precisely because it doesn’t do the most automatable thing.\nTool use is the right shape for structured intake. Versus prompt-engineered JSON output, forced tool_choice with a Zod-validated schema gave me predictable extraction with very few retries. The intake parser handles partial information cleanly — every field nullable — which matches how people actually describe contacts (rarely with a full bio in one go).\nCalendar is a better persistence layer than the app itself for the “act now” moment. I don’t want to open the networking tool to check who to reach out to today. I want to see “Follow up: Jane Doe — Citi” on my calendar where I’m already looking. Treating Google Calendar as the source-of-truth for when to act, and the app as the source-of-truth for who/why/what, kept both surfaces honest about their role.\nPersonal-use software has different deploy semantics than product software. This doesn’t need to be on Vercel. It doesn’t need real auth. It doesn’t need a Postgres tier. Running it on my own Mac with launchd auto-start gives me persistent local access, zero ongoing cost, and an attack surface of exactly one device. The right deploy for a single-user tool is the boring one."
-  },
-  {
-    "objectID": "products/network-agent.html#links",
-    "href": "products/network-agent.html#links",
-    "title": "Personal Networking Agent",
-    "section": "Links",
-    "text": "Links\nRepo is private. Happy to walk through the cadence rules, the intake tool-use schema, or the calendar integration."
-  },
-  {
     "objectID": "products/index.html",
     "href": "products/index.html",
     "title": "Products",
     "section": "",
     "text": "Working artifacts — tools, pipelines, and decision systems built to ship to real users.\n\n\n\n\n\n\n\n\n\n\nPersonal Networking Agent\n\n\nA networking CRM and chief-of-staff — natural-language intake, judgment-based follow-up cadence, Google Calendar reminders. Never auto-sends.\n\n\n\nAI Agents\n\nCRM\n\nAnthropic Claude\n\nPersonal-AI\n\nProductivity Systems\n\n\n\n\n\n\nJun 2026\n\n\n\n\n\n\n\nStartup Thesis Screener Pipeline\n\n\nMulti-agent pipeline that maps a 600+ company AI startup universe into a scored, visa-verified shortlist\n\n\n\nAI Agents\n\nPipeline\n\nDecision Systems\n\nFinancial Services\n\n\n\n\n\n\nMay 2026\n\n\n\n\n\n\n\nDaily News Aggregator with WhatsApp Push\n\n\nPersonalized AI ingestion, filtering, and summarization pipeline delivered as a morning digest to my phone\n\n\n\nAI Agents\n\nWorkflow Automation\n\nResearch Pipeline\n\nPersonal-AI\n\n\n\n\n\n\nOct 2025\n\n\n\n\n\n\n\nResume × JD Fit Review and Cover Letter Tool\n\n\nApplication workflow tool that evaluates candidate-role fit and generates targeted cover letters with explicit anti-cliché constraints\n\n\n\nAI Agents\n\nWorkflow Tool\n\nAnthropic Claude\n\nProductivity Systems\n\n\n\n\n\n\nMay 2025\n\n\n\n\n\n\n\nSQL Case Practice Agent\n\n\nEdge-case-driven SQL interview practice with AI evaluation and progress tracking\n\n\n\nAI Agents\n\nInterview Prep\n\nData Tooling\n\nWorkflow Design\n\n\n\n\n\n\nFeb 2025\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "products/sql-practice-agent.html",
-    "href": "products/sql-practice-agent.html",
-    "title": "SQL Case Practice Agent",
-    "section": "",
-    "text": "Type: Product · Domain: Data interview prep / SQL fluency Stack: Streamlit · DuckDB · OpenAI API · SQLite Status: Working internal tool · Role: Builder"
-  },
-  {
-    "objectID": "products/sql-practice-agent.html#one-line-summary",
-    "href": "products/sql-practice-agent.html#one-line-summary",
-    "title": "SQL Case Practice Agent",
-    "section": "One-line summary",
-    "text": "One-line summary\nA Streamlit-based interview-prep system that generates realistic SQL scenarios with intentional edge cases (NULLs, duplicates, orphaned foreign keys, same-second timestamps), evaluates my queries with an LLM against the scenario’s actual intent, and tracks my progress across sessions in a local SQLite database."
-  },
-  {
-    "objectID": "products/sql-practice-agent.html#why-i-built-this",
-    "href": "products/sql-practice-agent.html#why-i-built-this",
-    "title": "SQL Case Practice Agent",
-    "section": "Why I built this",
-    "text": "Why I built this\nConventional SQL interview prep fails in two specific ways.\nThe scenarios are too clean. LeetCode-style SQL problems and ad-hoc “ChatGPT, make me a SQL question” prompts both produce data without the dirt that real interviews test for — NULL handling, duplicate rows, orphaned foreign keys, ties on timestamps, edge cases on window functions. The questions you actually get in senior data interviews are about catching those edge cases, not about syntax.\nThere’s no progress signal. A practice tool that doesn’t track which patterns you’ve struggled with, what you’ve already seen, and what you keep missing isn’t a practice tool — it’s a problem generator. Real practice requires a feedback loop.\nI wanted a tool that surfaced realistic interview scenarios with intentional edge cases, evaluated my queries against the scenario’s underlying intent (not just the SQL correctness), and remembered what I’d worked on so I could see my own gaps."
-  },
-  {
-    "objectID": "products/sql-practice-agent.html#what-i-built",
-    "href": "products/sql-practice-agent.html#what-i-built",
-    "title": "SQL Case Practice Agent",
-    "section": "What I built",
-    "text": "What I built\nA Streamlit web app that:\n\nGenerates four interview-relevant test tables — users, transactions, logins, subscriptions — populated with deliberately seeded edge cases:\n\nNULL values in user status\nDuplicate transaction rows (same txn_id, same timestamp)\nOrphaned user_ids in the transactions table (FK violations against the users table)\nSame-second login timestamps for the same user (window-function trap)\nVarying subscription plan types and overlapping date ranges\n\nRuns my queries against in-memory DuckDB — same ANSI-SQL semantics as Postgres-class engines, but zero setup overhead\nEvaluates each query with OpenAI — does my query handle the NULLs correctly? Did I dedupe the duplicate transactions? Did I account for orphaned FKs? The LLM evaluates against the scenario’s intent, not just whether the SQL ran\nTracks progress in SQLite (progress.db) — every attempt is stored with timestamp, scenario type, query text, and pass/fail, so I can see which edge cases I keep missing"
-  },
-  {
-    "objectID": "products/sql-practice-agent.html#how-it-works",
-    "href": "products/sql-practice-agent.html#how-it-works",
-    "title": "SQL Case Practice Agent",
-    "section": "How it works",
-    "text": "How it works\n\nStreamlit handles the UI and session state — text editor for the SQL, run-button, results display, evaluation panel\nDuckDB runs the query against the test tables in-process. Fast, ANSI-SQL compliant, no installation\nOpenAI API receives the scenario description, the seeded data, and my query, then evaluates: which edge cases did I catch, which did I miss, and what would the interview-quality answer look like\nSQLite (progress.db) persists attempts across sessions — schema covers attempt timestamp, scenario tag, query text, outcome\n@st.cache_data on the data generators keeps the test tables stable across re-runs in the same session\n\nThe scenarios cover the patterns I kept missing in actual interviews — that’s how I picked them. The edge cases aren’t random; they’re encoded versions of the questions I got wrong."
-  },
-  {
-    "objectID": "products/sql-practice-agent.html#my-role",
-    "href": "products/sql-practice-agent.html#my-role",
-    "title": "SQL Case Practice Agent",
-    "section": "My role",
-    "text": "My role\nSole builder. Designed the scenario taxonomy (what categories of edge cases matter for senior data interviews), wrote the test-data generator with the trap conditions, wrote the evaluation prompts that make the LLM grade against scenario intent rather than just SQL correctness, wired the persistence layer, and iterated on the prompts based on what kept slipping through."
-  },
-  {
-    "objectID": "products/sql-practice-agent.html#what-i-learned",
-    "href": "products/sql-practice-agent.html#what-i-learned",
-    "title": "SQL Case Practice Agent",
-    "section": "What I learned",
-    "text": "What I learned\n\nThe hard part of SQL interview prep isn’t writing queries — it’s recognizing the trap the interviewer is testing for. A practice tool that surfaces those traps systematically is more useful than another 200 LeetCode problems.\nDuckDB is the right execution engine for a local practice tool. Same semantics as real warehouses, zero setup, instant feedback. Spinning up real Postgres for a practice loop is overkill.\nThe evaluation prompt is the differentiator vs. a static problem set. Anyone can generate questions; what makes this tool useful is the LLM reading what edge case the scenario tested and telling me whether my query caught it.\nProgress tracking matters more than scenario variety. I get a lot more value from re-attempting the cases I’ve missed than from generating new ones."
-  },
-  {
-    "objectID": "products/sql-practice-agent.html#links",
-    "href": "products/sql-practice-agent.html#links",
-    "title": "SQL Case Practice Agent",
-    "section": "Links",
-    "text": "Links\nRepo is private. Happy to demo or walk through the scenario taxonomy and evaluation prompts."
-  },
-  {
-    "objectID": "products/resume-jd-review-tool.html",
-    "href": "products/resume-jd-review-tool.html",
-    "title": "Resume × JD Fit Review and Cover Letter Tool",
-    "section": "",
-    "text": "Type: Product · Domain: Job application workflow / candidate-role fit Stack: Python · Flask · Anthropic Claude API · pdfplumber · python-docx · Docker · Render Status: Deployable web app · Role: Builder"
-  },
-  {
-    "objectID": "products/resume-jd-review-tool.html#one-line-summary",
-    "href": "products/resume-jd-review-tool.html#one-line-summary",
-    "title": "Resume × JD Fit Review and Cover Letter Tool",
-    "section": "One-line summary",
-    "text": "One-line summary\nA Flask-based workflow tool that parses a JD and a resume (PDF or DOCX), evaluates candidate-role fit by identifying the role’s actual business problems and matching them against the candidate’s strongest evidence, then generates a cover letter with strict anti-cliché constraints — designed for signal, not for prettier generic text."
-  },
-  {
-    "objectID": "products/resume-jd-review-tool.html#why-i-built-this",
-    "href": "products/resume-jd-review-tool.html#why-i-built-this",
-    "title": "Resume × JD Fit Review and Cover Letter Tool",
-    "section": "Why I built this",
-    "text": "Why I built this\nGeneric AI cover-letter tools write the way AI cover-letter tools write. Abstract phrasing. Endless em-dashes. Openings that could apply to any company. Sentences that stack three “intersection of X / Y / Z” clauses. The output looks polished and reads as obviously generated — exactly the wrong signal for senior roles.\nThe problem isn’t the writing step. The problem is the thinking step. Most tools jump straight from “JD + resume” to “write a cover letter,” which means the model has to invent fit on the fly. The result is text that gestures at fit instead of demonstrating it.\nI wanted a tool that did the analytical work upstream: identify the role’s two or three actual business problems, identify the two or three strongest pieces of evidence from the resume that prove the candidate can solve them, decide a central story in one sentence, and then write — stripping everything that doesn’t serve that story."
-  },
-  {
-    "objectID": "products/resume-jd-review-tool.html#what-i-built",
-    "href": "products/resume-jd-review-tool.html#what-i-built",
-    "title": "Resume × JD Fit Review and Cover Letter Tool",
-    "section": "What I built",
-    "text": "What I built\nA Flask web app that:\n\nAccepts a JD (paste or URL) and a resume upload (PDF parsed via pdfplumber, DOCX via python-docx)\nCalls Claude with a structured system prompt that forces the model to do the analytical work before generation — silently identify the role’s biggest business problems, pick matching resume evidence, decide a central story, strip everything else\nReturns a cover letter in standard business-letter format with explicit constraints: name the company in the opening paragraph, no “I am excited to apply,” at most one em-dash in the whole letter, no abstract phrases like “sits at the intersection,” “growth enablement,” “portfolio economics,” “at scale,” “evolving X stack”\nHas a domain-specific variant for financial services, credit risk, risk analytics, and data science roles — emphasizes credit judgment, business tradeoffs, and cross-functional trust as evidence, rather than tools and model architectures\nDeploys to Render via Dockerfile + render.yaml — one-click hosted"
-  },
-  {
-    "objectID": "products/resume-jd-review-tool.html#how-it-works",
-    "href": "products/resume-jd-review-tool.html#how-it-works",
-    "title": "Resume × JD Fit Review and Cover Letter Tool",
-    "section": "How it works",
-    "text": "How it works\nThe bulk of the engineering is in the system prompt. The prompt enforces:\n\nPre-writing analysis (silent, model-internal): identify the 2-3 biggest business problems the role is hiring to solve, identify the 2-3 strongest resume signals, decide the central story\nStrict format: standard business-letter greeting + 4-5 short paragraphs + sign-off\nOpening discipline: must name the company in the first paragraph, must connect the company’s specific business or problem to the candidate’s experience, must not be reusable for any other company\nNo resume regurgitation: the cover letter adds interpretation, prioritization, motivation, and fit — it doesn’t restate the experience the resume already lists\nAnti-cliché constraints: explicit blocklist of phrases the model loves to use, hard limit of one em-dash in the entire letter, no list-style sentences\nDomain branching: FS/credit-risk roles use the FS-specific prompt that emphasizes business judgment and tradeoffs, not technical tools\n\nThe model can be re-run on individual paragraphs for refinement without regenerating the whole letter."
-  },
-  {
-    "objectID": "products/resume-jd-review-tool.html#my-role",
-    "href": "products/resume-jd-review-tool.html#my-role",
-    "title": "Resume × JD Fit Review and Cover Letter Tool",
-    "section": "My role",
-    "text": "My role\nSole builder. The Flask + parsing layer was straightforward (a day). The system prompts were 80% of the work — tuning each constraint, testing against multiple JD types (consulting, fintech, risk, generic SaaS), and iteratively removing the specific failure modes I kept seeing in the output. Deployed to Render with Docker."
-  },
-  {
-    "objectID": "products/resume-jd-review-tool.html#what-i-learned",
-    "href": "products/resume-jd-review-tool.html#what-i-learned",
-    "title": "Resume × JD Fit Review and Cover Letter Tool",
-    "section": "What I learned",
-    "text": "What I learned\n\nCover-letter quality is upstream of generation. Forcing the model to do explicit business-problem identification before writing changes the output more than any post-generation editing prompt. Move the work upstream.\nAnti-cliché rules have to be specific and enumerated. “Avoid clichés” doesn’t work. “Do not use the phrases X, Y, Z” works. The model is trained to write the clichés; you have to list them by name and block them.\nDomain variants matter more than I expected. A generic prompt produces a generic letter. A prompt that knows the target is a credit-risk role (and therefore frames technical work as evidence of business judgment, not as the main story) produces a noticeably stronger letter.\nThe most useful product feature is the silent pre-analysis. Users don’t see it, but it’s why the output reads like a person wrote it."
-  },
-  {
-    "objectID": "products/resume-jd-review-tool.html#links",
-    "href": "products/resume-jd-review-tool.html#links",
-    "title": "Resume × JD Fit Review and Cover Letter Tool",
-    "section": "Links",
-    "text": "Links\nRepo is private. Happy to walk through the system prompts and the FS-domain variant."
   },
   {
     "objectID": "products/news-aggregator.html",
@@ -371,6 +70,62 @@
     "text": "Links\nRepo is private (contains Twilio + Anthropic API patterns and account-state helpers). Happy to walk through the architecture or the WhatsApp-window handling."
   },
   {
+    "objectID": "products/network-agent.html",
+    "href": "products/network-agent.html",
+    "title": "Personal Networking Agent",
+    "section": "",
+    "text": "Type: Product · Domain: Networking / career relationship management Stack: Next.js 15 · React 19 · TypeScript · Tailwind v4 · SQLite · Prisma · Anthropic Claude API (Opus 4.7 + Sonnet 4.6) · Google Calendar API · Web Speech API Status: Running locally on my Mac via launchd · Role: Sole builder"
+  },
+  {
+    "objectID": "products/network-agent.html#one-line-summary",
+    "href": "products/network-agent.html#one-line-summary",
+    "title": "Personal Networking Agent",
+    "section": "One-line summary",
+    "text": "One-line summary\nA personal CRM for managing alumni, recruiters, hiring managers, founders, and warm intros across a long career — built to help me think about timing, fit, and next steps, not to send messages on my behalf."
+  },
+  {
+    "objectID": "products/network-agent.html#why-i-built-this",
+    "href": "products/network-agent.html#why-i-built-this",
+    "title": "Personal Networking Agent",
+    "section": "Why I built this",
+    "text": "Why I built this\nNetworking tools mostly come in two shapes: automation bots that blast templated messages at scale, or enterprise CRMs designed for sales pipelines. Neither is what an individual professional actually needs.\nThe work of networking isn’t writing more messages. It’s remembering who you met, what you talked about, how warm the relationship is, what you owe them and they owe you, and — most importantly — when to follow up so you don’t seem pushy or, equally bad, forgotten. Most of that is judgment, not throughput. The bottleneck is memory and timing, not message volume.\nI wanted a tool that:\n\nintakes contacts in plain English (voice or text) — so the friction of logging a conversation is zero\nholds a structured record of every interaction over time, not just a snapshot\nrecommends a next-best-action that’s a concrete sentence, not a vague “follow up”\ndecides when to follow up using both deterministic rules and contextual judgment\nwrites follow-up reminders to my personal Google Calendar so the prompt to act shows up where I already live\nnever, ever sends a message on my behalf\n\nThe hard rule is the last one. Auto-sent networking outreach feels exactly like what it is, and it burns the relationship the moment the recipient suspects it’s not really you. The judgment of whether and what to send has to stay with me."
+  },
+  {
+    "objectID": "products/network-agent.html#what-i-built",
+    "href": "products/network-agent.html#what-i-built",
+    "title": "Personal Networking Agent",
+    "section": "What I built",
+    "text": "What I built\nA Next.js application I run on my own Mac. Single user, no auth, fully local data.\n\nQuick Add — type or dictate a free-form description of a contact (“I met a Columbia alum at a fintech event, she works at Citi in first-party fraud analytics, connected on LinkedIn but no reply, remind me in 7 days”). A Claude Sonnet 4.6 call with tool-use returns a fully structured contact record with ~25 fields, which I review and edit before saving.\nLog new interaction — on any existing contact, I can dictate “had a 20-min call today, she’s open to introing me to her manager,” and the system parses it into a timeline entry, replaces the contact’s current status, regenerates the recommended action, and patches the calendar event in place.\nNext best action engine — a deterministic rules engine (e.g. “active reply thread → 5 days,” “LinkedIn nudge no reply → 7-day nudge then 21-day, then archive at 45”) feeds a Claude Opus 4.7 call that returns both a one-sentence recommendation and a follow-up day count, with explicit guidance to lean longer when the default would feel pushy.\nGoogle Calendar reminders — each contact gets one event on their next follow-up date. Edit the date in the app and the event moves on Calendar. Clear the date and the event is deleted. Log a new interaction and the description updates with the latest context.\nCoach — a chat interface that reads the full snapshot of every active contact and answers questions like “who should I contact this week,” “draft a follow-up for Jane,” “who has accepted my LinkedIn but not replied.” Voice in, optional voice out. Read-only — can’t modify data, can’t send anything.\nBulk delete and timeline editing — checkboxes to clean up the contact list, per-row delete on the interaction timeline, manual date and action override on any contact’s recommendation card."
+  },
+  {
+    "objectID": "products/network-agent.html#how-it-works",
+    "href": "products/network-agent.html#how-it-works",
+    "title": "Personal Networking Agent",
+    "section": "How it works",
+    "text": "How it works\nA few choices that shaped the design:\n\nContact as snapshot, interactions as timeline. The contact record holds the current state (latest status, who they are, what’s next). A separate interactions table holds the append-only history of every touchpoint. The contact’s “last contact summary” is always the newest interaction; the full history is preserved underneath. Claude sees both when generating recommendations.\nCadence rules as prior, Claude as judgment layer. A small rules engine in lib/cadence.ts produces a default day count from string patterns in the contact’s status. Claude receives that default as a prior — not a ceiling — and is explicitly told to override longer when the default would feel pushy, shorter when there’s an offer or question cooling on the table. This gave a meaningful quality bump over rules-only output, especially for the “they said let’s reconnect next month” case that string-matching can’t catch.\nNo auth, no cloud, no exposure. The app is single-user and lives on my Mac. SQLite holds the data. A macOS LaunchAgent runs the production build on login and restarts it on crash. No public URL. No login screen needed, because the device itself is the access boundary.\nPrompt caching everywhere it matters. The intake parsing system prompt, the cadence rules, and the coach’s instructions are all marked cache_control: ephemeral. The first call writes the cache; every subsequent call within the 5-min window reads it at ~10% the cost. For the coach in particular — which ships a snapshot of every active contact in every turn — this kept per-question cost in the single-digit cents range even with adaptive thinking on.\nTool use for structured extraction, messages.create for everything else. Anywhere the model needs to return strict structured output (intake parsing, NBA recommendation with day count), the call uses tool use with a Zod-validated schema and tool_choice forced to the tool name. Anywhere it’s open-ended (coach replies, message drafts), it’s plain text generation.\nVoice as a first-class input, not an add-on. The browser’s built-in webkitSpeechRecognition handles dictation everywhere: intake, log interaction, coach. The coach has an “auto-send after voice” toggle so you can push to talk, release, and have it fire — no extra click. Optional speechSynthesis for replies, so it can be a hands-free conversation."
+  },
+  {
+    "objectID": "products/network-agent.html#my-role",
+    "href": "products/network-agent.html#my-role",
+    "title": "Personal Networking Agent",
+    "section": "My role",
+    "text": "My role\nSole builder. Built and shipped in roughly a day and a half across architecture, scaffolding, the schema and API surface, the cadence engine, the OAuth flow for Calendar, the voice integration, and the production deployment via launchd. Used Claude Code as the development environment."
+  },
+  {
+    "objectID": "products/network-agent.html#what-i-learned",
+    "href": "products/network-agent.html#what-i-learned",
+    "title": "Personal Networking Agent",
+    "section": "What I learned",
+    "text": "What I learned\n\nThe judgment layer is more valuable than the automation layer. I started by building rules for cadence, then put Claude on top of them. The rules alone produced recommendations that felt mechanical (“3 days for active threads”) and were often wrong for the specific contact. Adding Claude as the override layer — with explicit guidance about when to lean longer — closed most of that gap without sacrificing the determinism of the defaults. The tool is most useful when it has opinions, not when it follows a flowchart.\nAuto-send is a feature ceiling, not a floor. It’s the obvious next thing to build, and it’s the thing that would make the product worth less, not more. The whole point is that the user remains the sender. Anything that looks like a templated outreach immediately defeats the purpose of personal networking. The product is more useful precisely because it doesn’t do the most automatable thing.\nTool use is the right shape for structured intake. Versus prompt-engineered JSON output, forced tool_choice with a Zod-validated schema gave me predictable extraction with very few retries. The intake parser handles partial information cleanly — every field nullable — which matches how people actually describe contacts (rarely with a full bio in one go).\nCalendar is a better persistence layer than the app itself for the “act now” moment. I don’t want to open the networking tool to check who to reach out to today. I want to see “Follow up: Jane Doe — Citi” on my calendar where I’m already looking. Treating Google Calendar as the source-of-truth for when to act, and the app as the source-of-truth for who/why/what, kept both surfaces honest about their role.\nPersonal-use software has different deploy semantics than product software. This doesn’t need to be on Vercel. It doesn’t need real auth. It doesn’t need a Postgres tier. Running it on my own Mac with launchd auto-start gives me persistent local access, zero ongoing cost, and an attack surface of exactly one device. The right deploy for a single-user tool is the boring one."
+  },
+  {
+    "objectID": "products/network-agent.html#links",
+    "href": "products/network-agent.html#links",
+    "title": "Personal Networking Agent",
+    "section": "Links",
+    "text": "Links\nRepo is private. Happy to walk through the cadence rules, the intake tool-use schema, or the calendar integration."
+  },
+  {
     "objectID": "products/startup-screener-pipeline.html",
     "href": "products/startup-screener-pipeline.html",
     "title": "Startup Thesis Screener Pipeline",
@@ -432,6 +187,41 @@
     "title": "Startup Thesis Screener Pipeline",
     "section": "Code",
     "text": "Code\nPipeline code is private due to commercial sensitivity around the screened companies and personal visa data. Happy to walk through the architecture and methodology in conversation."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "📍 Based in New York City  ·  Open to relocation"
+  },
+  {
+    "objectID": "about.html#how-i-got-here",
+    "href": "about.html#how-i-got-here",
+    "title": "About",
+    "section": "How I got here",
+    "text": "How I got here\nI started in financial services and spent a decade close to the messiest, highest-stakes problems in the industry: credit risk, underwriting, lending analytics, and decision systems.\nI built and validated models that decided whether real customers got real credit. Designed analytics that informed how capital was allocated. Translated regulatory and commercial constraints into systems that had to work — under scrutiny, at scale, with real money on the line.\nThe hard part was rarely the math. The hard part was structuring ambiguity, building shared understanding across functions, and shipping artifacts — products, models, memos — that survived contact with reality.\nThe last two years, my work has shifted toward AI-native execution. I build agent systems that compress weeks of research into hours. I run multi-source market scans that would have required a consulting team. I use AI to expand the surface area of what one operator can ship — not as a hobby, not as a tool I’m exploring, but as the central way I work.\n\nBoth halves of my career converge on the same thing — turning complex, data-heavy business problems into products, analyses, and decisions that hold up under scrutiny."
+  },
+  {
+    "objectID": "about.html#what-im-best-at",
+    "href": "about.html#what-im-best-at",
+    "title": "About",
+    "section": "What I’m best at",
+    "text": "What I’m best at\n\nTranslating ambiguity into structure. Messy markets, undefined opportunities, decisions under uncertainty — these are where I add the most.\nConnecting domain depth to execution. Financial services taught me what regulators, customers, and operators actually care about. AI-native workflows let me ship faster than the org chart would suggest.\nCross-functional range. I’ve operated as analyst, modeler, product partner, strategist, and builder. I read the business, the data, and the system simultaneously.\nBuilding artifacts, not just opinions. I’d rather ship a working prototype, a rigorous memo, or a decision-ready model than write a deck."
+  },
+  {
+    "objectID": "about.html#where-i-create-the-most-leverage",
+    "href": "about.html#where-i-create-the-most-leverage",
+    "title": "About",
+    "section": "Where I create the most leverage",
+    "text": "Where I create the most leverage\nThe strongest fit is where financial services depth and AI-native execution compound — at companies solving real, high-stakes problems under regulatory and commercial constraint, where shipping the right artifact matters more than writing the right deck.\n\nForward-deployed AI, decision intelligence, and AI-product roles at high-upside startups (seed–Series B)\nOperator and founding-team seats in vertical AI, financial services AI, RegTech, insurtech, or decision systems\nStrategy and product roles at fintech and financial services companies where AI-native execution is the differentiator, not the marketing"
+  },
+  {
+    "objectID": "about.html#how-i-work",
+    "href": "about.html#how-i-work",
+    "title": "About",
+    "section": "How I work",
+    "text": "How I work\n\n\nBuild reusable systems over ad-hoc analyses. One-off work has a half-life; reusable systems compound across problems.\n\n\nBe skeptical of AI marketing. Obsess over what actually works under regulatory and commercial constraint. Eval data beats demo videos.\n\n\nCompose tight, well-scoped artifacts. Skip monolithic prototypes and sprawling notebooks. Small, composable, shipped.\n\n\nShip in the medium that fits. Python, SQL, R, Claude Code agent pipelines, structured writing — match the artifact to the decision it serves.\n\n\n\nGet in touch\n\nEmail: xxshen752@gmail.com\nLinkedIn: linkedin.com/in/xuanxuan-shen\nGitHub: github.com/shenxuan752"
   },
   {
     "objectID": "analyses/visa-sponsor-search.html",
@@ -551,5 +341,215 @@
     "title": "AI Startup Landscape — 653 Companies, May 2026",
     "section": "Data & code",
     "text": "Data & code\nUnderlying company data and rankings are private (commercial sensitivity around individual companies and visa inferences). The methodology and scoring framework are documented in the Startup Screener Pipeline write-up.\nThe pipeline can be re-run monthly using the delta-template I built. As of this analysis date (May 2026), the universe had been refreshed twice — once in the initial scan and once via targeted gap-fill across underserved verticals (Legal, PropTech, HR, Climate)."
+  },
+  {
+    "objectID": "analyses/nyc-cannabis-market.html",
+    "href": "analyses/nyc-cannabis-market.html",
+    "title": "NYC Cannabis Dispensary Market — Where the Unit Economics Actually Work",
+    "section": "",
+    "text": "Type: Analysis (operator decision memo) · Domain: Regulated cannabis market, NY Office of Cannabis Management (OCM) Method: Public OCM licensing data · Comparative submarket analysis · Scoring framework Status: Final report · Role: Analyst"
+  },
+  {
+    "objectID": "analyses/nyc-cannabis-market.html#core-question",
+    "href": "analyses/nyc-cannabis-market.html#core-question",
+    "title": "NYC Cannabis Dispensary Market — Where the Unit Economics Actually Work",
+    "section": "Core question",
+    "text": "Core question\nAdult-use cannabis legalized in NY in 2023. The NYC dispensary market has been a fragmented, partially-illegal rollout — uneven license issuance, parallel unlicensed market, regulatory uncertainty, sharp variance across submarkets.\nThe decision this memo answers:\n\nOut of the operating environments available in NYC, which submarkets and operator strategies have unit economics that survive the first 3–5 years of regulatory tightening — and which look attractive in the aggregate data but are bait traps for new entrants?"
+  },
+  {
+    "objectID": "analyses/nyc-cannabis-market.html#why-this-matters",
+    "href": "analyses/nyc-cannabis-market.html#why-this-matters",
+    "title": "NYC Cannabis Dispensary Market — Where the Unit Economics Actually Work",
+    "section": "Why this matters",
+    "text": "Why this matters\nThe first wave of post-CAURD operators has produced wildly different outcomes depending on location, license type, and operational discipline. Generic industry forecasts treat the NYC dispensary market as one number; the reality is high variance across submarkets driven by zoning, enforcement pressure, foot traffic, demographic mix, and competitive density (both licensed and unlicensed).\nPicking the right submarket is the single biggest predictor of whether a dispensary survives. A scoring framework that holds up under operational scrutiny — not just an industry-overview deck — is what an actual operator needs."
+  },
+  {
+    "objectID": "analyses/nyc-cannabis-market.html#method",
+    "href": "analyses/nyc-cannabis-market.html#method",
+    "title": "NYC Cannabis Dispensary Market — Where the Unit Economics Actually Work",
+    "section": "Method",
+    "text": "Method\nThree-stage operator analysis. Deliverables A, B, and C correspond to the three stages.\n\nStage 1 — Framework definition (Deliverable A: full report)\nDefined the decision criteria explicitly:\n\nUnit economics — revenue per sqft, expected gross margin, payback period, working capital intensity\nCompetitive density — licensed dispensary count + unlicensed retailer footprint within a measurable radius\nRegulatory exposure — zoning, enforcement track record by precinct, license-type constraints\nOperator-side requirements — capex, license type implications, location lock-in\nDemographic and foot-traffic signal — density, daytime vs. residential, retail corridor character\n\nBuilt a scoring rubric that could be applied consistently across candidate locations and operator strategies — the same lens applied uniformly is what lets the analysis hold up under interrogation.\n\n\nStage 2 — Market analysis\n\nMapped the licensed and unlicensed retailer footprint across NYC at the time of analysis\nProfiled vertical segments: retail dispensary, delivery, processing/manufacturing, cultivation, ancillary services to licensed operators\nIdentified the structural dynamics compressing margins fastest (license-issuance acceleration, unlicensed enforcement variance, supply-side capex)\n\n\n\nStage 3 — Scoring and shortlist (Deliverables B and C)\n\nApplied the scoring model from Stage 1 to candidate locations and strategies\nProduced a ranked shortlist with a unit-economics view per option\nFlagged which strategies looked attractive in aggregate market data but were vulnerable to the specific failure modes surfaced in Stage 2"
+  },
+  {
+    "objectID": "analyses/nyc-cannabis-market.html#key-findings",
+    "href": "analyses/nyc-cannabis-market.html#key-findings",
+    "title": "NYC Cannabis Dispensary Market — Where the Unit Economics Actually Work",
+    "section": "Key findings",
+    "text": "Key findings\n\nLicensed retail margins compress fast as license issuance accelerates. First-mover advantage is real but short; the early-licensee economics are not replicable for entrants who arrive 18 months later. Modeling the early-cohort margin as a forecast for entrants in 2026 is the most common mistake in the industry decks.\nDelivery is structurally worse than the marketing suggests. Last-mile compliance costs, narrow basket sizes, and platform fees crush unit economics for any operator without an existing retail anchor. Pure-play delivery operators in the analyzed dataset consistently underperformed retail on a contribution-margin basis.\nProcessing and manufacturing show the most defensible margins. Capex is meaningful but workflow IP and B2B relationships create real moat. Several strongest operators in NYC at the time of analysis were vertically integrated upstream — that’s where the spread between the public narrative and the actual P&L is widest.\nAncillary services to licensed operators (compliance software, lab testing, security) are the under-discussed opportunity. Lower regulatory exposure, transferable across states, and the buyer is a regulated operator with a real procurement budget and no incumbent vendor of substance.\nThe unlicensed market is the binding constraint on every licensed submarket. Until enforcement materially changes storefront density, licensed retail competes on a tilted field — and the variance is per-block, not aggregate. The single biggest predictor of licensed-retail revenue at the time of analysis was the count of unlicensed storefronts within a ten-block radius."
+  },
+  {
+    "objectID": "analyses/nyc-cannabis-market.html#recommendation",
+    "href": "analyses/nyc-cannabis-market.html#recommendation",
+    "title": "NYC Cannabis Dispensary Market — Where the Unit Economics Actually Work",
+    "section": "Recommendation",
+    "text": "Recommendation\nFor a new operator in 2026:\n\nDon’t enter retail unless you have a unique cost-of-capital or location advantage that isn’t already priced into early-licensee bids\nTwo strongest entry points: upstream processing/manufacturing (defensible margins, real moat) or ancillary services to licensed operators (lower regulatory exposure, multi-state portability)\nDelivery is a value trap absent existing retail anchors\nThe asymmetric upside is in compliance and operations software for licensed operators — a small, growing buyer base with a real procurement budget and no incumbent solution\n\nThe detailed location- and strategy-level shortlist sits in Deliverable C."
+  },
+  {
+    "objectID": "analyses/nyc-cannabis-market.html#what-id-investigate-next",
+    "href": "analyses/nyc-cannabis-market.html#what-id-investigate-next",
+    "title": "NYC Cannabis Dispensary Market — Where the Unit Economics Actually Work",
+    "section": "What I’d investigate next",
+    "text": "What I’d investigate next\n\nConcrete bottom-up unit economics on the top three vertically-integrated operators (most public data is operator-friendly press, not financials)\nActual basket size and CAC trajectory for delivery operators after the 2024–25 enforcement actions (the enforcement step-change should materially shift delivery economics — needs a follow-up scan)\nWhether 2025–26 MSO capital changes the licensed-retail calculus — large multi-state operators entering NY at scale could re-rate the competitive density faster than the current trajectory implies"
+  },
+  {
+    "objectID": "analyses/nyc-cannabis-market.html#deliverables",
+    "href": "analyses/nyc-cannabis-market.html#deliverables",
+    "title": "NYC Cannabis Dispensary Market — Where the Unit Economics Actually Work",
+    "section": "Deliverables",
+    "text": "Deliverables\n\nStage 1 — Framework: Scoring criteria, decision rubric, regulatory map (8KB memo)\nStage 2 — Market analysis: Submarket dynamics, competitive density, regulatory exposure (18KB)\nDeliverable A — Full report: Compiled 32-page memo\nDeliverable B — Scoring model: Per-location and per-strategy scoring with weights\nDeliverable C — Ranked shortlist: Top siting options + strategy recommendations\nFinal PDF report (1.3MB) — available on request\n\nUnderlying data combines public OCM licensing filings with comparative submarket analysis. Available on request."
+  },
+  {
+    "objectID": "analyses/index.html",
+    "href": "analyses/index.html",
+    "title": "Analyses",
+    "section": "",
+    "text": "Each one is structured like an operator memo: explicit question, tight methodology, findings ranked by what would change the decision.\n\n\n\n\n\n\n\n\n\n\nAI Startup Landscape — 653 Companies, May 2026\n\n\nMethodology and findings from a thesis-driven scan of AI/data startups at seed–Series B\n\n\n\nMarket Analysis\n\nAI Startups\n\nDecision Systems\n\n\n\n\n\n\nMay 2026\n\n\n\n\n\n\n\nH-1B / PERM Sponsor Search — Structured Employer Prioritization\n\n\nScored, evidence-based shortlist of 100 US employers built from fragmented visa and hiring data\n\n\n\nDecision Support\n\nImmigration Analytics\n\nData Pipeline\n\nEmployer Research\n\n\n\n\n\n\nMay 2025\n\n\n\n\n\n\n\nNYC Cannabis Dispensary Market — Where the Unit Economics Actually Work\n\n\nOperator decision memo with framework, market scan, scoring model, and ranked shortlist for siting a NYC dispensary\n\n\n\nMarket Analysis\n\nRegulated Industry\n\nOperator Strategy\n\nUnit Economics\n\n\n\n\n\n\nApr 2025\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Xuanxuan (Ava) Shen",
+    "section": "",
+    "text": "Background\n\n\n10 years in financial services — credit risk, underwriting, lending analytics, decision systems\n\n\nFocus\n\n\nAI-native pipelines, operator memos, and decision tools\n\n\nStage\n\n\nSenior IC, lead, director, or founding-team\n\n\nLocation\n\n\nNew York City — open to relocation"
+  },
+  {
+    "objectID": "index.html#why-this-mix-matters",
+    "href": "index.html#why-this-mix-matters",
+    "title": "Xuanxuan (Ava) Shen",
+    "section": "Why this mix matters",
+    "text": "Why this mix matters\n\n\n\n01\n\n\nDomain depth that survives scrutiny\nA decade in financial services means I know what regulators, customers, and operators actually care about. Models that decide credit, analytics that allocate capital, systems built under real constraint.\n\n\n\n\n02\n\n\nAI-native execution as a leverage multiplier\nI use AI as core leverage for research, synthesis, prototyping, and shipping — not as a tool I’m interested in. It expands the surface area of what one operator can deliver.\n\n\n\n\n03\n\n\nThe combination is rare\nMost AI-native operators don’t have the domain depth. Most domain experts haven’t rebuilt their workflows around AI. The intersection is where I work."
+  },
+  {
+    "objectID": "index.html#what-i-work-on",
+    "href": "index.html#what-i-work-on",
+    "title": "Xuanxuan (Ava) Shen",
+    "section": "What I work on",
+    "text": "What I work on\n\n\nCapability 01\n\nRisk & Financial Systems\nA decade designing, validating, and shipping credit risk, underwriting, and lending analytics under regulatory and commercial constraint.\n\n\n\nCapability 02\n\nAI-native Execution\nMulti-agent pipelines and AI-assisted research that compress weeks of analysis into hours of run-time plus human review.\n\n\n\nCapability 03\n\nProducts & Decision Systems\nTools, internal pipelines, and workflows that move ambiguity into structure into shipped code — used by real operators.\n\n\n\nCapability 04\n\nStrategy & Operator Memos\nMarket scans, opportunity evaluations, and risk write-ups built to inform real decisions — not to look smart."
+  },
+  {
+    "objectID": "index.html#selected-work",
+    "href": "index.html#selected-work",
+    "title": "Xuanxuan (Ava) Shen",
+    "section": "Selected work",
+    "text": "Selected work\n\n\nFeatured Product\nPersonal Networking Agent\nA personal CRM and chief-of-staff for career-long networking, built on Next.js and the Claude API. Voice-first intake, rules-plus-judgment follow-up cadence, Google Calendar reminders. Designed never to auto-send — judgment stays with the user.\nAI AgentsCRMPersonal-AI\n\n\nFeatured Product\nStartup Thesis Screener Pipeline\nMulti-agent pipeline that maps a 600+ company AI startup universe into a scored, visa-verified shortlist — in three hours of parallel agent runtime instead of weeks of manual research.\nAI AgentsDecision SystemsFinancial Services\n\n\nFeatured Analysis\nAI Startup Landscape — 653 Companies\nMethodology and findings from a thesis-driven scan of AI/data startups at seed–Series B, with verified visa evidence and operator-grade recommendations.\nMarket AnalysisAI StartupsDecision Systems\n\n\n\nSee all products →     See all analyses →"
+  },
+  {
+    "objectID": "index.html#what-im-doing-now",
+    "href": "index.html#what-im-doing-now",
+    "title": "Xuanxuan (Ava) Shen",
+    "section": "What I’m doing now",
+    "text": "What I’m doing now\n\n\nBuilding\n\nAI-assisted research pipelines and decision systems\nOperator memos and market analyses for vertical-AI and financial services\nTools that compress weeks of work into hours\n\n\n\nExploring\n\nSenior IC, operator, founding-data, and product roles\nFounders and operators in fintech, RegTech, insurtech, decision intelligence\nWriting on credit risk, AI-native workflows, and operator strategy\n\n\n\n\nGet in touch\nBest way to reach me is xxshen752@gmail.com. I read every thoughtful note.\nFor warm intros and recruiter pings, LinkedIn. For code and pipelines, GitHub."
+  },
+  {
+    "objectID": "products/sql-practice-agent.html",
+    "href": "products/sql-practice-agent.html",
+    "title": "SQL Case Practice Agent",
+    "section": "",
+    "text": "Type: Product · Domain: Data interview prep / SQL fluency Stack: Streamlit · DuckDB · OpenAI API · SQLite Status: Working internal tool · Role: Builder"
+  },
+  {
+    "objectID": "products/sql-practice-agent.html#one-line-summary",
+    "href": "products/sql-practice-agent.html#one-line-summary",
+    "title": "SQL Case Practice Agent",
+    "section": "One-line summary",
+    "text": "One-line summary\nA Streamlit-based interview-prep system that generates realistic SQL scenarios with intentional edge cases (NULLs, duplicates, orphaned foreign keys, same-second timestamps), evaluates my queries with an LLM against the scenario’s actual intent, and tracks my progress across sessions in a local SQLite database."
+  },
+  {
+    "objectID": "products/sql-practice-agent.html#why-i-built-this",
+    "href": "products/sql-practice-agent.html#why-i-built-this",
+    "title": "SQL Case Practice Agent",
+    "section": "Why I built this",
+    "text": "Why I built this\nConventional SQL interview prep fails in two specific ways.\nThe scenarios are too clean. LeetCode-style SQL problems and ad-hoc “ChatGPT, make me a SQL question” prompts both produce data without the dirt that real interviews test for — NULL handling, duplicate rows, orphaned foreign keys, ties on timestamps, edge cases on window functions. The questions you actually get in senior data interviews are about catching those edge cases, not about syntax.\nThere’s no progress signal. A practice tool that doesn’t track which patterns you’ve struggled with, what you’ve already seen, and what you keep missing isn’t a practice tool — it’s a problem generator. Real practice requires a feedback loop.\nI wanted a tool that surfaced realistic interview scenarios with intentional edge cases, evaluated my queries against the scenario’s underlying intent (not just the SQL correctness), and remembered what I’d worked on so I could see my own gaps."
+  },
+  {
+    "objectID": "products/sql-practice-agent.html#what-i-built",
+    "href": "products/sql-practice-agent.html#what-i-built",
+    "title": "SQL Case Practice Agent",
+    "section": "What I built",
+    "text": "What I built\nA Streamlit web app that:\n\nGenerates four interview-relevant test tables — users, transactions, logins, subscriptions — populated with deliberately seeded edge cases:\n\nNULL values in user status\nDuplicate transaction rows (same txn_id, same timestamp)\nOrphaned user_ids in the transactions table (FK violations against the users table)\nSame-second login timestamps for the same user (window-function trap)\nVarying subscription plan types and overlapping date ranges\n\nRuns my queries against in-memory DuckDB — same ANSI-SQL semantics as Postgres-class engines, but zero setup overhead\nEvaluates each query with OpenAI — does my query handle the NULLs correctly? Did I dedupe the duplicate transactions? Did I account for orphaned FKs? The LLM evaluates against the scenario’s intent, not just whether the SQL ran\nTracks progress in SQLite (progress.db) — every attempt is stored with timestamp, scenario type, query text, and pass/fail, so I can see which edge cases I keep missing"
+  },
+  {
+    "objectID": "products/sql-practice-agent.html#how-it-works",
+    "href": "products/sql-practice-agent.html#how-it-works",
+    "title": "SQL Case Practice Agent",
+    "section": "How it works",
+    "text": "How it works\n\nStreamlit handles the UI and session state — text editor for the SQL, run-button, results display, evaluation panel\nDuckDB runs the query against the test tables in-process. Fast, ANSI-SQL compliant, no installation\nOpenAI API receives the scenario description, the seeded data, and my query, then evaluates: which edge cases did I catch, which did I miss, and what would the interview-quality answer look like\nSQLite (progress.db) persists attempts across sessions — schema covers attempt timestamp, scenario tag, query text, outcome\n@st.cache_data on the data generators keeps the test tables stable across re-runs in the same session\n\nThe scenarios cover the patterns I kept missing in actual interviews — that’s how I picked them. The edge cases aren’t random; they’re encoded versions of the questions I got wrong."
+  },
+  {
+    "objectID": "products/sql-practice-agent.html#my-role",
+    "href": "products/sql-practice-agent.html#my-role",
+    "title": "SQL Case Practice Agent",
+    "section": "My role",
+    "text": "My role\nSole builder. Designed the scenario taxonomy (what categories of edge cases matter for senior data interviews), wrote the test-data generator with the trap conditions, wrote the evaluation prompts that make the LLM grade against scenario intent rather than just SQL correctness, wired the persistence layer, and iterated on the prompts based on what kept slipping through."
+  },
+  {
+    "objectID": "products/sql-practice-agent.html#what-i-learned",
+    "href": "products/sql-practice-agent.html#what-i-learned",
+    "title": "SQL Case Practice Agent",
+    "section": "What I learned",
+    "text": "What I learned\n\nThe hard part of SQL interview prep isn’t writing queries — it’s recognizing the trap the interviewer is testing for. A practice tool that surfaces those traps systematically is more useful than another 200 LeetCode problems.\nDuckDB is the right execution engine for a local practice tool. Same semantics as real warehouses, zero setup, instant feedback. Spinning up real Postgres for a practice loop is overkill.\nThe evaluation prompt is the differentiator vs. a static problem set. Anyone can generate questions; what makes this tool useful is the LLM reading what edge case the scenario tested and telling me whether my query caught it.\nProgress tracking matters more than scenario variety. I get a lot more value from re-attempting the cases I’ve missed than from generating new ones."
+  },
+  {
+    "objectID": "products/sql-practice-agent.html#links",
+    "href": "products/sql-practice-agent.html#links",
+    "title": "SQL Case Practice Agent",
+    "section": "Links",
+    "text": "Links\nRepo is private. Happy to demo or walk through the scenario taxonomy and evaluation prompts."
+  },
+  {
+    "objectID": "products/resume-jd-review-tool.html",
+    "href": "products/resume-jd-review-tool.html",
+    "title": "Resume × JD Fit Review and Cover Letter Tool",
+    "section": "",
+    "text": "Type: Product · Domain: Job application workflow / candidate-role fit Stack: Python · Flask · Anthropic Claude API · pdfplumber · python-docx · Docker · Render Status: Deployable web app · Role: Builder"
+  },
+  {
+    "objectID": "products/resume-jd-review-tool.html#one-line-summary",
+    "href": "products/resume-jd-review-tool.html#one-line-summary",
+    "title": "Resume × JD Fit Review and Cover Letter Tool",
+    "section": "One-line summary",
+    "text": "One-line summary\nA Flask-based workflow tool that parses a JD and a resume (PDF or DOCX), evaluates candidate-role fit by identifying the role’s actual business problems and matching them against the candidate’s strongest evidence, then generates a cover letter with strict anti-cliché constraints — designed for signal, not for prettier generic text."
+  },
+  {
+    "objectID": "products/resume-jd-review-tool.html#why-i-built-this",
+    "href": "products/resume-jd-review-tool.html#why-i-built-this",
+    "title": "Resume × JD Fit Review and Cover Letter Tool",
+    "section": "Why I built this",
+    "text": "Why I built this\nGeneric AI cover-letter tools write the way AI cover-letter tools write. Abstract phrasing. Endless em-dashes. Openings that could apply to any company. Sentences that stack three “intersection of X / Y / Z” clauses. The output looks polished and reads as obviously generated — exactly the wrong signal for senior roles.\nThe problem isn’t the writing step. The problem is the thinking step. Most tools jump straight from “JD + resume” to “write a cover letter,” which means the model has to invent fit on the fly. The result is text that gestures at fit instead of demonstrating it.\nI wanted a tool that did the analytical work upstream: identify the role’s two or three actual business problems, identify the two or three strongest pieces of evidence from the resume that prove the candidate can solve them, decide a central story in one sentence, and then write — stripping everything that doesn’t serve that story."
+  },
+  {
+    "objectID": "products/resume-jd-review-tool.html#what-i-built",
+    "href": "products/resume-jd-review-tool.html#what-i-built",
+    "title": "Resume × JD Fit Review and Cover Letter Tool",
+    "section": "What I built",
+    "text": "What I built\nA Flask web app that:\n\nAccepts a JD (paste or URL) and a resume upload (PDF parsed via pdfplumber, DOCX via python-docx)\nCalls Claude with a structured system prompt that forces the model to do the analytical work before generation — silently identify the role’s biggest business problems, pick matching resume evidence, decide a central story, strip everything else\nReturns a cover letter in standard business-letter format with explicit constraints: name the company in the opening paragraph, no “I am excited to apply,” at most one em-dash in the whole letter, no abstract phrases like “sits at the intersection,” “growth enablement,” “portfolio economics,” “at scale,” “evolving X stack”\nHas a domain-specific variant for financial services, credit risk, risk analytics, and data science roles — emphasizes credit judgment, business tradeoffs, and cross-functional trust as evidence, rather than tools and model architectures\nDeploys to Render via Dockerfile + render.yaml — one-click hosted"
+  },
+  {
+    "objectID": "products/resume-jd-review-tool.html#how-it-works",
+    "href": "products/resume-jd-review-tool.html#how-it-works",
+    "title": "Resume × JD Fit Review and Cover Letter Tool",
+    "section": "How it works",
+    "text": "How it works\nThe bulk of the engineering is in the system prompt. The prompt enforces:\n\nPre-writing analysis (silent, model-internal): identify the 2-3 biggest business problems the role is hiring to solve, identify the 2-3 strongest resume signals, decide the central story\nStrict format: standard business-letter greeting + 4-5 short paragraphs + sign-off\nOpening discipline: must name the company in the first paragraph, must connect the company’s specific business or problem to the candidate’s experience, must not be reusable for any other company\nNo resume regurgitation: the cover letter adds interpretation, prioritization, motivation, and fit — it doesn’t restate the experience the resume already lists\nAnti-cliché constraints: explicit blocklist of phrases the model loves to use, hard limit of one em-dash in the entire letter, no list-style sentences\nDomain branching: FS/credit-risk roles use the FS-specific prompt that emphasizes business judgment and tradeoffs, not technical tools\n\nThe model can be re-run on individual paragraphs for refinement without regenerating the whole letter."
+  },
+  {
+    "objectID": "products/resume-jd-review-tool.html#my-role",
+    "href": "products/resume-jd-review-tool.html#my-role",
+    "title": "Resume × JD Fit Review and Cover Letter Tool",
+    "section": "My role",
+    "text": "My role\nSole builder. The Flask + parsing layer was straightforward (a day). The system prompts were 80% of the work — tuning each constraint, testing against multiple JD types (consulting, fintech, risk, generic SaaS), and iteratively removing the specific failure modes I kept seeing in the output. Deployed to Render with Docker."
+  },
+  {
+    "objectID": "products/resume-jd-review-tool.html#what-i-learned",
+    "href": "products/resume-jd-review-tool.html#what-i-learned",
+    "title": "Resume × JD Fit Review and Cover Letter Tool",
+    "section": "What I learned",
+    "text": "What I learned\n\nCover-letter quality is upstream of generation. Forcing the model to do explicit business-problem identification before writing changes the output more than any post-generation editing prompt. Move the work upstream.\nAnti-cliché rules have to be specific and enumerated. “Avoid clichés” doesn’t work. “Do not use the phrases X, Y, Z” works. The model is trained to write the clichés; you have to list them by name and block them.\nDomain variants matter more than I expected. A generic prompt produces a generic letter. A prompt that knows the target is a credit-risk role (and therefore frames technical work as evidence of business judgment, not as the main story) produces a noticeably stronger letter.\nThe most useful product feature is the silent pre-analysis. Users don’t see it, but it’s why the output reads like a person wrote it."
+  },
+  {
+    "objectID": "products/resume-jd-review-tool.html#links",
+    "href": "products/resume-jd-review-tool.html#links",
+    "title": "Resume × JD Fit Review and Cover Letter Tool",
+    "section": "Links",
+    "text": "Links\nRepo is private. Happy to walk through the system prompts and the FS-domain variant."
   }
 ]
