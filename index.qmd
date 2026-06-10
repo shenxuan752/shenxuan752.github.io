@@ -106,6 +106,12 @@ Market scans, opportunity evaluations, and risk write-ups built to inform real d
 
 ```{=html}
 <div class="featured-work-grid">
+<a href="products/network-agent.html" class="featured-work-card">
+<span class="featured-tag">Featured Product</span>
+<h4>Personal Networking Agent</h4>
+<p>A personal CRM and chief-of-staff for career-long networking, built on Next.js and the Claude API. Voice-first intake, rules-plus-judgment follow-up cadence, Google Calendar reminders. Designed never to auto-send — judgment stays with the user.</p>
+<div class="featured-tags"><span>AI Agents</span><span>CRM</span><span>Personal-AI</span></div>
+</a>
 <a href="products/startup-screener-pipeline.html" class="featured-work-card">
 <span class="featured-tag">Featured Product</span>
 <h4>Startup Thesis Screener Pipeline</h4>
