@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2026-05-08">
+<meta name="dcterms.date" content="2026-06-09">
 
-<title>Startup Thesis Screener Pipeline – Xuanxuan (Ava) Shen</title>
+<title>Personal Networking Agent – Xuanxuan (Ava) Shen</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -143,14 +143,13 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#what-it-does" id="toc-what-it-does" class="nav-link active" data-scroll-target="#what-it-does">What it does</a></li>
-  <li><a href="#who-its-for" id="toc-who-its-for" class="nav-link" data-scroll-target="#who-its-for">Who it’s for</a></li>
-  <li><a href="#architecture" id="toc-architecture" class="nav-link" data-scroll-target="#architecture">Architecture</a></li>
-  <li><a href="#key-design-choices" id="toc-key-design-choices" class="nav-link" data-scroll-target="#key-design-choices">Key design choices</a></li>
-  <li><a href="#key-result" id="toc-key-result" class="nav-link" data-scroll-target="#key-result">Key result</a></li>
-  <li><a href="#what-id-build-differently-next-time" id="toc-what-id-build-differently-next-time" class="nav-link" data-scroll-target="#what-id-build-differently-next-time">What I’d build differently next time</a></li>
-  <li><a href="#tech-stack" id="toc-tech-stack" class="nav-link" data-scroll-target="#tech-stack">Tech stack</a></li>
-  <li><a href="#code" id="toc-code" class="nav-link" data-scroll-target="#code">Code</a></li>
+  <li><a href="#one-line-summary" id="toc-one-line-summary" class="nav-link active" data-scroll-target="#one-line-summary">One-line summary</a></li>
+  <li><a href="#why-i-built-this" id="toc-why-i-built-this" class="nav-link" data-scroll-target="#why-i-built-this">Why I built this</a></li>
+  <li><a href="#what-i-built" id="toc-what-i-built" class="nav-link" data-scroll-target="#what-i-built">What I built</a></li>
+  <li><a href="#how-it-works" id="toc-how-it-works" class="nav-link" data-scroll-target="#how-it-works">How it works</a></li>
+  <li><a href="#my-role" id="toc-my-role" class="nav-link" data-scroll-target="#my-role">My role</a></li>
+  <li><a href="#what-i-learned" id="toc-what-i-learned" class="nav-link" data-scroll-target="#what-i-learned">What I learned</a></li>
+  <li><a href="#links" id="toc-links" class="nav-link" data-scroll-target="#links">Links</a></li>
   </ul>
 </nav>
     </div>
@@ -159,13 +158,14 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Startup Thesis Screener Pipeline</h1>
-<p class="subtitle lead">Multi-agent pipeline that maps a 600+ company AI startup universe into a scored, visa-verified shortlist</p>
+<h1 class="title">Personal Networking Agent</h1>
+<p class="subtitle lead">A networking CRM and chief-of-staff — natural-language intake, judgment-based follow-up cadence, Google Calendar reminders. Never auto-sends.</p>
   <div class="quarto-categories">
     <div class="quarto-category">AI Agents</div>
-    <div class="quarto-category">Pipeline</div>
-    <div class="quarto-category">Decision Systems</div>
-    <div class="quarto-category">Financial Services</div>
+    <div class="quarto-category">CRM</div>
+    <div class="quarto-category">Anthropic Claude</div>
+    <div class="quarto-category">Personal-AI</div>
+    <div class="quarto-category">Productivity Systems</div>
   </div>
   </div>
 
@@ -177,7 +177,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">May 8, 2026</p>
+      <p class="date">June 9, 2026</p>
     </div>
   </div>
   
@@ -189,70 +189,69 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="what-it-does" class="level2">
-<h2 class="anchored" data-anchor-id="what-it-does">What it does</h2>
-<p>A reusable agent pipeline that surveys the AI/data startup universe (~600–1,000 companies at seed–Series B), applies a thesis-driven scoring framework, and produces a ranked shortlist with deep-dive analyses and visa-verification evidence — in 2–3 hours of parallel agent work instead of weeks of manual research.</p>
+<div class="section-intro">
+<p><strong>Type:</strong> Product · <strong>Domain:</strong> Networking / career relationship management <strong>Stack:</strong> Next.js 15 · React 19 · TypeScript · Tailwind v4 · SQLite · Prisma · Anthropic Claude API (Opus 4.7 + Sonnet 4.6) · Google Calendar API · Web Speech API <strong>Status:</strong> Running locally on my Mac via launchd · <strong>Role:</strong> Sole builder</p>
+</div>
+<section id="one-line-summary" class="level2">
+<h2 class="anchored" data-anchor-id="one-line-summary">One-line summary</h2>
+<p>A personal CRM for managing alumni, recruiters, hiring managers, founders, and warm intros across a long career — built to <em>help me think</em> about timing, fit, and next steps, not to send messages on my behalf.</p>
 </section>
-<section id="who-its-for" class="level2">
-<h2 class="anchored" data-anchor-id="who-its-for">Who it’s for</h2>
-<p>Senior operators running their own thesis-driven pipelines who need to:</p>
+<section id="why-i-built-this" class="level2">
+<h2 class="anchored" data-anchor-id="why-i-built-this">Why I built this</h2>
+<p>Networking tools mostly come in two shapes: automation bots that blast templated messages at scale, or enterprise CRMs designed for sales pipelines. Neither is what an individual professional actually needs.</p>
+<p>The work of networking isn’t writing more messages. It’s remembering who you met, what you talked about, how warm the relationship is, what you owe them and they owe you, and — most importantly — <em>when</em> to follow up so you don’t seem pushy or, equally bad, forgotten. Most of that is judgment, not throughput. The bottleneck is memory and timing, not message volume.</p>
+<p>I wanted a tool that:</p>
 <ul>
-<li>Evaluate hundreds of companies at depth, not just respond to recruiter inbound or VC noise</li>
-<li>Apply consistent scoring (problem quality, founder-market fit, AI/data leverage, defensibility) across a wide surface</li>
-<li>Pull visa-sponsorship evidence from primary sources (MyVisaJobs, h1bgrader, USCIS) — not infer from cap tables</li>
-<li>Refresh the universe monthly with a delta report rather than rerun the whole thing</li>
+<li>intakes contacts in plain English (voice or text) — so the friction of logging a conversation is zero</li>
+<li>holds a structured record of every interaction over time, not just a snapshot</li>
+<li>recommends a next-best-action that’s a concrete sentence, not a vague “follow up”</li>
+<li>decides <em>when</em> to follow up using both deterministic rules and contextual judgment</li>
+<li>writes follow-up reminders to my personal Google Calendar so the prompt to act shows up where I already live</li>
+<li>never, ever sends a message on my behalf</li>
+</ul>
+<p>The hard rule is the last one. Auto-sent networking outreach feels exactly like what it is, and it burns the relationship the moment the recipient suspects it’s not really you. The judgment of <em>whether</em> and <em>what</em> to send has to stay with me.</p>
+</section>
+<section id="what-i-built" class="level2">
+<h2 class="anchored" data-anchor-id="what-i-built">What I built</h2>
+<p>A Next.js application I run on my own Mac. Single user, no auth, fully local data.</p>
+<ul>
+<li><strong>Quick Add</strong> — type or dictate a free-form description of a contact (“I met a Columbia alum at a fintech event, she works at Citi in first-party fraud analytics, connected on LinkedIn but no reply, remind me in 7 days”). A Claude Sonnet 4.6 call with tool-use returns a fully structured contact record with ~25 fields, which I review and edit before saving.</li>
+<li><strong>Log new interaction</strong> — on any existing contact, I can dictate “had a 20-min call today, she’s open to introing me to her manager,” and the system parses it into a timeline entry, replaces the contact’s current status, regenerates the recommended action, and patches the calendar event in place.</li>
+<li><strong>Next best action engine</strong> — a deterministic rules engine (e.g.&nbsp;“active reply thread → 5 days,” “LinkedIn nudge no reply → 7-day nudge then 21-day, then archive at 45”) feeds a Claude Opus 4.7 call that returns both a one-sentence recommendation and a follow-up day count, with explicit guidance to lean longer when the default would feel pushy.</li>
+<li><strong>Google Calendar reminders</strong> — each contact gets one event on their next follow-up date. Edit the date in the app and the event moves on Calendar. Clear the date and the event is deleted. Log a new interaction and the description updates with the latest context.</li>
+<li><strong>Coach</strong> — a chat interface that reads the full snapshot of every active contact and answers questions like “who should I contact this week,” “draft a follow-up for Jane,” “who has accepted my LinkedIn but not replied.” Voice in, optional voice out. Read-only — can’t modify data, can’t send anything.</li>
+<li><strong>Bulk delete and timeline editing</strong> — checkboxes to clean up the contact list, per-row delete on the interaction timeline, manual date and action override on any contact’s recommendation card.</li>
 </ul>
 </section>
-<section id="architecture" class="level2">
-<h2 class="anchored" data-anchor-id="architecture">Architecture</h2>
-<pre class="mermaid"><code>flowchart TB
-    A1[Discovery Agent 1&lt;br/&gt;NYC AI/data] --&gt; B[Candidate files]
-    A2[Discovery Agent 2&lt;br/&gt;Remote-friendly US] --&gt; B
-    A3[Discovery Agent 3&lt;br/&gt;Recent YC batches] --&gt; B
-    A4[Discovery Agent 4&lt;br/&gt;Tier-1 VC portfolios] --&gt; B
-    A5[Discovery Agent 5&lt;br/&gt;Stealth + wildcards] --&gt; B
-    A6[Discovery Agent 6&lt;br/&gt;Vertical sweeps] --&gt; B
-    B --&gt; C[5 parallel scoring agents&lt;br/&gt;12-dimension rubric]
-    C --&gt; D[Python dedup + sort]
-    D --&gt; E[Top 50 shortlist]
-    E --&gt; F[4 parallel deep-research agents&lt;br/&gt;top 20 only]
-    F --&gt; G[2 visa-verification agents&lt;br/&gt;MyVisaJobs + h1bgrader + LCAs]
-    G --&gt; H[Final report + CSVs]</code></pre>
+<section id="how-it-works" class="level2">
+<h2 class="anchored" data-anchor-id="how-it-works">How it works</h2>
+<p>A few choices that shaped the design:</p>
+<ol type="1">
+<li><p><strong>Contact as snapshot, interactions as timeline.</strong> The contact record holds the <em>current</em> state (latest status, who they are, what’s next). A separate interactions table holds the append-only history of every touchpoint. The contact’s “last contact summary” is always the newest interaction; the full history is preserved underneath. Claude sees both when generating recommendations.</p></li>
+<li><p><strong>Cadence rules as prior, Claude as judgment layer.</strong> A small rules engine in <code>lib/cadence.ts</code> produces a default day count from string patterns in the contact’s status. Claude receives that default as a prior — not a ceiling — and is explicitly told to override longer when the default would feel pushy, shorter when there’s an offer or question cooling on the table. This gave a meaningful quality bump over rules-only output, especially for the “they said let’s reconnect next month” case that string-matching can’t catch.</p></li>
+<li><p><strong>No auth, no cloud, no exposure.</strong> The app is single-user and lives on my Mac. SQLite holds the data. A macOS LaunchAgent runs the production build on login and restarts it on crash. No public URL. No login screen needed, because the device itself is the access boundary.</p></li>
+<li><p><strong>Prompt caching everywhere it matters.</strong> The intake parsing system prompt, the cadence rules, and the coach’s instructions are all marked <code>cache_control: ephemeral</code>. The first call writes the cache; every subsequent call within the 5-min window reads it at ~10% the cost. For the coach in particular — which ships a snapshot of every active contact in every turn — this kept per-question cost in the single-digit cents range even with adaptive thinking on.</p></li>
+<li><p><strong>Tool use for structured extraction, <code>messages.create</code> for everything else.</strong> Anywhere the model needs to return strict structured output (intake parsing, NBA recommendation with day count), the call uses tool use with a Zod-validated schema and <code>tool_choice</code> forced to the tool name. Anywhere it’s open-ended (coach replies, message drafts), it’s plain text generation.</p></li>
+<li><p><strong>Voice as a first-class input, not an add-on.</strong> The browser’s built-in <code>webkitSpeechRecognition</code> handles dictation everywhere: intake, log interaction, coach. The coach has an “auto-send after voice” toggle so you can push to talk, release, and have it fire — no extra click. Optional <code>speechSynthesis</code> for replies, so it can be a hands-free conversation.</p></li>
+</ol>
 </section>
-<section id="key-design-choices" class="level2">
-<h2 class="anchored" data-anchor-id="key-design-choices">Key design choices</h2>
+<section id="my-role" class="level2">
+<h2 class="anchored" data-anchor-id="my-role">My role</h2>
+<p>Sole builder. Built and shipped in roughly a day and a half across architecture, scaffolding, the schema and API surface, the cadence engine, the OAuth flow for Calendar, the voice integration, and the production deployment via launchd. Used Claude Code as the development environment.</p>
+</section>
+<section id="what-i-learned" class="level2">
+<h2 class="anchored" data-anchor-id="what-i-learned">What I learned</h2>
 <ul>
-<li><strong>Parallel agents over monolithic prompts.</strong> Each discovery agent owns one vertical or source, so eight ran in parallel instead of one slow sequential pass. Output landed in disk-persisted files — context compaction couldn’t lose hours of work.</li>
-<li><strong>Disk persistence between phases.</strong> Every agent wrote a Markdown or CSV file rather than returning content in chat. In a 2+ hour pipeline, this is non-negotiable.</li>
-<li><strong>Inline-return fallback for Write permission denials.</strong> When five of eight agents hit Write permission errors on the first run, they returned content inline as their final message. The parent agent persisted it. The pipeline survived the failure mode.</li>
-<li><strong>Cross-batch dedup in Python, not in agents.</strong> LLMs hallucinate “same company” matches. I deduped by normalized company name in a Python script — cheap, exact, debuggable.</li>
-<li><strong>Visa verification as a separate phase, not embedded.</strong> The first scoring pass <em>inferred</em> visa feasibility from cap table size, headcount, and HQ. The verification pass pulled live LCA records. The two passes disagreed on four of ten top picks — and the verified data produced material downgrades for several “obvious” candidates.</li>
+<li><strong>The judgment layer is more valuable than the automation layer.</strong> I started by building rules for cadence, then put Claude on top of them. The rules alone produced recommendations that felt mechanical (“3 days for active threads”) and were often wrong for the specific contact. Adding Claude as the override layer — with explicit guidance about when to lean longer — closed most of that gap without sacrificing the determinism of the defaults. The tool is most useful when it has opinions, not when it follows a flowchart.</li>
+<li><strong>Auto-send is a feature ceiling, not a floor.</strong> It’s the obvious next thing to build, and it’s the thing that would make the product worth less, not more. The whole point is that the user remains the sender. Anything that looks like a templated outreach immediately defeats the purpose of personal networking. The product is more useful precisely because it doesn’t do the most automatable thing.</li>
+<li><strong>Tool use is the right shape for structured intake.</strong> Versus prompt-engineered JSON output, forced <code>tool_choice</code> with a Zod-validated schema gave me predictable extraction with very few retries. The intake parser handles partial information cleanly — every field nullable — which matches how people actually describe contacts (rarely with a full bio in one go).</li>
+<li><strong>Calendar is a better persistence layer than the app itself for the “act now” moment.</strong> I don’t want to open the networking tool to check who to reach out to today. I want to see “Follow up: Jane Doe — Citi” on my calendar where I’m already looking. Treating Google Calendar as the source-of-truth for <em>when</em> to act, and the app as the source-of-truth for <em>who/why/what</em>, kept both surfaces honest about their role.</li>
+<li><strong>Personal-use software has different deploy semantics than product software.</strong> This doesn’t need to be on Vercel. It doesn’t need real auth. It doesn’t need a Postgres tier. Running it on my own Mac with <code>launchd</code> auto-start gives me persistent local access, zero ongoing cost, and an attack surface of exactly one device. The right deploy for a single-user tool is the boring one.</li>
 </ul>
 </section>
-<section id="key-result" class="level2">
-<h2 class="anchored" data-anchor-id="key-result">Key result</h2>
-<ul>
-<li><strong>Universe surveyed:</strong> 653 unique AI/data startups at seed–Series B across 14 verticals</li>
-<li><strong>Time investment:</strong> ~3 hours of agent runtime + ~2 hours of analyst review</li>
-<li><strong>Output:</strong> top-20 deep-dive case studies, top-10 with verified visa evidence, monthly-refresh template</li>
-<li><strong>Surprising signal:</strong> the strongest predictor of long-term visa pathway is <em>PERM completion rate</em>, not LCA volume. Several well-funded sponsors had 10+ LCAs but zero completed PERMs — meaning their sponsored hires consistently left before the green card finished. This shifted the recommended action plan for the top three candidates.</li>
-</ul>
-</section>
-<section id="what-id-build-differently-next-time" class="level2">
-<h2 class="anchored" data-anchor-id="what-id-build-differently-next-time">What I’d build differently next time</h2>
-<ul>
-<li><strong>Run discovery and scoring in the same agent pass.</strong> Separating them across two phases doubled the LLM cost and added coordination overhead with no real quality gain.</li>
-<li><strong>Version-control the scoring rubric separately from agent prompts.</strong> I mixed them; when I changed the rubric mid-run, I had to re-dispatch agents instead of just re-scoring existing rows.</li>
-<li><strong>Pre-build a legal-entity-name mapping.</strong> Several visa lookups failed because the legal entity (e.g., “Cascading AI Inc” for Casca, “Eminent INC dba Revolve Clothing” for Revolve) differs from the brand. A pre-mapping step would have saved an hour and avoided two false-negative misses.</li>
-</ul>
-</section>
-<section id="tech-stack" class="level2">
-<h2 class="anchored" data-anchor-id="tech-stack">Tech stack</h2>
-<p>Claude Code · Python 3.9 (pandas, csv) · Markdown for human-readable outputs · MyVisaJobs / h1bgrader / h1bdata for visa evidence · GitHub Actions for monthly refresh</p>
-</section>
-<section id="code" class="level2">
-<h2 class="anchored" data-anchor-id="code">Code</h2>
-<p>Pipeline code is private due to commercial sensitivity around the screened companies and personal visa data. Happy to walk through the architecture and methodology in conversation.</p>
+<section id="links" class="level2">
+<h2 class="anchored" data-anchor-id="links">Links</h2>
+<p>Repo is private. Happy to walk through the cadence rules, the intake tool-use schema, or the calendar integration.</p>
 
 
 </section>

@@ -10,6 +10,7 @@
   {
     "listing": "/products/index.html",
     "items": [
+      "/products/network-agent.html",
       "/products/startup-screener-pipeline.html",
       "/products/news-aggregator.html",
       "/products/resume-jd-review-tool.html",
