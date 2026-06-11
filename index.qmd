@@ -106,6 +106,12 @@ Market scans, opportunity evaluations, and risk write-ups built to inform real d
 
 ```{=html}
 <div class="featured-work-grid">
+<a href="products/application-assistant.html" class="featured-work-card">
+<span class="featured-tag">Featured Product</span>
+<h4>Application Assistant</h4>
+<p>A three-mode job-application workbench — tailored cover letters, JD-aligned resumes, and grounded "why this company / why this role" interview answers. One principle across all three: do the analytical work before writing, so the output demonstrates fit instead of gesturing at it.</p>
+<div class="featured-tags"><span>AI Agents</span><span>Workflow Tool</span><span>Anthropic Claude</span></div>
+</a>
 <a href="products/network-agent.html" class="featured-work-card">
 <span class="featured-tag">Featured Product</span>
 <h4>Personal Networking Agent</h4>
