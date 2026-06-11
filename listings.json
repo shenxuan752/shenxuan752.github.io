@@ -1,13 +1,5 @@
 [
   {
-    "listing": "/analyses/index.html",
-    "items": [
-      "/analyses/ai-startup-landscape.html",
-      "/analyses/visa-sponsor-search.html",
-      "/analyses/nyc-cannabis-market.html"
-    ]
-  },
-  {
     "listing": "/products/index.html",
     "items": [
       "/products/application-assistant.html",
@@ -15,6 +7,14 @@
       "/products/startup-screener-pipeline.html",
       "/products/news-aggregator.html",
       "/products/sql-practice-agent.html"
+    ]
+  },
+  {
+    "listing": "/analyses/index.html",
+    "items": [
+      "/analyses/ai-startup-landscape.html",
+      "/analyses/visa-sponsor-search.html",
+      "/analyses/nyc-cannabis-market.html"
     ]
   }
 ]
