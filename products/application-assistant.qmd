@@ -1,0 +1,77 @@
+---
+title: "Application Assistant"
+subtitle: "A three-mode job-application workbench — tailored cover letters, JD-aligned resumes, and grounded 'why' interview answers — all built to read like a person, not a generator."
+date: "2026-06-11"
+categories: [AI Agents, Workflow Tool, Anthropic Claude, Productivity Systems]
+toc: true
+---
+
+::: {.section-intro}
+**Type:** Product · **Domain:** Job-application workflow / candidate-role fit
+**Stack:** Python · Flask · Anthropic Claude API (Opus 4.8) · OpenAI (GPT-4.1 + transcription) · pdfplumber · python-docx · Docker · Render
+**Status:** Deployed web app ([cover-letter-assistant.onrender.com](https://cover-letter-assistant.onrender.com)) · **Role:** Sole builder
+:::
+
+## One-line summary
+
+A Flask web app with three modes that share one principle: do the analytical work *before* writing. It tailors cover letters, rebuilds a resume against a specific JD, and prepares grounded "why this company / why this role / why me" interview answers — each engineered to demonstrate fit rather than gesture at it, and to read like a person rather than an obviously-generated draft.
+
+## Why I built this
+
+Generic AI application tools write the way AI tools write. Abstract phrasing, endless em-dashes, openings that could apply to any company, sentences that stack three "intersection of X / Y / Z" clauses. The output looks polished and reads as obviously generated — exactly the wrong signal for senior roles.
+
+The problem isn't the writing step. It's the thinking step. Most tools jump straight from "JD + resume" to "write," which forces the model to invent fit on the fly. The result gestures at fit instead of proving it.
+
+What started as a cover-letter tool grew into the whole front half of an application: the cover letter, the resume that goes with it, and the interview answers that follow. The same discipline runs through all three — identify the role's actual problems, match them to real evidence, decide a central story, then write and strip everything that doesn't serve it.
+
+## What I built
+
+A single Flask app with a header mode toggle across three workflows:
+
+### ✉ Cover Letter
+- Accepts a JD (paste or URL) and a resume upload (PDF via pdfplumber, DOCX via python-docx).
+- Calls Claude with a structured system prompt that forces silent pre-writing analysis — identify the role's 2–3 biggest business problems, pick the matching resume evidence, decide a one-sentence central story — *then* writes.
+- Returns a standard business-letter cover letter under explicit anti-cliché constraints: name the company in the opening, no "I am excited to apply," at most one em-dash in the whole letter, a hard blocklist of phrases like "sits at the intersection," "at scale," "growth enablement."
+- Has a financial-services / credit-risk variant that frames technical work as evidence of business judgment, not as the main story.
+- Per-paragraph refine: re-run any single paragraph without regenerating the whole letter.
+
+### 📄 Resume Tailor
+- Classifies the role from the JD (PM / AI-ML PM / Fintech PM / Data Science / Strategy-Ops / Hybrid).
+- Selects the strongest, **non-overlapping** bullets from three baked-in master resumes (PM, Fintech/DS-modeling, Strategy-Ops).
+- Rewrites the selected bullets for clarity and JD alignment with a strict no-fabrication rule.
+- Renders the result into a DOCX template that preserves the original formatting — swapping the summary paragraph and the fixed company bullet groups in place — and downloads a one-page file named `AvaShen_[Company]_[Role]_[Date].docx`.
+- Chat-refine loop for iterating on the tailored resume.
+
+### 💬 Why Questions
+- Generates grounded answers to the questions that decide interviews: *why this company*, *why this role*, *why me*, and *"what product are you most proud of building?"*
+- Uses web search to pull real, current company facts before answering — no flattery, no invented detail.
+- Returns each answer in four registers (interview / recruiter / written / sharper), plus company research, memorizable talking points, an anti-generic audit of specificity and tone, and coaching notes on what to personalize or confirm.
+- Own refine loop that keeps facts grounded in existing sources and preserves an authentic voice rather than inflating the story.
+
+Supporting pieces: voice dictation (OpenAI transcription) so logging notes has zero friction, and a regenerable portfolio-of-products reference the model draws on. Deploys to Render via Dockerfile + render.yaml.
+
+## How it works
+
+The engineering lives in the prompts and the structure around them:
+
+1. **Analysis before generation.** Every mode forces explicit, silent identification of the role's real problems and the candidate's strongest matching evidence before a single sentence is written. This changes the output more than any post-hoc editing prompt.
+2. **Anti-cliché rules are enumerated, not vague.** "Avoid clichés" does nothing; the model is trained to write them. A named blocklist plus a one-em-dash hard limit does.
+3. **No fabrication, ever.** Resume Tailor only rewrites existing evidence; Why Questions only states company facts it can ground in a real source. Authenticity is a hard constraint, not a style note.
+4. **Format-preserving DOCX rendering.** Rather than generating a document from scratch, the resume renderer edits a template in place — swapping specific paragraphs and bullet groups — so the output keeps professional formatting and stays one page.
+5. **Structured outputs and refine loops.** Each mode returns structured content and supports targeted refinement (a single paragraph, a single answer) without regenerating everything.
+
+## My role
+
+Sole builder. The Flask, parsing, and DOCX layers were straightforward; the prompts and the analytical scaffolding were the real work — tuning each constraint, testing across JD types (consulting, fintech, risk, generic SaaS), and removing the specific failure modes I kept seeing. Built with Claude Code and deployed to Render with Docker.
+
+## What I learned
+
+- **Quality is upstream of generation.** Forcing explicit business-problem identification before writing moves the output more than any amount of editing afterward. Move the work upstream.
+- **Anti-cliché rules have to be specific.** Block phrases by name and cap the em-dashes. General instructions don't survive contact with a model trained to write the clichés.
+- **The most valuable feature is the silent pre-analysis.** Users never see it, but it's why the output reads like a person wrote it.
+- **One workflow, three artifacts.** Cover letter, resume, and interview answers are the same fit problem expressed three ways. Building them in one tool — sharing the analysis discipline and the candidate's evidence — produces more coherent applications than three disconnected generators.
+- **Authenticity beats polish for senior roles.** The win wasn't prettier text; it was output specific and grounded enough that a hiring manager couldn't tell it was AI-assisted.
+
+## Links
+
+Repo is private. Happy to walk through the system prompts, the FS-domain variant, or the format-preserving DOCX renderer.
