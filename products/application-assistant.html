@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2025-05-06">
+<meta name="dcterms.date" content="2026-06-11">
 
-<title>Resume × JD Fit Review and Cover Letter Tool – Xuanxuan (Ava) Shen</title>
+<title>Application Assistant – Xuanxuan (Ava) Shen</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -43,7 +43,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-21dfb6f5b24708782b3851273225b992.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-eab2be7250f584328c98fcd9a03b5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -145,7 +145,12 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#one-line-summary" id="toc-one-line-summary" class="nav-link active" data-scroll-target="#one-line-summary">One-line summary</a></li>
   <li><a href="#why-i-built-this" id="toc-why-i-built-this" class="nav-link" data-scroll-target="#why-i-built-this">Why I built this</a></li>
-  <li><a href="#what-i-built" id="toc-what-i-built" class="nav-link" data-scroll-target="#what-i-built">What I built</a></li>
+  <li><a href="#what-i-built" id="toc-what-i-built" class="nav-link" data-scroll-target="#what-i-built">What I built</a>
+  <ul class="collapse">
+  <li><a href="#cover-letter" id="toc-cover-letter" class="nav-link" data-scroll-target="#cover-letter">✉ Cover Letter</a></li>
+  <li><a href="#resume-tailor" id="toc-resume-tailor" class="nav-link" data-scroll-target="#resume-tailor">📄 Resume Tailor</a></li>
+  <li><a href="#why-questions" id="toc-why-questions" class="nav-link" data-scroll-target="#why-questions">💬 Why Questions</a></li>
+  </ul></li>
   <li><a href="#how-it-works" id="toc-how-it-works" class="nav-link" data-scroll-target="#how-it-works">How it works</a></li>
   <li><a href="#my-role" id="toc-my-role" class="nav-link" data-scroll-target="#my-role">My role</a></li>
   <li><a href="#what-i-learned" id="toc-what-i-learned" class="nav-link" data-scroll-target="#what-i-learned">What I learned</a></li>
@@ -158,8 +163,8 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Resume × JD Fit Review and Cover Letter Tool</h1>
-<p class="subtitle lead">Application workflow tool that evaluates candidate-role fit and generates targeted cover letters with explicit anti-cliché constraints</p>
+<h1 class="title">Application Assistant</h1>
+<p class="subtitle lead">A three-mode job-application workbench — tailored cover letters, JD-aligned resumes, and grounded ‘why’ interview answers — all built to read like a person, not a generator.</p>
   <div class="quarto-categories">
     <div class="quarto-category">AI Agents</div>
     <div class="quarto-category">Workflow Tool</div>
@@ -176,7 +181,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">May 6, 2025</p>
+      <p class="date">June 11, 2026</p>
     </div>
   </div>
   
@@ -189,58 +194,80 @@ ul.task-list li input[type="checkbox"] {
 
 
 <div class="section-intro">
-<p><strong>Type:</strong> Product · <strong>Domain:</strong> Job application workflow / candidate-role fit <strong>Stack:</strong> Python · Flask · Anthropic Claude API · pdfplumber · python-docx · Docker · Render <strong>Status:</strong> Deployable web app · <strong>Role:</strong> Builder</p>
+<p><strong>Type:</strong> Product · <strong>Domain:</strong> Job-application workflow / candidate-role fit <strong>Stack:</strong> Python · Flask · Anthropic Claude API (Opus 4.8) · OpenAI (GPT-4.1 + transcription) · pdfplumber · python-docx · Docker · Render <strong>Status:</strong> Deployed web app (<a href="https://cover-letter-assistant.onrender.com">cover-letter-assistant.onrender.com</a>) · <strong>Role:</strong> Sole builder</p>
 </div>
 <section id="one-line-summary" class="level2">
 <h2 class="anchored" data-anchor-id="one-line-summary">One-line summary</h2>
-<p>A Flask-based workflow tool that parses a JD and a resume (PDF or DOCX), evaluates candidate-role fit by identifying the role’s actual business problems and matching them against the candidate’s strongest evidence, then generates a cover letter with strict anti-cliché constraints — designed for signal, not for prettier generic text.</p>
+<p>A Flask web app with three modes that share one principle: do the analytical work <em>before</em> writing. It tailors cover letters, rebuilds a resume against a specific JD, and prepares grounded “why this company / why this role / why me” interview answers — each engineered to demonstrate fit rather than gesture at it, and to read like a person rather than an obviously-generated draft.</p>
 </section>
 <section id="why-i-built-this" class="level2">
 <h2 class="anchored" data-anchor-id="why-i-built-this">Why I built this</h2>
-<p>Generic AI cover-letter tools write the way AI cover-letter tools write. Abstract phrasing. Endless em-dashes. Openings that could apply to any company. Sentences that stack three “intersection of X / Y / Z” clauses. The output looks polished and reads as obviously generated — exactly the wrong signal for senior roles.</p>
-<p>The problem isn’t the writing step. The problem is the thinking step. Most tools jump straight from “JD + resume” to “write a cover letter,” which means the model has to invent fit on the fly. The result is text that gestures at fit instead of demonstrating it.</p>
-<p>I wanted a tool that did the analytical work upstream: identify the role’s two or three actual business problems, identify the two or three strongest pieces of evidence from the resume that prove the candidate can solve them, decide a central story in one sentence, and <em>then</em> write — stripping everything that doesn’t serve that story.</p>
+<p>Generic AI application tools write the way AI tools write. Abstract phrasing, endless em-dashes, openings that could apply to any company, sentences that stack three “intersection of X / Y / Z” clauses. The output looks polished and reads as obviously generated — exactly the wrong signal for senior roles.</p>
+<p>The problem isn’t the writing step. It’s the thinking step. Most tools jump straight from “JD + resume” to “write,” which forces the model to invent fit on the fly. The result gestures at fit instead of proving it.</p>
+<p>What started as a cover-letter tool grew into the whole front half of an application: the cover letter, the resume that goes with it, and the interview answers that follow. The same discipline runs through all three — identify the role’s actual problems, match them to real evidence, decide a central story, then write and strip everything that doesn’t serve it.</p>
 </section>
 <section id="what-i-built" class="level2">
 <h2 class="anchored" data-anchor-id="what-i-built">What I built</h2>
-<p>A Flask web app that:</p>
+<p>A single Flask app with a header mode toggle across three workflows:</p>
+<section id="cover-letter" class="level3">
+<h3 class="anchored" data-anchor-id="cover-letter">✉ Cover Letter</h3>
 <ul>
-<li><strong>Accepts a JD</strong> (paste or URL) and a <strong>resume upload</strong> (PDF parsed via pdfplumber, DOCX via python-docx)</li>
-<li><strong>Calls Claude with a structured system prompt</strong> that forces the model to do the analytical work before generation — silently identify the role’s biggest business problems, pick matching resume evidence, decide a central story, strip everything else</li>
-<li><strong>Returns a cover letter</strong> in standard business-letter format with explicit constraints: name the company in the opening paragraph, no “I am excited to apply,” at most one em-dash in the whole letter, no abstract phrases like “sits at the intersection,” “growth enablement,” “portfolio economics,” “at scale,” “evolving X stack”</li>
-<li><strong>Has a domain-specific variant</strong> for financial services, credit risk, risk analytics, and data science roles — emphasizes credit judgment, business tradeoffs, and cross-functional trust as evidence, rather than tools and model architectures</li>
-<li><strong>Deploys to Render</strong> via Dockerfile + render.yaml — one-click hosted</li>
+<li>Accepts a JD (paste or URL) and a resume upload (PDF via pdfplumber, DOCX via python-docx).</li>
+<li>Calls Claude with a structured system prompt that forces silent pre-writing analysis — identify the role’s 2–3 biggest business problems, pick the matching resume evidence, decide a one-sentence central story — <em>then</em> writes.</li>
+<li>Returns a standard business-letter cover letter under explicit anti-cliché constraints: name the company in the opening, no “I am excited to apply,” at most one em-dash in the whole letter, a hard blocklist of phrases like “sits at the intersection,” “at scale,” “growth enablement.”</li>
+<li>Has a financial-services / credit-risk variant that frames technical work as evidence of business judgment, not as the main story.</li>
+<li>Per-paragraph refine: re-run any single paragraph without regenerating the whole letter.</li>
 </ul>
+</section>
+<section id="resume-tailor" class="level3">
+<h3 class="anchored" data-anchor-id="resume-tailor">📄 Resume Tailor</h3>
+<ul>
+<li>Classifies the role from the JD (PM / AI-ML PM / Fintech PM / Data Science / Strategy-Ops / Hybrid).</li>
+<li>Selects the strongest, <strong>non-overlapping</strong> bullets from three baked-in master resumes (PM, Fintech/DS-modeling, Strategy-Ops).</li>
+<li>Rewrites the selected bullets for clarity and JD alignment with a strict no-fabrication rule.</li>
+<li>Renders the result into a DOCX template that preserves the original formatting — swapping the summary paragraph and the fixed company bullet groups in place — and downloads a one-page file named <code>AvaShen_[Company]_[Role]_[Date].docx</code>.</li>
+<li>Chat-refine loop for iterating on the tailored resume.</li>
+</ul>
+</section>
+<section id="why-questions" class="level3">
+<h3 class="anchored" data-anchor-id="why-questions">💬 Why Questions</h3>
+<ul>
+<li>Generates grounded answers to the questions that decide interviews: <em>why this company</em>, <em>why this role</em>, <em>why me</em>, and <em>“what product are you most proud of building?”</em></li>
+<li>Uses web search to pull real, current company facts before answering — no flattery, no invented detail.</li>
+<li>Returns each answer in four registers (interview / recruiter / written / sharper), plus company research, memorizable talking points, an anti-generic audit of specificity and tone, and coaching notes on what to personalize or confirm.</li>
+<li>Own refine loop that keeps facts grounded in existing sources and preserves an authentic voice rather than inflating the story.</li>
+</ul>
+<p>Supporting pieces: voice dictation (OpenAI transcription) so logging notes has zero friction, and a regenerable portfolio-of-products reference the model draws on. Deploys to Render via Dockerfile + render.yaml.</p>
+</section>
 </section>
 <section id="how-it-works" class="level2">
 <h2 class="anchored" data-anchor-id="how-it-works">How it works</h2>
-<p>The bulk of the engineering is in the system prompt. The prompt enforces:</p>
+<p>The engineering lives in the prompts and the structure around them:</p>
 <ol type="1">
-<li><strong>Pre-writing analysis</strong> (silent, model-internal): identify the 2-3 biggest business problems the role is hiring to solve, identify the 2-3 strongest resume signals, decide the central story</li>
-<li><strong>Strict format</strong>: standard business-letter greeting + 4-5 short paragraphs + sign-off</li>
-<li><strong>Opening discipline</strong>: must name the company in the first paragraph, must connect the company’s specific business or problem to the candidate’s experience, must not be reusable for any other company</li>
-<li><strong>No resume regurgitation</strong>: the cover letter adds interpretation, prioritization, motivation, and fit — it doesn’t restate the experience the resume already lists</li>
-<li><strong>Anti-cliché constraints</strong>: explicit blocklist of phrases the model loves to use, hard limit of one em-dash in the entire letter, no list-style sentences</li>
-<li><strong>Domain branching</strong>: FS/credit-risk roles use the FS-specific prompt that emphasizes business judgment and tradeoffs, not technical tools</li>
+<li><strong>Analysis before generation.</strong> Every mode forces explicit, silent identification of the role’s real problems and the candidate’s strongest matching evidence before a single sentence is written. This changes the output more than any post-hoc editing prompt.</li>
+<li><strong>Anti-cliché rules are enumerated, not vague.</strong> “Avoid clichés” does nothing; the model is trained to write them. A named blocklist plus a one-em-dash hard limit does.</li>
+<li><strong>No fabrication, ever.</strong> Resume Tailor only rewrites existing evidence; Why Questions only states company facts it can ground in a real source. Authenticity is a hard constraint, not a style note.</li>
+<li><strong>Format-preserving DOCX rendering.</strong> Rather than generating a document from scratch, the resume renderer edits a template in place — swapping specific paragraphs and bullet groups — so the output keeps professional formatting and stays one page.</li>
+<li><strong>Structured outputs and refine loops.</strong> Each mode returns structured content and supports targeted refinement (a single paragraph, a single answer) without regenerating everything.</li>
 </ol>
-<p>The model can be re-run on individual paragraphs for refinement without regenerating the whole letter.</p>
 </section>
 <section id="my-role" class="level2">
 <h2 class="anchored" data-anchor-id="my-role">My role</h2>
-<p>Sole builder. The Flask + parsing layer was straightforward (a day). The system prompts were 80% of the work — tuning each constraint, testing against multiple JD types (consulting, fintech, risk, generic SaaS), and iteratively removing the specific failure modes I kept seeing in the output. Deployed to Render with Docker.</p>
+<p>Sole builder. The Flask, parsing, and DOCX layers were straightforward; the prompts and the analytical scaffolding were the real work — tuning each constraint, testing across JD types (consulting, fintech, risk, generic SaaS), and removing the specific failure modes I kept seeing. Built with Claude Code and deployed to Render with Docker.</p>
 </section>
 <section id="what-i-learned" class="level2">
 <h2 class="anchored" data-anchor-id="what-i-learned">What I learned</h2>
 <ul>
-<li><strong>Cover-letter quality is upstream of generation.</strong> Forcing the model to do explicit business-problem identification before writing changes the output more than any post-generation editing prompt. Move the work upstream.</li>
-<li><strong>Anti-cliché rules have to be specific and enumerated.</strong> “Avoid clichés” doesn’t work. “Do not use the phrases X, Y, Z” works. The model is trained to write the clichés; you have to list them by name and block them.</li>
-<li><strong>Domain variants matter more than I expected.</strong> A generic prompt produces a generic letter. A prompt that knows the target is a credit-risk role (and therefore frames technical work as evidence of business judgment, not as the main story) produces a noticeably stronger letter.</li>
-<li><strong>The most useful product feature is the silent pre-analysis.</strong> Users don’t see it, but it’s why the output reads like a person wrote it.</li>
+<li><strong>Quality is upstream of generation.</strong> Forcing explicit business-problem identification before writing moves the output more than any amount of editing afterward. Move the work upstream.</li>
+<li><strong>Anti-cliché rules have to be specific.</strong> Block phrases by name and cap the em-dashes. General instructions don’t survive contact with a model trained to write the clichés.</li>
+<li><strong>The most valuable feature is the silent pre-analysis.</strong> Users never see it, but it’s why the output reads like a person wrote it.</li>
+<li><strong>One workflow, three artifacts.</strong> Cover letter, resume, and interview answers are the same fit problem expressed three ways. Building them in one tool — sharing the analysis discipline and the candidate’s evidence — produces more coherent applications than three disconnected generators.</li>
+<li><strong>Authenticity beats polish for senior roles.</strong> The win wasn’t prettier text; it was output specific and grounded enough that a hiring manager couldn’t tell it was AI-assisted.</li>
 </ul>
 </section>
 <section id="links" class="level2">
 <h2 class="anchored" data-anchor-id="links">Links</h2>
-<p>Repo is private. Happy to walk through the system prompts and the FS-domain variant.</p>
+<p>Repo is private. Happy to walk through the system prompts, the FS-domain variant, or the format-preserving DOCX renderer.</p>
 
 
 </section>
