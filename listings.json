@@ -2,6 +2,7 @@
   {
     "listing": "/products/index.html",
     "items": [
+      "/products/application-tracker.html",
       "/products/application-assistant.html",
       "/products/network-agent.html",
       "/products/startup-screener-pipeline.html",

@@ -4,7 +4,7 @@
     "href": "products/index.html",
     "title": "Products",
     "section": "",
-    "text": "Working artifacts — tools, pipelines, and decision systems built to ship to real users.\n\n\n\n\n\n\n\n\n\n\nApplication Assistant\n\n\nA three-mode job-application workbench — tailored cover letters, JD-aligned resumes, and grounded ‘why’ interview answers — all built to read like a person, not a generator.\n\n\n\nAI Agents\n\nWorkflow Tool\n\nAnthropic Claude\n\nProductivity Systems\n\n\n\n\n\n\nJun 2026\n\n\n\n\n\n\n\nPersonal Networking Agent\n\n\nA networking CRM and chief-of-staff — natural-language intake, judgment-based follow-up cadence, Google Calendar reminders. Never auto-sends.\n\n\n\nAI Agents\n\nCRM\n\nAnthropic Claude\n\nPersonal-AI\n\nProductivity Systems\n\n\n\n\n\n\nJun 2026\n\n\n\n\n\n\n\nStartup Thesis Screener Pipeline\n\n\nMulti-agent pipeline that maps a 600+ company AI startup universe into a scored, visa-verified shortlist\n\n\n\nAI Agents\n\nPipeline\n\nDecision Systems\n\nFinancial Services\n\n\n\n\n\n\nMay 2026\n\n\n\n\n\n\n\nDaily News Aggregator with WhatsApp Push\n\n\nPersonalized AI ingestion, filtering, and summarization pipeline delivered as a morning digest to my phone\n\n\n\nAI Agents\n\nWorkflow Automation\n\nResearch Pipeline\n\nPersonal-AI\n\n\n\n\n\n\nOct 2025\n\n\n\n\n\n\n\nSQL Case Practice Agent\n\n\nEdge-case-driven SQL interview practice with AI evaluation and progress tracking\n\n\n\nAI Agents\n\nInterview Prep\n\nData Tooling\n\nWorkflow Design\n\n\n\n\n\n\nFeb 2025\n\n\n\n\n\nNo matching items"
+    "text": "Working artifacts — tools, pipelines, and decision systems built to ship to real users.\n\n\n\n\n\n\n\n\n\n\nApplication Tracker\n\n\nA read-only Gmail → job-application tracker. Claude reads my job-related email, extracts company/role/status/dates, and turns a noisy inbox into a funnel, response-time metrics, and a referral-impact view.\n\n\n\nAI Agents\n\nAnthropic Claude\n\nGmail API\n\nPersonal-AI\n\nJob Search\n\nProductivity Systems\n\n\n\n\n\n\nJun 2026\n\n\n\n\n\n\n\nApplication Assistant\n\n\nA three-mode job-application workbench — tailored cover letters, JD-aligned resumes, and grounded ‘why’ interview answers — all built to read like a person, not a generator.\n\n\n\nAI Agents\n\nWorkflow Tool\n\nAnthropic Claude\n\nProductivity Systems\n\n\n\n\n\n\nJun 2026\n\n\n\n\n\n\n\nPersonal Networking Agent\n\n\nA networking CRM and chief-of-staff — natural-language intake, judgment-based follow-up cadence, Google Calendar reminders. Never auto-sends.\n\n\n\nAI Agents\n\nCRM\n\nAnthropic Claude\n\nPersonal-AI\n\nProductivity Systems\n\n\n\n\n\n\nJun 2026\n\n\n\n\n\n\n\nStartup Thesis Screener Pipeline\n\n\nMulti-agent pipeline that maps a 600+ company AI startup universe into a scored, visa-verified shortlist\n\n\n\nAI Agents\n\nPipeline\n\nDecision Systems\n\nFinancial Services\n\n\n\n\n\n\nMay 2026\n\n\n\n\n\n\n\nDaily News Aggregator with WhatsApp Push\n\n\nPersonalized AI ingestion, filtering, and summarization pipeline delivered as a morning digest to my phone\n\n\n\nAI Agents\n\nWorkflow Automation\n\nResearch Pipeline\n\nPersonal-AI\n\n\n\n\n\n\nOct 2025\n\n\n\n\n\n\n\nSQL Case Practice Agent\n\n\nEdge-case-driven SQL interview practice with AI evaluation and progress tracking\n\n\n\nAI Agents\n\nInterview Prep\n\nData Tooling\n\nWorkflow Design\n\n\n\n\n\n\nFeb 2025\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "products/network-agent.html",
@@ -126,39 +126,158 @@
     "text": "Code\nPipeline code is private due to commercial sensitivity around the screened companies and personal visa data. Happy to walk through the architecture and methodology in conversation."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Xuanxuan (Ava) Shen",
     "section": "",
-    "text": "📍 Based in New York City  ·  Open to relocation"
+    "text": "Background\n\n\n10 years in financial services — credit risk, underwriting, lending analytics, decision systems\n\n\nFocus\n\n\nAI-native pipelines, operator memos, and decision tools\n\n\nStage\n\n\nSenior IC, lead, director, or founding-team\n\n\nLocation\n\n\nNew York City — open to relocation"
   },
   {
-    "objectID": "about.html#how-i-got-here",
-    "href": "about.html#how-i-got-here",
-    "title": "About",
-    "section": "How I got here",
-    "text": "How I got here\nI started in financial services and spent a decade close to the messiest, highest-stakes problems in the industry: credit risk, underwriting, lending analytics, and decision systems.\nI built and validated models that decided whether real customers got real credit. Designed analytics that informed how capital was allocated. Translated regulatory and commercial constraints into systems that had to work — under scrutiny, at scale, with real money on the line.\nThe hard part was rarely the math. The hard part was structuring ambiguity, building shared understanding across functions, and shipping artifacts — products, models, memos — that survived contact with reality.\nThe last two years, my work has shifted toward AI-native execution. I build agent systems that compress weeks of research into hours. I run multi-source market scans that would have required a consulting team. I use AI to expand the surface area of what one operator can ship — not as a hobby, not as a tool I’m exploring, but as the central way I work.\n\nBoth halves of my career converge on the same thing — turning complex, data-heavy business problems into products, analyses, and decisions that hold up under scrutiny."
+    "objectID": "index.html#why-this-mix-matters",
+    "href": "index.html#why-this-mix-matters",
+    "title": "Xuanxuan (Ava) Shen",
+    "section": "Why this mix matters",
+    "text": "Why this mix matters\n\n\n\n01\n\n\nDomain depth that survives scrutiny\nA decade in financial services means I know what regulators, customers, and operators actually care about. Models that decide credit, analytics that allocate capital, systems built under real constraint.\n\n\n\n\n02\n\n\nAI-native execution as a leverage multiplier\nI use AI as core leverage for research, synthesis, prototyping, and shipping — not as a tool I’m interested in. It expands the surface area of what one operator can deliver.\n\n\n\n\n03\n\n\nThe combination is rare\nMost AI-native operators don’t have the domain depth. Most domain experts haven’t rebuilt their workflows around AI. The intersection is where I work."
   },
   {
-    "objectID": "about.html#what-im-best-at",
-    "href": "about.html#what-im-best-at",
-    "title": "About",
-    "section": "What I’m best at",
-    "text": "What I’m best at\n\nTranslating ambiguity into structure. Messy markets, undefined opportunities, decisions under uncertainty — these are where I add the most.\nConnecting domain depth to execution. Financial services taught me what regulators, customers, and operators actually care about. AI-native workflows let me ship faster than the org chart would suggest.\nCross-functional range. I’ve operated as analyst, modeler, product partner, strategist, and builder. I read the business, the data, and the system simultaneously.\nBuilding artifacts, not just opinions. I’d rather ship a working prototype, a rigorous memo, or a decision-ready model than write a deck."
+    "objectID": "index.html#what-i-work-on",
+    "href": "index.html#what-i-work-on",
+    "title": "Xuanxuan (Ava) Shen",
+    "section": "What I work on",
+    "text": "What I work on\n\n\nCapability 01\n\nRisk & Financial Systems\nA decade designing, validating, and shipping credit risk, underwriting, and lending analytics under regulatory and commercial constraint.\n\n\n\nCapability 02\n\nAI-native Execution\nMulti-agent pipelines and AI-assisted research that compress weeks of analysis into hours of run-time plus human review.\n\n\n\nCapability 03\n\nProducts & Decision Systems\nTools, internal pipelines, and workflows that move ambiguity into structure into shipped code — used by real operators.\n\n\n\nCapability 04\n\nStrategy & Operator Memos\nMarket scans, opportunity evaluations, and risk write-ups built to inform real decisions — not to look smart."
   },
   {
-    "objectID": "about.html#where-i-create-the-most-leverage",
-    "href": "about.html#where-i-create-the-most-leverage",
-    "title": "About",
-    "section": "Where I create the most leverage",
-    "text": "Where I create the most leverage\nThe strongest fit is where financial services depth and AI-native execution compound — at companies solving real, high-stakes problems under regulatory and commercial constraint, where shipping the right artifact matters more than writing the right deck.\n\nForward-deployed AI, decision intelligence, and AI-product roles at high-upside startups (seed–Series B)\nOperator and founding-team seats in vertical AI, financial services AI, RegTech, insurtech, or decision systems\nStrategy and product roles at fintech and financial services companies where AI-native execution is the differentiator, not the marketing"
+    "objectID": "index.html#selected-work",
+    "href": "index.html#selected-work",
+    "title": "Xuanxuan (Ava) Shen",
+    "section": "Selected work",
+    "text": "Selected work\n\n\nFeatured Product\nApplication Assistant\nA three-mode job-application workbench — tailored cover letters, JD-aligned resumes, and grounded \"why this company / why this role\" interview answers. One principle across all three: do the analytical work before writing, so the output demonstrates fit instead of gesturing at it.\nAI AgentsWorkflow ToolAnthropic Claude\n\n\nFeatured Product\nApplication Tracker\nA read-only Gmail → job-application tracker. Claude reads my job-related email, extracts company, role, status, and dates, and turns a noisy inbox into a funnel, response-time metrics, and a \"does a referral help?\" view — with zero manual data entry.\nAI AgentsGmail APIPersonal-AI\n\n\nFeatured Product\nPersonal Networking Agent\nA personal CRM and chief-of-staff for career-long networking, built on Next.js and the Claude API. Voice-first intake, rules-plus-judgment follow-up cadence, Google Calendar reminders. Designed never to auto-send — judgment stays with the user.\nAI AgentsCRMPersonal-AI\n\n\nFeatured Product\nStartup Thesis Screener Pipeline\nMulti-agent pipeline that maps a 600+ company AI startup universe into a scored, visa-verified shortlist — in three hours of parallel agent runtime instead of weeks of manual research.\nAI AgentsDecision SystemsFinancial Services\n\n\nFeatured Analysis\nAI Startup Landscape — 653 Companies\nMethodology and findings from a thesis-driven scan of AI/data startups at seed–Series B, with verified visa evidence and operator-grade recommendations.\nMarket AnalysisAI StartupsDecision Systems\n\n\n\nSee all products →     See all analyses →"
   },
   {
-    "objectID": "about.html#how-i-work",
-    "href": "about.html#how-i-work",
-    "title": "About",
-    "section": "How I work",
-    "text": "How I work\n\n\nBuild reusable systems over ad-hoc analyses. One-off work has a half-life; reusable systems compound across problems.\n\n\nBe skeptical of AI marketing. Obsess over what actually works under regulatory and commercial constraint. Eval data beats demo videos.\n\n\nCompose tight, well-scoped artifacts. Skip monolithic prototypes and sprawling notebooks. Small, composable, shipped.\n\n\nShip in the medium that fits. Python, SQL, R, Claude Code agent pipelines, structured writing — match the artifact to the decision it serves.\n\n\n\nGet in touch\n\nEmail: xxshen752@gmail.com\nLinkedIn: linkedin.com/in/xuanxuan-shen\nGitHub: github.com/shenxuan752"
+    "objectID": "index.html#what-im-doing-now",
+    "href": "index.html#what-im-doing-now",
+    "title": "Xuanxuan (Ava) Shen",
+    "section": "What I’m doing now",
+    "text": "What I’m doing now\n\n\nBuilding\n\nAI-assisted research pipelines and decision systems\nOperator memos and market analyses for vertical-AI and financial services\nTools that compress weeks of work into hours\n\n\n\nExploring\n\nSenior IC, operator, founding-data, and product roles\nFounders and operators in fintech, RegTech, insurtech, decision intelligence\nWriting on credit risk, AI-native workflows, and operator strategy\n\n\n\n\nGet in touch\nBest way to reach me is xxshen752@gmail.com. I read every thoughtful note.\nFor warm intros and recruiter pings, LinkedIn. For code and pipelines, GitHub."
+  },
+  {
+    "objectID": "analyses/index.html",
+    "href": "analyses/index.html",
+    "title": "Analyses",
+    "section": "",
+    "text": "Each one is structured like an operator memo: explicit question, tight methodology, findings ranked by what would change the decision.\n\n\n\n\n\n\n\n\n\n\nAI Startup Landscape — 653 Companies, May 2026\n\n\nMethodology and findings from a thesis-driven scan of AI/data startups at seed–Series B\n\n\n\nMarket Analysis\n\nAI Startups\n\nDecision Systems\n\n\n\n\n\n\nMay 2026\n\n\n\n\n\n\n\nH-1B / PERM Sponsor Search — Structured Employer Prioritization\n\n\nScored, evidence-based shortlist of 100 US employers built from fragmented visa and hiring data\n\n\n\nDecision Support\n\nImmigration Analytics\n\nData Pipeline\n\nEmployer Research\n\n\n\n\n\n\nMay 2025\n\n\n\n\n\n\n\nNYC Cannabis Dispensary Market — Where the Unit Economics Actually Work\n\n\nOperator decision memo with framework, market scan, scoring model, and ranked shortlist for siting a NYC dispensary\n\n\n\nMarket Analysis\n\nRegulated Industry\n\nOperator Strategy\n\nUnit Economics\n\n\n\n\n\n\nApr 2025\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "analyses/nyc-cannabis-market.html",
+    "href": "analyses/nyc-cannabis-market.html",
+    "title": "NYC Cannabis Dispensary Market — Where the Unit Economics Actually Work",
+    "section": "",
+    "text": "Type: Analysis (operator decision memo) · Domain: Regulated cannabis market, NY Office of Cannabis Management (OCM) Method: Public OCM licensing data · Comparative submarket analysis · Scoring framework Status: Final report · Role: Analyst"
+  },
+  {
+    "objectID": "analyses/nyc-cannabis-market.html#core-question",
+    "href": "analyses/nyc-cannabis-market.html#core-question",
+    "title": "NYC Cannabis Dispensary Market — Where the Unit Economics Actually Work",
+    "section": "Core question",
+    "text": "Core question\nAdult-use cannabis legalized in NY in 2023. The NYC dispensary market has been a fragmented, partially-illegal rollout — uneven license issuance, parallel unlicensed market, regulatory uncertainty, sharp variance across submarkets.\nThe decision this memo answers:\n\nOut of the operating environments available in NYC, which submarkets and operator strategies have unit economics that survive the first 3–5 years of regulatory tightening — and which look attractive in the aggregate data but are bait traps for new entrants?"
+  },
+  {
+    "objectID": "analyses/nyc-cannabis-market.html#why-this-matters",
+    "href": "analyses/nyc-cannabis-market.html#why-this-matters",
+    "title": "NYC Cannabis Dispensary Market — Where the Unit Economics Actually Work",
+    "section": "Why this matters",
+    "text": "Why this matters\nThe first wave of post-CAURD operators has produced wildly different outcomes depending on location, license type, and operational discipline. Generic industry forecasts treat the NYC dispensary market as one number; the reality is high variance across submarkets driven by zoning, enforcement pressure, foot traffic, demographic mix, and competitive density (both licensed and unlicensed).\nPicking the right submarket is the single biggest predictor of whether a dispensary survives. A scoring framework that holds up under operational scrutiny — not just an industry-overview deck — is what an actual operator needs."
+  },
+  {
+    "objectID": "analyses/nyc-cannabis-market.html#method",
+    "href": "analyses/nyc-cannabis-market.html#method",
+    "title": "NYC Cannabis Dispensary Market — Where the Unit Economics Actually Work",
+    "section": "Method",
+    "text": "Method\nThree-stage operator analysis. Deliverables A, B, and C correspond to the three stages.\n\nStage 1 — Framework definition (Deliverable A: full report)\nDefined the decision criteria explicitly:\n\nUnit economics — revenue per sqft, expected gross margin, payback period, working capital intensity\nCompetitive density — licensed dispensary count + unlicensed retailer footprint within a measurable radius\nRegulatory exposure — zoning, enforcement track record by precinct, license-type constraints\nOperator-side requirements — capex, license type implications, location lock-in\nDemographic and foot-traffic signal — density, daytime vs. residential, retail corridor character\n\nBuilt a scoring rubric that could be applied consistently across candidate locations and operator strategies — the same lens applied uniformly is what lets the analysis hold up under interrogation.\n\n\nStage 2 — Market analysis\n\nMapped the licensed and unlicensed retailer footprint across NYC at the time of analysis\nProfiled vertical segments: retail dispensary, delivery, processing/manufacturing, cultivation, ancillary services to licensed operators\nIdentified the structural dynamics compressing margins fastest (license-issuance acceleration, unlicensed enforcement variance, supply-side capex)\n\n\n\nStage 3 — Scoring and shortlist (Deliverables B and C)\n\nApplied the scoring model from Stage 1 to candidate locations and strategies\nProduced a ranked shortlist with a unit-economics view per option\nFlagged which strategies looked attractive in aggregate market data but were vulnerable to the specific failure modes surfaced in Stage 2"
+  },
+  {
+    "objectID": "analyses/nyc-cannabis-market.html#key-findings",
+    "href": "analyses/nyc-cannabis-market.html#key-findings",
+    "title": "NYC Cannabis Dispensary Market — Where the Unit Economics Actually Work",
+    "section": "Key findings",
+    "text": "Key findings\n\nLicensed retail margins compress fast as license issuance accelerates. First-mover advantage is real but short; the early-licensee economics are not replicable for entrants who arrive 18 months later. Modeling the early-cohort margin as a forecast for entrants in 2026 is the most common mistake in the industry decks.\nDelivery is structurally worse than the marketing suggests. Last-mile compliance costs, narrow basket sizes, and platform fees crush unit economics for any operator without an existing retail anchor. Pure-play delivery operators in the analyzed dataset consistently underperformed retail on a contribution-margin basis.\nProcessing and manufacturing show the most defensible margins. Capex is meaningful but workflow IP and B2B relationships create real moat. Several strongest operators in NYC at the time of analysis were vertically integrated upstream — that’s where the spread between the public narrative and the actual P&L is widest.\nAncillary services to licensed operators (compliance software, lab testing, security) are the under-discussed opportunity. Lower regulatory exposure, transferable across states, and the buyer is a regulated operator with a real procurement budget and no incumbent vendor of substance.\nThe unlicensed market is the binding constraint on every licensed submarket. Until enforcement materially changes storefront density, licensed retail competes on a tilted field — and the variance is per-block, not aggregate. The single biggest predictor of licensed-retail revenue at the time of analysis was the count of unlicensed storefronts within a ten-block radius."
+  },
+  {
+    "objectID": "analyses/nyc-cannabis-market.html#recommendation",
+    "href": "analyses/nyc-cannabis-market.html#recommendation",
+    "title": "NYC Cannabis Dispensary Market — Where the Unit Economics Actually Work",
+    "section": "Recommendation",
+    "text": "Recommendation\nFor a new operator in 2026:\n\nDon’t enter retail unless you have a unique cost-of-capital or location advantage that isn’t already priced into early-licensee bids\nTwo strongest entry points: upstream processing/manufacturing (defensible margins, real moat) or ancillary services to licensed operators (lower regulatory exposure, multi-state portability)\nDelivery is a value trap absent existing retail anchors\nThe asymmetric upside is in compliance and operations software for licensed operators — a small, growing buyer base with a real procurement budget and no incumbent solution\n\nThe detailed location- and strategy-level shortlist sits in Deliverable C."
+  },
+  {
+    "objectID": "analyses/nyc-cannabis-market.html#what-id-investigate-next",
+    "href": "analyses/nyc-cannabis-market.html#what-id-investigate-next",
+    "title": "NYC Cannabis Dispensary Market — Where the Unit Economics Actually Work",
+    "section": "What I’d investigate next",
+    "text": "What I’d investigate next\n\nConcrete bottom-up unit economics on the top three vertically-integrated operators (most public data is operator-friendly press, not financials)\nActual basket size and CAC trajectory for delivery operators after the 2024–25 enforcement actions (the enforcement step-change should materially shift delivery economics — needs a follow-up scan)\nWhether 2025–26 MSO capital changes the licensed-retail calculus — large multi-state operators entering NY at scale could re-rate the competitive density faster than the current trajectory implies"
+  },
+  {
+    "objectID": "analyses/nyc-cannabis-market.html#deliverables",
+    "href": "analyses/nyc-cannabis-market.html#deliverables",
+    "title": "NYC Cannabis Dispensary Market — Where the Unit Economics Actually Work",
+    "section": "Deliverables",
+    "text": "Deliverables\n\nStage 1 — Framework: Scoring criteria, decision rubric, regulatory map (8KB memo)\nStage 2 — Market analysis: Submarket dynamics, competitive density, regulatory exposure (18KB)\nDeliverable A — Full report: Compiled 32-page memo\nDeliverable B — Scoring model: Per-location and per-strategy scoring with weights\nDeliverable C — Ranked shortlist: Top siting options + strategy recommendations\nFinal PDF report (1.3MB) — available on request\n\nUnderlying data combines public OCM licensing filings with comparative submarket analysis. Available on request."
+  },
+  {
+    "objectID": "analyses/ai-startup-landscape.html",
+    "href": "analyses/ai-startup-landscape.html",
+    "title": "AI Startup Landscape — 653 Companies, May 2026",
+    "section": "",
+    "text": "The AI startup landscape in May 2026 contained roughly 5,000–10,000 companies globally at seed–Series B claiming some AI/data wedge. Standard job-search advice — “apply broadly, see what sticks” — doesn’t survive a universe where most companies are too early to sponsor a visa, too engineering-only to need a senior data operator, or too AI-veneer to last 24 months.\nThe question I needed an answer to: out of the addressable universe of vertical-AI / data-infrastructure / forward-deployed-AI startups, which ~10 are worth a serious application and interview cycle?"
+  },
+  {
+    "objectID": "analyses/ai-startup-landscape.html#the-question",
+    "href": "analyses/ai-startup-landscape.html#the-question",
+    "title": "AI Startup Landscape — 653 Companies, May 2026",
+    "section": "",
+    "text": "The AI startup landscape in May 2026 contained roughly 5,000–10,000 companies globally at seed–Series B claiming some AI/data wedge. Standard job-search advice — “apply broadly, see what sticks” — doesn’t survive a universe where most companies are too early to sponsor a visa, too engineering-only to need a senior data operator, or too AI-veneer to last 24 months.\nThe question I needed an answer to: out of the addressable universe of vertical-AI / data-infrastructure / forward-deployed-AI startups, which ~10 are worth a serious application and interview cycle?"
+  },
+  {
+    "objectID": "analyses/ai-startup-landscape.html#what-i-did",
+    "href": "analyses/ai-startup-landscape.html#what-i-did",
+    "title": "AI Startup Landscape — 653 Companies, May 2026",
+    "section": "What I did",
+    "text": "What I did\nBuilt and ran a multi-agent screening pipeline (see Startup Screener Pipeline) across the AI/data startup universe at seed-Series B. The pipeline:\n\nSurveyed 653 unique companies across 14 verticals (insurance, healthcare, fintech back-office, legal, PropTech, climate, HR, GTM, data infra, AI evals, stealth, wildcards)\nScored each on 12 dimensions weighted toward problem quality, defensibility, founder-market fit, immigration feasibility, and fit for a senior data/AI/operator profile\nDeep-researched the top 20 with 18-section case studies\nVerified visa evidence for the top 10 via primary-source LCA databases\nIdentified 3 actionable tiers: apply directly (5), find warm intro (3), monitor (2)\n\nSources: AlleyWatch funding announcements, TechCrunch, BusinessWire, Crunchbase, YC company directory, Tier-1 VC portfolio pages, Wellfound, niche industry press (Modern Healthcare, Insurance Journal, FinTech Futures, LegalTech News), MyVisaJobs, h1bgrader, h1bdata, USCIS E-Verify employer search, Glassdoor, LinkedIn."
+  },
+  {
+    "objectID": "analyses/ai-startup-landscape.html#key-findings",
+    "href": "analyses/ai-startup-landscape.html#key-findings",
+    "title": "AI Startup Landscape — 653 Companies, May 2026",
+    "section": "Key findings",
+    "text": "Key findings\n\n1. The senior-IC visible job-title taxonomy at AI startups is converging on “Forward-Deployed Engineer,” “AI Strategist,” and “Deployed Intelligence” — not “Data Scientist”\nAt most vertical-AI startups (Palantir-DNA companies especially), the senior-IC role for someone with a 10-year analytics background is not titled “Data Scientist.” That title often gets junior-coded or sits behind a PhD bar. The senior seats that map cleanly to an FS-analytics / decision-science profile carry titles like Forward Deployed Engineer, AI Strategist, Deployed Intelligence Strategist, or Solutions Architect.\nImplication: Searching for “Senior Data Scientist” openings will systematically miss the best-fit seats.\n\n\n2. PERM completion rate matters more than LCA volume\nThe conventional metric for “does this company sponsor visas?” is LCA filing count. I found this metric is misleading. Several companies in the verified top 10 had 10+ LCAs filed but 0 completed PERM applications — meaning sponsored employees consistently left before the green card process completed. One mature retailer outside the AI cohort had filed 11 PERM applications and only 1 was ever certified (the rest expired).\nImplication: For a 6-7 year H-1B-to-PERM horizon, you want to verify PERM completion rate, not just LCA volume. Ask in the first recruiter call: “Has anyone in your data/analytics team completed PERM here?”\n\n\n3. Insurance and healthcare AI verticals systematically over-index for senior-IC fit\nOf the top 20 companies by priority, 8 operated in regulated insurance or healthcare workflow domains (claims, underwriting, prior auth, denial management, RCM). These domains punish AI-veneer plays — the customers (carriers, hospitals, RCM teams) demand evidence and audit trails. They reward decision-science discipline and risk-modeling skill that transfers cleanly from financial services.\nImplication: If you have FS analytics background, vertical-AI startups in insurance/healthcare/compliance are the cleanest skill transfer — better than horizontal AI infrastructure or pure dev tooling.\n\n\n4. Geography and visa cluster: NYC + Series A+ + culturally-international founder is the strongest sponsorship-feasibility combination\nAmong the verified visa sponsors in the screen, the modal profile was: NYC-headquartered (or with a confirmed NYC office), Series A or later, and a founding team that included at least one international-origin operator. This combination shows up disproportionately in the visa-confirmed top tier.\nImplication: If visa is a constraint, focus the search on NYC + Series A+ + international-co-founder companies first. SF-only seed-stage is a worse bet on visa axis even when the company is otherwise excellent.\n\n\n5. “Cursor for X” / “AI agent marketplace” plays were the most consistently downrated category\nIn the YC W26 batch and recent seed announcements, ~10% of companies were “Cursor for [vertical]” or horizontal AI-agent marketplaces. The screen systematically downrated these:\n\nCursor-for-X plays have a 12-24 month window before Microsoft Copilot ships the equivalent in the underlying surface\nHorizontal agent marketplaces have unclear buyer (who pays?), unclear trust mechanism (who verifies agent quality?), and unclear repeat-usage economics\nA higher percentage of these companies (vs. vertical-AI peers) scored above 4 on the Hype/BS-Risk dimension\n\nImplication: Treat these categories with extra skepticism. They generate fundraising press but the unit economics often don’t survive the first refresh of the underlying foundation model."
+  },
+  {
+    "objectID": "analyses/ai-startup-landscape.html#recommendation",
+    "href": "analyses/ai-startup-landscape.html#recommendation",
+    "title": "AI Startup Landscape — 653 Companies, May 2026",
+    "section": "Recommendation",
+    "text": "Recommendation\nFor an immigrant senior data IC targeting AI/data startups in 2026:\n\nFilter aggressively on visa-confirmed companies. Don’t trust inferred-from-cap-table signals. Pull primary-source LCA + PERM data before investing interview cycles.\nApply to NYC + Series A+ + culturally-international-founder targets first. This profile has the best visa odds.\nTarget vertical-AI in regulated industries. Insurance, healthcare, compliance, RegTech, and finance back-office reward the same skills your FS analytics background built.\nTarget Forward-Deployed Engineer / AI Strategist / Solutions Architect titles, not Data Scientist. The senior-IC compensation tier hides under these names.\nNegotiate PERM commitment in writing at offer stage. Companies with LCA history but no PERM precedent need an explicit commitment."
+  },
+  {
+    "objectID": "analyses/ai-startup-landscape.html#what-surprised-me",
+    "href": "analyses/ai-startup-landscape.html#what-surprised-me",
+    "title": "AI Startup Landscape — 653 Companies, May 2026",
+    "section": "What surprised me",
+    "text": "What surprised me\nThe biggest surprise was the gap between inferred visa friendliness and verified visa friendliness. The initial scoring pass scored ~60% of “visa-friendly” candidates correctly when checked against MyVisaJobs / h1bgrader. The rest were corrected — usually downward — by primary-source verification. The inference signal (cap table size, headcount, NYC HQ) is correlated with but not equal to actual sponsorship willingness.\nSecond surprise: the founders’ national-origin background was a stronger predictor of sponsorship culture than the company’s funding stage. Two well-funded SF Series B companies with all-US-citizen founders sponsored less than a smaller Series A with a foreign-born CEO."
+  },
+  {
+    "objectID": "analyses/ai-startup-landscape.html#what-id-interrogate-further",
+    "href": "analyses/ai-startup-landscape.html#what-id-interrogate-further",
+    "title": "AI Startup Landscape — 653 Companies, May 2026",
+    "section": "What I’d interrogate further",
+    "text": "What I’d interrogate further\n\nPERM cohort outcomes. Of the H-1B holders sponsored 3+ years ago at top targets, how many are still at the company today vs. departed? This is the actual signal that matters.\nJob-title-to-LCA mapping at scale. I’d want to systematically map every job posting to the LCA-sponsored titles by company, so I could automatically flag postings unlikely to result in a visa-sponsorable role.\nCross-vertical second-order effects. Several “horizontal AI infra” companies in my screen had FS customer overlap (Stripe, Brex, Plaid). The FS background creates a usable wedge there even when the company isn’t FS-vertical."
+  },
+  {
+    "objectID": "analyses/ai-startup-landscape.html#data-code",
+    "href": "analyses/ai-startup-landscape.html#data-code",
+    "title": "AI Startup Landscape — 653 Companies, May 2026",
+    "section": "Data & code",
+    "text": "Data & code\nUnderlying company data and rankings are private (commercial sensitivity around individual companies and visa inferences). The methodology and scoring framework are documented in the Startup Screener Pipeline write-up.\nThe pipeline can be re-run monthly using the delta-template I built. As of this analysis date (May 2026), the universe had been refreshed twice — once in the initial scan and once via targeted gap-fill across underserved verticals (Legal, PropTech, HR, Climate)."
   },
   {
     "objectID": "analyses/visa-sponsor-search.html",
@@ -224,158 +343,95 @@
     "text": "Sources\nDOL OFLC LCA Disclosures · USCIS H-1B Employer Data Hub · ICE SEVIS 2024 Top 200 STEM-OPT Employers · H1BGrader · MyVisaJobs · H1BData.info · USCIS E-Verify Employer Search · individual company careers-page sponsorship language"
   },
   {
-    "objectID": "analyses/ai-startup-landscape.html",
-    "href": "analyses/ai-startup-landscape.html",
-    "title": "AI Startup Landscape — 653 Companies, May 2026",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "The AI startup landscape in May 2026 contained roughly 5,000–10,000 companies globally at seed–Series B claiming some AI/data wedge. Standard job-search advice — “apply broadly, see what sticks” — doesn’t survive a universe where most companies are too early to sponsor a visa, too engineering-only to need a senior data operator, or too AI-veneer to last 24 months.\nThe question I needed an answer to: out of the addressable universe of vertical-AI / data-infrastructure / forward-deployed-AI startups, which ~10 are worth a serious application and interview cycle?"
+    "text": "📍 Based in New York City  ·  Open to relocation"
   },
   {
-    "objectID": "analyses/ai-startup-landscape.html#the-question",
-    "href": "analyses/ai-startup-landscape.html#the-question",
-    "title": "AI Startup Landscape — 653 Companies, May 2026",
+    "objectID": "about.html#how-i-got-here",
+    "href": "about.html#how-i-got-here",
+    "title": "About",
+    "section": "How I got here",
+    "text": "How I got here\nI started in financial services and spent a decade close to the messiest, highest-stakes problems in the industry: credit risk, underwriting, lending analytics, and decision systems.\nI built and validated models that decided whether real customers got real credit. Designed analytics that informed how capital was allocated. Translated regulatory and commercial constraints into systems that had to work — under scrutiny, at scale, with real money on the line.\nThe hard part was rarely the math. The hard part was structuring ambiguity, building shared understanding across functions, and shipping artifacts — products, models, memos — that survived contact with reality.\nThe last two years, my work has shifted toward AI-native execution. I build agent systems that compress weeks of research into hours. I run multi-source market scans that would have required a consulting team. I use AI to expand the surface area of what one operator can ship — not as a hobby, not as a tool I’m exploring, but as the central way I work.\n\nBoth halves of my career converge on the same thing — turning complex, data-heavy business problems into products, analyses, and decisions that hold up under scrutiny."
+  },
+  {
+    "objectID": "about.html#what-im-best-at",
+    "href": "about.html#what-im-best-at",
+    "title": "About",
+    "section": "What I’m best at",
+    "text": "What I’m best at\n\nTranslating ambiguity into structure. Messy markets, undefined opportunities, decisions under uncertainty — these are where I add the most.\nConnecting domain depth to execution. Financial services taught me what regulators, customers, and operators actually care about. AI-native workflows let me ship faster than the org chart would suggest.\nCross-functional range. I’ve operated as analyst, modeler, product partner, strategist, and builder. I read the business, the data, and the system simultaneously.\nBuilding artifacts, not just opinions. I’d rather ship a working prototype, a rigorous memo, or a decision-ready model than write a deck."
+  },
+  {
+    "objectID": "about.html#where-i-create-the-most-leverage",
+    "href": "about.html#where-i-create-the-most-leverage",
+    "title": "About",
+    "section": "Where I create the most leverage",
+    "text": "Where I create the most leverage\nThe strongest fit is where financial services depth and AI-native execution compound — at companies solving real, high-stakes problems under regulatory and commercial constraint, where shipping the right artifact matters more than writing the right deck.\n\nForward-deployed AI, decision intelligence, and AI-product roles at high-upside startups (seed–Series B)\nOperator and founding-team seats in vertical AI, financial services AI, RegTech, insurtech, or decision systems\nStrategy and product roles at fintech and financial services companies where AI-native execution is the differentiator, not the marketing"
+  },
+  {
+    "objectID": "about.html#how-i-work",
+    "href": "about.html#how-i-work",
+    "title": "About",
+    "section": "How I work",
+    "text": "How I work\n\n\nBuild reusable systems over ad-hoc analyses. One-off work has a half-life; reusable systems compound across problems.\n\n\nBe skeptical of AI marketing. Obsess over what actually works under regulatory and commercial constraint. Eval data beats demo videos.\n\n\nCompose tight, well-scoped artifacts. Skip monolithic prototypes and sprawling notebooks. Small, composable, shipped.\n\n\nShip in the medium that fits. Python, SQL, R, Claude Code agent pipelines, structured writing — match the artifact to the decision it serves.\n\n\n\nGet in touch\n\nEmail: xxshen752@gmail.com\nLinkedIn: linkedin.com/in/xuanxuan-shen\nGitHub: github.com/shenxuan752"
+  },
+  {
+    "objectID": "products/application-tracker.html",
+    "href": "products/application-tracker.html",
+    "title": "Application Tracker",
     "section": "",
-    "text": "The AI startup landscape in May 2026 contained roughly 5,000–10,000 companies globally at seed–Series B claiming some AI/data wedge. Standard job-search advice — “apply broadly, see what sticks” — doesn’t survive a universe where most companies are too early to sponsor a visa, too engineering-only to need a senior data operator, or too AI-veneer to last 24 months.\nThe question I needed an answer to: out of the addressable universe of vertical-AI / data-infrastructure / forward-deployed-AI startups, which ~10 are worth a serious application and interview cycle?"
+    "text": "Type: Product · Domain: Job-search / application pipeline tracking Stack: Next.js · React · TypeScript · Tailwind · SQLite · Prisma · Anthropic Claude API (Sonnet 4.6, structured outputs) · Gmail API (read-only) · Google OAuth · launchd Status: Running locally on my Mac (port 3100), daily auto-ingest via launchd · Role: Sole builder"
   },
   {
-    "objectID": "analyses/ai-startup-landscape.html#what-i-did",
-    "href": "analyses/ai-startup-landscape.html#what-i-did",
-    "title": "AI Startup Landscape — 653 Companies, May 2026",
-    "section": "What I did",
-    "text": "What I did\nBuilt and ran a multi-agent screening pipeline (see Startup Screener Pipeline) across the AI/data startup universe at seed-Series B. The pipeline:\n\nSurveyed 653 unique companies across 14 verticals (insurance, healthcare, fintech back-office, legal, PropTech, climate, HR, GTM, data infra, AI evals, stealth, wildcards)\nScored each on 12 dimensions weighted toward problem quality, defensibility, founder-market fit, immigration feasibility, and fit for a senior data/AI/operator profile\nDeep-researched the top 20 with 18-section case studies\nVerified visa evidence for the top 10 via primary-source LCA databases\nIdentified 3 actionable tiers: apply directly (5), find warm intro (3), monitor (2)\n\nSources: AlleyWatch funding announcements, TechCrunch, BusinessWire, Crunchbase, YC company directory, Tier-1 VC portfolio pages, Wellfound, niche industry press (Modern Healthcare, Insurance Journal, FinTech Futures, LegalTech News), MyVisaJobs, h1bgrader, h1bdata, USCIS E-Verify employer search, Glassdoor, LinkedIn."
+    "objectID": "products/application-tracker.html#one-line-summary",
+    "href": "products/application-tracker.html#one-line-summary",
+    "title": "Application Tracker",
+    "section": "One-line summary",
+    "text": "One-line summary\nA personal tool that reads my job-related emails, uses Claude to extract each application’s company, role, status, and key dates, and assembles them into a dashboard — funnel, applications-per-day, response times, and a “does a referral actually help?” comparison — so I can see my whole job search at a glance instead of digging through my inbox."
   },
   {
-    "objectID": "analyses/ai-startup-landscape.html#key-findings",
-    "href": "analyses/ai-startup-landscape.html#key-findings",
-    "title": "AI Startup Landscape — 653 Companies, May 2026",
-    "section": "Key findings",
-    "text": "Key findings\n\n1. The senior-IC visible job-title taxonomy at AI startups is converging on “Forward-Deployed Engineer,” “AI Strategist,” and “Deployed Intelligence” — not “Data Scientist”\nAt most vertical-AI startups (Palantir-DNA companies especially), the senior-IC role for someone with a 10-year analytics background is not titled “Data Scientist.” That title often gets junior-coded or sits behind a PhD bar. The senior seats that map cleanly to an FS-analytics / decision-science profile carry titles like Forward Deployed Engineer, AI Strategist, Deployed Intelligence Strategist, or Solutions Architect.\nImplication: Searching for “Senior Data Scientist” openings will systematically miss the best-fit seats.\n\n\n2. PERM completion rate matters more than LCA volume\nThe conventional metric for “does this company sponsor visas?” is LCA filing count. I found this metric is misleading. Several companies in the verified top 10 had 10+ LCAs filed but 0 completed PERM applications — meaning sponsored employees consistently left before the green card process completed. One mature retailer outside the AI cohort had filed 11 PERM applications and only 1 was ever certified (the rest expired).\nImplication: For a 6-7 year H-1B-to-PERM horizon, you want to verify PERM completion rate, not just LCA volume. Ask in the first recruiter call: “Has anyone in your data/analytics team completed PERM here?”\n\n\n3. Insurance and healthcare AI verticals systematically over-index for senior-IC fit\nOf the top 20 companies by priority, 8 operated in regulated insurance or healthcare workflow domains (claims, underwriting, prior auth, denial management, RCM). These domains punish AI-veneer plays — the customers (carriers, hospitals, RCM teams) demand evidence and audit trails. They reward decision-science discipline and risk-modeling skill that transfers cleanly from financial services.\nImplication: If you have FS analytics background, vertical-AI startups in insurance/healthcare/compliance are the cleanest skill transfer — better than horizontal AI infrastructure or pure dev tooling.\n\n\n4. Geography and visa cluster: NYC + Series A+ + culturally-international founder is the strongest sponsorship-feasibility combination\nAmong the verified visa sponsors in the screen, the modal profile was: NYC-headquartered (or with a confirmed NYC office), Series A or later, and a founding team that included at least one international-origin operator. This combination shows up disproportionately in the visa-confirmed top tier.\nImplication: If visa is a constraint, focus the search on NYC + Series A+ + international-co-founder companies first. SF-only seed-stage is a worse bet on visa axis even when the company is otherwise excellent.\n\n\n5. “Cursor for X” / “AI agent marketplace” plays were the most consistently downrated category\nIn the YC W26 batch and recent seed announcements, ~10% of companies were “Cursor for [vertical]” or horizontal AI-agent marketplaces. The screen systematically downrated these:\n\nCursor-for-X plays have a 12-24 month window before Microsoft Copilot ships the equivalent in the underlying surface\nHorizontal agent marketplaces have unclear buyer (who pays?), unclear trust mechanism (who verifies agent quality?), and unclear repeat-usage economics\nA higher percentage of these companies (vs. vertical-AI peers) scored above 4 on the Hype/BS-Risk dimension\n\nImplication: Treat these categories with extra skepticism. They generate fundraising press but the unit economics often don’t survive the first refresh of the underlying foundation model."
+    "objectID": "products/application-tracker.html#why-i-built-this",
+    "href": "products/application-tracker.html#why-i-built-this",
+    "title": "Application Tracker",
+    "section": "Why I built this",
+    "text": "Why I built this\nA real job search throws off a surprising amount of signal that’s almost impossible to use, because it’s all trapped in email. Confirmations, recruiter replies, “we’ve moved you to the next round,” auto-rejections, ghosting — they arrive scattered across weeks, interleaved with newsletters and job-board spam. By the time you’re 40 applications deep you’ve lost the thread: which companies actually replied, how fast, how many am I applying to per week, and is the referral I worked so hard to get actually changing my odds?\nSpreadsheets don’t solve this, because the bottleneck isn’t storage — it’s data entry. Nobody reliably logs every application and every reply by hand. The information already exists in the inbox; what’s missing is something to read it, understand it, and structure it.\nI wanted a tool that:\n\nreads my inbox read-only — it can never send, delete, or modify a single email\nrecognizes which emails are about my applications and ignores the marketing/newsletter/job-board noise\nextracts the structured facts (company, role, status, source, dates) without me typing anything\nrolls scattered emails up into one record per application, with a full event timeline\nanswers the questions I actually have: response rate, time-to-first-reply, funnel stage, what’s gone stale\ntells me whether referrals are paying off, with numbers"
   },
   {
-    "objectID": "analyses/ai-startup-landscape.html#recommendation",
-    "href": "analyses/ai-startup-landscape.html#recommendation",
-    "title": "AI Startup Landscape — 653 Companies, May 2026",
-    "section": "Recommendation",
-    "text": "Recommendation\nFor an immigrant senior data IC targeting AI/data startups in 2026:\n\nFilter aggressively on visa-confirmed companies. Don’t trust inferred-from-cap-table signals. Pull primary-source LCA + PERM data before investing interview cycles.\nApply to NYC + Series A+ + culturally-international-founder targets first. This profile has the best visa odds.\nTarget vertical-AI in regulated industries. Insurance, healthcare, compliance, RegTech, and finance back-office reward the same skills your FS analytics background built.\nTarget Forward-Deployed Engineer / AI Strategist / Solutions Architect titles, not Data Scientist. The senior-IC compensation tier hides under these names.\nNegotiate PERM commitment in writing at offer stage. Companies with LCA history but no PERM precedent need an explicit commitment."
+    "objectID": "products/application-tracker.html#what-i-built",
+    "href": "products/application-tracker.html#what-i-built",
+    "title": "Application Tracker",
+    "section": "What I built",
+    "text": "What I built\nA Next.js app I run on my own Mac — single user, no auth, fully local data. Runs on port 3100.\n\nRead-only Gmail ingest — connects via Google OAuth with the gmail.readonly scope (it is structurally incapable of sending or changing mail). It fetches recent messages, and a Claude Sonnet 4.6 call with structured outputs classifies each one: is this about one of my job applications, and if so what’s the company, role, status, source (Greenhouse / Lever / Ashby / Workday / direct / referral), and event date?\nDedupe + smart matching — every email is keyed by its Gmail message id so the same message never gets ingested twice. New events are matched to an existing application by normalized company name (and role); a bare rejection with no role attaches to the most recent application at that company. Status rolls up with terminal states (offer / rejection) taking precedence, and appliedAt / firstReplyAt / lastUpdateAt are derived from the event stream.\nDashboard — the home page shows total applications, status chips across the funnel, an applications-per-day bar chart, average time-to-first-reply, and the referral comparison.\nApplication list + detail — a filterable list with a 🤝 referral toggle, and a per-application page showing the full timeline of every email event that touched it.\nManual add — a /add form for applications that didn’t come through email (paste a job URL or type the details), so the picture stays complete.\nReferral impact — each application carries a hasReferral flag, and the home page answers “does a referral help?” by comparing reply rate and interview-or-better rate, with referral vs without.\nLearnings — a view that surfaces patterns from my own data: which companies auto-rejected within days (so I stop wasting effort), which are still genuinely in review, and which are known sponsors worth prioritizing.\nDaily auto-run — a macOS LaunchAgent runs the ingest every day at 5:30 PM, plus an on-demand “↻ Refresh now” button and a standalone npm run ingest that needs no server running."
   },
   {
-    "objectID": "analyses/ai-startup-landscape.html#what-surprised-me",
-    "href": "analyses/ai-startup-landscape.html#what-surprised-me",
-    "title": "AI Startup Landscape — 653 Companies, May 2026",
-    "section": "What surprised me",
-    "text": "What surprised me\nThe biggest surprise was the gap between inferred visa friendliness and verified visa friendliness. The initial scoring pass scored ~60% of “visa-friendly” candidates correctly when checked against MyVisaJobs / h1bgrader. The rest were corrected — usually downward — by primary-source verification. The inference signal (cap table size, headcount, NYC HQ) is correlated with but not equal to actual sponsorship willingness.\nSecond surprise: the founders’ national-origin background was a stronger predictor of sponsorship culture than the company’s funding stage. Two well-funded SF Series B companies with all-US-citizen founders sponsored less than a smaller Series A with a foreign-born CEO."
+    "objectID": "products/application-tracker.html#how-it-works",
+    "href": "products/application-tracker.html#how-it-works",
+    "title": "Application Tracker",
+    "section": "How it works",
+    "text": "How it works\nA few choices that shaped the design:\n\nRead-only is the whole point. The Gmail scope is gmail.readonly. The tool reads to understand; it has no ability to act on my mailbox. For something pointed at my personal email during a stressful job search, “it literally cannot send or delete anything” is the only acceptable safety posture, and it’s enforced at the OAuth-scope level, not by convention.\nThe inbox is the data-entry layer. The reason application trackers go stale is manual logging. By making Claude read the emails that already exist, the cost of keeping the tracker current drops to zero — I connect Gmail once and the funnel maintains itself. The model’s job is the part humans won’t do reliably: reading every email and turning it into a row.\nIdempotent ingest via Gmail message id. Each EmailEvent is uniquely keyed on its gmailId. Re-running the ingest — daily, or by mashing refresh — never double-counts, so the metrics stay trustworthy. An IngestState watermark means each run only looks at messages newer than the last fetch.\nApplication as rollup, emails as timeline. One Application row holds the current state (status, dates, referral flag); a separate EmailEvent table holds the append-only history. Status rolls forward with offer/rejection as terminal, and the response-time metric comes from the gap between appliedAt and firstReplyAt — both inferred from the event stream rather than entered by hand.\nStructured outputs for extraction, filters for the noise. The classification call uses a strict JSON schema so every email comes back as a predictable record. A pre-filter drops marketing, newsletters, and job-board blasts before they ever reach the model, which keeps both the cost and the false-positive rate down.\nSame boring deploy as my other personal tools. Next.js + Prisma/SQLite on my Mac, daily run via launchd, no cloud, no auth, no public URL. The device is the access boundary. (Architecturally it’s a sibling of my Personal Networking Agent — same stack, same single-user local posture.)"
   },
   {
-    "objectID": "analyses/ai-startup-landscape.html#what-id-interrogate-further",
-    "href": "analyses/ai-startup-landscape.html#what-id-interrogate-further",
-    "title": "AI Startup Landscape — 653 Companies, May 2026",
-    "section": "What I’d interrogate further",
-    "text": "What I’d interrogate further\n\nPERM cohort outcomes. Of the H-1B holders sponsored 3+ years ago at top targets, how many are still at the company today vs. departed? This is the actual signal that matters.\nJob-title-to-LCA mapping at scale. I’d want to systematically map every job posting to the LCA-sponsored titles by company, so I could automatically flag postings unlikely to result in a visa-sponsorable role.\nCross-vertical second-order effects. Several “horizontal AI infra” companies in my screen had FS customer overlap (Stripe, Brex, Plaid). The FS background creates a usable wedge there even when the company isn’t FS-vertical."
+    "objectID": "products/application-tracker.html#my-role",
+    "href": "products/application-tracker.html#my-role",
+    "title": "Application Tracker",
+    "section": "My role",
+    "text": "My role\nSole builder — architecture, the Gmail OAuth flow, the extraction schema and matching logic, the dashboard and metrics, the manual-add path, and the launchd auto-ingest. Built with Claude Code as the development environment."
   },
   {
-    "objectID": "analyses/ai-startup-landscape.html#data-code",
-    "href": "analyses/ai-startup-landscape.html#data-code",
-    "title": "AI Startup Landscape — 653 Companies, May 2026",
-    "section": "Data & code",
-    "text": "Data & code\nUnderlying company data and rankings are private (commercial sensitivity around individual companies and visa inferences). The methodology and scoring framework are documented in the Startup Screener Pipeline write-up.\nThe pipeline can be re-run monthly using the delta-template I built. As of this analysis date (May 2026), the universe had been refreshed twice — once in the initial scan and once via targeted gap-fill across underserved verticals (Legal, PropTech, HR, Climate)."
+    "objectID": "products/application-tracker.html#what-i-learned",
+    "href": "products/application-tracker.html#what-i-learned",
+    "title": "Application Tracker",
+    "section": "What I learned",
+    "text": "What I learned\n\nExtraction beats data entry. The feature that makes this tool work isn’t the dashboard — it’s that I never type anything. Pointing a model at the inbox removed the exact friction that makes every manual tracker rot. The lesson generalizes: when the data already exists somewhere unstructured, the highest-leverage move is reading it, not building a nicer form.\nIdempotency is what makes metrics trustworthy. The moment a tracker double-counts one rejection, you stop trusting all of it. Keying every event on the Gmail message id — so daily re-ingestion is safe — was a small decision that did more for the tool’s usefulness than any chart.\nRead-only scope is a feature, not a limitation. Constraining the tool to gmail.readonly made it something I was actually willing to connect to my primary email. The narrowest possible permission was the thing that made adoption possible.\nMy own funnel had answers in it. Once the data was structured, the “learnings” view showed me things I’d felt but couldn’t prove — which companies auto-reject in 48 hours, where referrals genuinely moved the reply rate — and changed where I spent effort. The value wasn’t tracking for its own sake; it was the decisions the aggregate made obvious."
   },
   {
-    "objectID": "analyses/nyc-cannabis-market.html",
-    "href": "analyses/nyc-cannabis-market.html",
-    "title": "NYC Cannabis Dispensary Market — Where the Unit Economics Actually Work",
-    "section": "",
-    "text": "Type: Analysis (operator decision memo) · Domain: Regulated cannabis market, NY Office of Cannabis Management (OCM) Method: Public OCM licensing data · Comparative submarket analysis · Scoring framework Status: Final report · Role: Analyst"
-  },
-  {
-    "objectID": "analyses/nyc-cannabis-market.html#core-question",
-    "href": "analyses/nyc-cannabis-market.html#core-question",
-    "title": "NYC Cannabis Dispensary Market — Where the Unit Economics Actually Work",
-    "section": "Core question",
-    "text": "Core question\nAdult-use cannabis legalized in NY in 2023. The NYC dispensary market has been a fragmented, partially-illegal rollout — uneven license issuance, parallel unlicensed market, regulatory uncertainty, sharp variance across submarkets.\nThe decision this memo answers:\n\nOut of the operating environments available in NYC, which submarkets and operator strategies have unit economics that survive the first 3–5 years of regulatory tightening — and which look attractive in the aggregate data but are bait traps for new entrants?"
-  },
-  {
-    "objectID": "analyses/nyc-cannabis-market.html#why-this-matters",
-    "href": "analyses/nyc-cannabis-market.html#why-this-matters",
-    "title": "NYC Cannabis Dispensary Market — Where the Unit Economics Actually Work",
-    "section": "Why this matters",
-    "text": "Why this matters\nThe first wave of post-CAURD operators has produced wildly different outcomes depending on location, license type, and operational discipline. Generic industry forecasts treat the NYC dispensary market as one number; the reality is high variance across submarkets driven by zoning, enforcement pressure, foot traffic, demographic mix, and competitive density (both licensed and unlicensed).\nPicking the right submarket is the single biggest predictor of whether a dispensary survives. A scoring framework that holds up under operational scrutiny — not just an industry-overview deck — is what an actual operator needs."
-  },
-  {
-    "objectID": "analyses/nyc-cannabis-market.html#method",
-    "href": "analyses/nyc-cannabis-market.html#method",
-    "title": "NYC Cannabis Dispensary Market — Where the Unit Economics Actually Work",
-    "section": "Method",
-    "text": "Method\nThree-stage operator analysis. Deliverables A, B, and C correspond to the three stages.\n\nStage 1 — Framework definition (Deliverable A: full report)\nDefined the decision criteria explicitly:\n\nUnit economics — revenue per sqft, expected gross margin, payback period, working capital intensity\nCompetitive density — licensed dispensary count + unlicensed retailer footprint within a measurable radius\nRegulatory exposure — zoning, enforcement track record by precinct, license-type constraints\nOperator-side requirements — capex, license type implications, location lock-in\nDemographic and foot-traffic signal — density, daytime vs. residential, retail corridor character\n\nBuilt a scoring rubric that could be applied consistently across candidate locations and operator strategies — the same lens applied uniformly is what lets the analysis hold up under interrogation.\n\n\nStage 2 — Market analysis\n\nMapped the licensed and unlicensed retailer footprint across NYC at the time of analysis\nProfiled vertical segments: retail dispensary, delivery, processing/manufacturing, cultivation, ancillary services to licensed operators\nIdentified the structural dynamics compressing margins fastest (license-issuance acceleration, unlicensed enforcement variance, supply-side capex)\n\n\n\nStage 3 — Scoring and shortlist (Deliverables B and C)\n\nApplied the scoring model from Stage 1 to candidate locations and strategies\nProduced a ranked shortlist with a unit-economics view per option\nFlagged which strategies looked attractive in aggregate market data but were vulnerable to the specific failure modes surfaced in Stage 2"
-  },
-  {
-    "objectID": "analyses/nyc-cannabis-market.html#key-findings",
-    "href": "analyses/nyc-cannabis-market.html#key-findings",
-    "title": "NYC Cannabis Dispensary Market — Where the Unit Economics Actually Work",
-    "section": "Key findings",
-    "text": "Key findings\n\nLicensed retail margins compress fast as license issuance accelerates. First-mover advantage is real but short; the early-licensee economics are not replicable for entrants who arrive 18 months later. Modeling the early-cohort margin as a forecast for entrants in 2026 is the most common mistake in the industry decks.\nDelivery is structurally worse than the marketing suggests. Last-mile compliance costs, narrow basket sizes, and platform fees crush unit economics for any operator without an existing retail anchor. Pure-play delivery operators in the analyzed dataset consistently underperformed retail on a contribution-margin basis.\nProcessing and manufacturing show the most defensible margins. Capex is meaningful but workflow IP and B2B relationships create real moat. Several strongest operators in NYC at the time of analysis were vertically integrated upstream — that’s where the spread between the public narrative and the actual P&L is widest.\nAncillary services to licensed operators (compliance software, lab testing, security) are the under-discussed opportunity. Lower regulatory exposure, transferable across states, and the buyer is a regulated operator with a real procurement budget and no incumbent vendor of substance.\nThe unlicensed market is the binding constraint on every licensed submarket. Until enforcement materially changes storefront density, licensed retail competes on a tilted field — and the variance is per-block, not aggregate. The single biggest predictor of licensed-retail revenue at the time of analysis was the count of unlicensed storefronts within a ten-block radius."
-  },
-  {
-    "objectID": "analyses/nyc-cannabis-market.html#recommendation",
-    "href": "analyses/nyc-cannabis-market.html#recommendation",
-    "title": "NYC Cannabis Dispensary Market — Where the Unit Economics Actually Work",
-    "section": "Recommendation",
-    "text": "Recommendation\nFor a new operator in 2026:\n\nDon’t enter retail unless you have a unique cost-of-capital or location advantage that isn’t already priced into early-licensee bids\nTwo strongest entry points: upstream processing/manufacturing (defensible margins, real moat) or ancillary services to licensed operators (lower regulatory exposure, multi-state portability)\nDelivery is a value trap absent existing retail anchors\nThe asymmetric upside is in compliance and operations software for licensed operators — a small, growing buyer base with a real procurement budget and no incumbent solution\n\nThe detailed location- and strategy-level shortlist sits in Deliverable C."
-  },
-  {
-    "objectID": "analyses/nyc-cannabis-market.html#what-id-investigate-next",
-    "href": "analyses/nyc-cannabis-market.html#what-id-investigate-next",
-    "title": "NYC Cannabis Dispensary Market — Where the Unit Economics Actually Work",
-    "section": "What I’d investigate next",
-    "text": "What I’d investigate next\n\nConcrete bottom-up unit economics on the top three vertically-integrated operators (most public data is operator-friendly press, not financials)\nActual basket size and CAC trajectory for delivery operators after the 2024–25 enforcement actions (the enforcement step-change should materially shift delivery economics — needs a follow-up scan)\nWhether 2025–26 MSO capital changes the licensed-retail calculus — large multi-state operators entering NY at scale could re-rate the competitive density faster than the current trajectory implies"
-  },
-  {
-    "objectID": "analyses/nyc-cannabis-market.html#deliverables",
-    "href": "analyses/nyc-cannabis-market.html#deliverables",
-    "title": "NYC Cannabis Dispensary Market — Where the Unit Economics Actually Work",
-    "section": "Deliverables",
-    "text": "Deliverables\n\nStage 1 — Framework: Scoring criteria, decision rubric, regulatory map (8KB memo)\nStage 2 — Market analysis: Submarket dynamics, competitive density, regulatory exposure (18KB)\nDeliverable A — Full report: Compiled 32-page memo\nDeliverable B — Scoring model: Per-location and per-strategy scoring with weights\nDeliverable C — Ranked shortlist: Top siting options + strategy recommendations\nFinal PDF report (1.3MB) — available on request\n\nUnderlying data combines public OCM licensing filings with comparative submarket analysis. Available on request."
-  },
-  {
-    "objectID": "analyses/index.html",
-    "href": "analyses/index.html",
-    "title": "Analyses",
-    "section": "",
-    "text": "Each one is structured like an operator memo: explicit question, tight methodology, findings ranked by what would change the decision.\n\n\n\n\n\n\n\n\n\n\nAI Startup Landscape — 653 Companies, May 2026\n\n\nMethodology and findings from a thesis-driven scan of AI/data startups at seed–Series B\n\n\n\nMarket Analysis\n\nAI Startups\n\nDecision Systems\n\n\n\n\n\n\nMay 2026\n\n\n\n\n\n\n\nH-1B / PERM Sponsor Search — Structured Employer Prioritization\n\n\nScored, evidence-based shortlist of 100 US employers built from fragmented visa and hiring data\n\n\n\nDecision Support\n\nImmigration Analytics\n\nData Pipeline\n\nEmployer Research\n\n\n\n\n\n\nMay 2025\n\n\n\n\n\n\n\nNYC Cannabis Dispensary Market — Where the Unit Economics Actually Work\n\n\nOperator decision memo with framework, market scan, scoring model, and ranked shortlist for siting a NYC dispensary\n\n\n\nMarket Analysis\n\nRegulated Industry\n\nOperator Strategy\n\nUnit Economics\n\n\n\n\n\n\nApr 2025\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Xuanxuan (Ava) Shen",
-    "section": "",
-    "text": "Background\n\n\n10 years in financial services — credit risk, underwriting, lending analytics, decision systems\n\n\nFocus\n\n\nAI-native pipelines, operator memos, and decision tools\n\n\nStage\n\n\nSenior IC, lead, director, or founding-team\n\n\nLocation\n\n\nNew York City — open to relocation"
-  },
-  {
-    "objectID": "index.html#why-this-mix-matters",
-    "href": "index.html#why-this-mix-matters",
-    "title": "Xuanxuan (Ava) Shen",
-    "section": "Why this mix matters",
-    "text": "Why this mix matters\n\n\n\n01\n\n\nDomain depth that survives scrutiny\nA decade in financial services means I know what regulators, customers, and operators actually care about. Models that decide credit, analytics that allocate capital, systems built under real constraint.\n\n\n\n\n02\n\n\nAI-native execution as a leverage multiplier\nI use AI as core leverage for research, synthesis, prototyping, and shipping — not as a tool I’m interested in. It expands the surface area of what one operator can deliver.\n\n\n\n\n03\n\n\nThe combination is rare\nMost AI-native operators don’t have the domain depth. Most domain experts haven’t rebuilt their workflows around AI. The intersection is where I work."
-  },
-  {
-    "objectID": "index.html#what-i-work-on",
-    "href": "index.html#what-i-work-on",
-    "title": "Xuanxuan (Ava) Shen",
-    "section": "What I work on",
-    "text": "What I work on\n\n\nCapability 01\n\nRisk & Financial Systems\nA decade designing, validating, and shipping credit risk, underwriting, and lending analytics under regulatory and commercial constraint.\n\n\n\nCapability 02\n\nAI-native Execution\nMulti-agent pipelines and AI-assisted research that compress weeks of analysis into hours of run-time plus human review.\n\n\n\nCapability 03\n\nProducts & Decision Systems\nTools, internal pipelines, and workflows that move ambiguity into structure into shipped code — used by real operators.\n\n\n\nCapability 04\n\nStrategy & Operator Memos\nMarket scans, opportunity evaluations, and risk write-ups built to inform real decisions — not to look smart."
-  },
-  {
-    "objectID": "index.html#selected-work",
-    "href": "index.html#selected-work",
-    "title": "Xuanxuan (Ava) Shen",
-    "section": "Selected work",
-    "text": "Selected work\n\n\nFeatured Product\nApplication Assistant\nA three-mode job-application workbench — tailored cover letters, JD-aligned resumes, and grounded \"why this company / why this role\" interview answers. One principle across all three: do the analytical work before writing, so the output demonstrates fit instead of gesturing at it.\nAI AgentsWorkflow ToolAnthropic Claude\n\n\nFeatured Product\nPersonal Networking Agent\nA personal CRM and chief-of-staff for career-long networking, built on Next.js and the Claude API. Voice-first intake, rules-plus-judgment follow-up cadence, Google Calendar reminders. Designed never to auto-send — judgment stays with the user.\nAI AgentsCRMPersonal-AI\n\n\nFeatured Product\nStartup Thesis Screener Pipeline\nMulti-agent pipeline that maps a 600+ company AI startup universe into a scored, visa-verified shortlist — in three hours of parallel agent runtime instead of weeks of manual research.\nAI AgentsDecision SystemsFinancial Services\n\n\nFeatured Analysis\nAI Startup Landscape — 653 Companies\nMethodology and findings from a thesis-driven scan of AI/data startups at seed–Series B, with verified visa evidence and operator-grade recommendations.\nMarket AnalysisAI StartupsDecision Systems\n\n\n\nSee all products →     See all analyses →"
-  },
-  {
-    "objectID": "index.html#what-im-doing-now",
-    "href": "index.html#what-im-doing-now",
-    "title": "Xuanxuan (Ava) Shen",
-    "section": "What I’m doing now",
-    "text": "What I’m doing now\n\n\nBuilding\n\nAI-assisted research pipelines and decision systems\nOperator memos and market analyses for vertical-AI and financial services\nTools that compress weeks of work into hours\n\n\n\nExploring\n\nSenior IC, operator, founding-data, and product roles\nFounders and operators in fintech, RegTech, insurtech, decision intelligence\nWriting on credit risk, AI-native workflows, and operator strategy\n\n\n\n\nGet in touch\nBest way to reach me is xxshen752@gmail.com. I read every thoughtful note.\nFor warm intros and recruiter pings, LinkedIn. For code and pipelines, GitHub."
+    "objectID": "products/application-tracker.html#links",
+    "href": "products/application-tracker.html#links",
+    "title": "Application Tracker",
+    "section": "Links",
+    "text": "Links\nRepo is private (it reads my personal email). Happy to walk through the read-only OAuth setup, the extraction schema, or the dedupe/matching logic."
   },
   {
     "objectID": "products/sql-practice-agent.html",

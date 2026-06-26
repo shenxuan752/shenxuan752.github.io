@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2026-06-23">
 
-<title>Analyses – Xuanxuan (Ava) Shen</title>
+<title>Application Tracker – Xuanxuan (Ava) Shen</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -33,8 +34,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -72,71 +71,13 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-subtitle','listing-date','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <style>html{ scroll-behavior: smooth; }</style>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -162,7 +103,7 @@ window.Quarto = {
 <span class="menu-text">Products</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../analyses/index.html" aria-current="page"> 
+    <a class="nav-link" href="../analyses/index.html"> 
 <span class="menu-text">Analyses</span></a>
   </li>  
   <li class="nav-item">
@@ -197,21 +138,49 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#one-line-summary" id="toc-one-line-summary" class="nav-link active" data-scroll-target="#one-line-summary">One-line summary</a></li>
+  <li><a href="#why-i-built-this" id="toc-why-i-built-this" class="nav-link" data-scroll-target="#why-i-built-this">Why I built this</a></li>
+  <li><a href="#what-i-built" id="toc-what-i-built" class="nav-link" data-scroll-target="#what-i-built">What I built</a></li>
+  <li><a href="#how-it-works" id="toc-how-it-works" class="nav-link" data-scroll-target="#how-it-works">How it works</a></li>
+  <li><a href="#my-role" id="toc-my-role" class="nav-link" data-scroll-target="#my-role">My role</a></li>
+  <li><a href="#what-i-learned" id="toc-what-i-learned" class="nav-link" data-scroll-target="#what-i-learned">What I learned</a></li>
+  <li><a href="#links" id="toc-links" class="nav-link" data-scroll-target="#links">Links</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Analyses</h1>
-<p class="subtitle lead">Operator memos and market analyses written when the answer actually matters.</p>
-</div>
+<h1 class="title">Application Tracker</h1>
+<p class="subtitle lead">A read-only Gmail → job-application tracker. Claude reads my job-related email, extracts company/role/status/dates, and turns a noisy inbox into a funnel, response-time metrics, and a referral-impact view.</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">AI Agents</div>
+    <div class="quarto-category">Anthropic Claude</div>
+    <div class="quarto-category">Gmail API</div>
+    <div class="quarto-category">Personal-AI</div>
+    <div class="quarto-category">Job Search</div>
+    <div class="quarto-category">Productivity Systems</div>
+  </div>
+  </div>
 
 
 
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">June 23, 2026</p>
+    </div>
+  </div>
   
     
   </div>
@@ -222,99 +191,73 @@ window.Quarto = {
 
 
 <div class="section-intro">
-<p>Each one is structured like an operator memo: explicit question, tight methodology, findings ranked by what would change the decision.</p>
+<p><strong>Type:</strong> Product · <strong>Domain:</strong> Job-search / application pipeline tracking <strong>Stack:</strong> Next.js · React · TypeScript · Tailwind · SQLite · Prisma · Anthropic Claude API (Sonnet 4.6, structured outputs) · Gmail API (read-only) · Google OAuth · launchd <strong>Status:</strong> Running locally on my Mac (port 3100), daily auto-ingest via launchd · <strong>Role:</strong> Sole builder</p>
 </div>
+<section id="one-line-summary" class="level2">
+<h2 class="anchored" data-anchor-id="one-line-summary">One-line summary</h2>
+<p>A personal tool that reads my job-related emails, uses Claude to extract each application’s company, role, status, and key dates, and assembles them into a dashboard — funnel, applications-per-day, response times, and a “does a referral actually help?” comparison — so I can see my whole job search at a glance instead of digging through my inbox.</p>
+</section>
+<section id="why-i-built-this" class="level2">
+<h2 class="anchored" data-anchor-id="why-i-built-this">Why I built this</h2>
+<p>A real job search throws off a surprising amount of signal that’s almost impossible to use, because it’s all trapped in email. Confirmations, recruiter replies, “we’ve moved you to the next round,” auto-rejections, ghosting — they arrive scattered across weeks, interleaved with newsletters and job-board spam. By the time you’re 40 applications deep you’ve lost the thread: <em>which companies actually replied, how fast, how many am I applying to per week, and is the referral I worked so hard to get actually changing my odds?</em></p>
+<p>Spreadsheets don’t solve this, because the bottleneck isn’t storage — it’s data entry. Nobody reliably logs every application and every reply by hand. The information already exists in the inbox; what’s missing is something to read it, understand it, and structure it.</p>
+<p>I wanted a tool that:</p>
+<ul>
+<li>reads my inbox <strong>read-only</strong> — it can never send, delete, or modify a single email</li>
+<li>recognizes which emails are about <em>my</em> applications and ignores the marketing/newsletter/job-board noise</li>
+<li>extracts the structured facts (company, role, status, source, dates) without me typing anything</li>
+<li>rolls scattered emails up into one record per application, with a full event timeline</li>
+<li>answers the questions I actually have: response rate, time-to-first-reply, funnel stage, what’s gone stale</li>
+<li>tells me whether referrals are paying off, with numbers</li>
+</ul>
+</section>
+<section id="what-i-built" class="level2">
+<h2 class="anchored" data-anchor-id="what-i-built">What I built</h2>
+<p>A Next.js app I run on my own Mac — single user, no auth, fully local data. Runs on port 3100.</p>
+<ul>
+<li><strong>Read-only Gmail ingest</strong> — connects via Google OAuth with the <code>gmail.readonly</code> scope (it is <em>structurally incapable</em> of sending or changing mail). It fetches recent messages, and a Claude <strong>Sonnet 4.6</strong> call with structured outputs classifies each one: is this about one of my job applications, and if so what’s the company, role, status, source (Greenhouse / Lever / Ashby / Workday / direct / referral), and event date?</li>
+<li><strong>Dedupe + smart matching</strong> — every email is keyed by its Gmail message id so the same message never gets ingested twice. New events are matched to an existing application by normalized company name (and role); a bare rejection with no role attaches to the most recent application at that company. Status rolls up with terminal states (offer / rejection) taking precedence, and <code>appliedAt</code> / <code>firstReplyAt</code> / <code>lastUpdateAt</code> are derived from the event stream.</li>
+<li><strong>Dashboard</strong> — the home page shows total applications, status chips across the funnel, an applications-per-day bar chart, average time-to-first-reply, and the referral comparison.</li>
+<li><strong>Application list + detail</strong> — a filterable list with a 🤝 referral toggle, and a per-application page showing the full timeline of every email event that touched it.</li>
+<li><strong>Manual add</strong> — a <code>/add</code> form for applications that didn’t come through email (paste a job URL or type the details), so the picture stays complete.</li>
+<li><strong>Referral impact</strong> — each application carries a <code>hasReferral</code> flag, and the home page answers “does a referral help?” by comparing reply rate and interview-or-better rate, with referral vs without.</li>
+<li><strong>Learnings</strong> — a view that surfaces patterns from my own data: which companies auto-rejected within days (so I stop wasting effort), which are still genuinely in review, and which are known sponsors worth prioritizing.</li>
+<li><strong>Daily auto-run</strong> — a macOS LaunchAgent runs the ingest every day at 5:30 PM, plus an on-demand “↻ Refresh now” button and a standalone <code>npm run ingest</code> that needs no server running.</li>
+</ul>
+</section>
+<section id="how-it-works" class="level2">
+<h2 class="anchored" data-anchor-id="how-it-works">How it works</h2>
+<p>A few choices that shaped the design:</p>
+<ol type="1">
+<li><p><strong>Read-only is the whole point.</strong> The Gmail scope is <code>gmail.readonly</code>. The tool reads to understand; it has no ability to act on my mailbox. For something pointed at my personal email during a stressful job search, “it literally cannot send or delete anything” is the only acceptable safety posture, and it’s enforced at the OAuth-scope level, not by convention.</p></li>
+<li><p><strong>The inbox is the data-entry layer.</strong> The reason application trackers go stale is manual logging. By making Claude read the emails that already exist, the cost of keeping the tracker current drops to zero — I connect Gmail once and the funnel maintains itself. The model’s job is the part humans won’t do reliably: reading every email and turning it into a row.</p></li>
+<li><p><strong>Idempotent ingest via Gmail message id.</strong> Each <code>EmailEvent</code> is uniquely keyed on its <code>gmailId</code>. Re-running the ingest — daily, or by mashing refresh — never double-counts, so the metrics stay trustworthy. An <code>IngestState</code> watermark means each run only looks at messages newer than the last fetch.</p></li>
+<li><p><strong>Application as rollup, emails as timeline.</strong> One <code>Application</code> row holds the current state (status, dates, referral flag); a separate <code>EmailEvent</code> table holds the append-only history. Status rolls forward with offer/rejection as terminal, and the response-time metric comes from the gap between <code>appliedAt</code> and <code>firstReplyAt</code> — both inferred from the event stream rather than entered by hand.</p></li>
+<li><p><strong>Structured outputs for extraction, filters for the noise.</strong> The classification call uses a strict JSON schema so every email comes back as a predictable record. A pre-filter drops marketing, newsletters, and job-board blasts before they ever reach the model, which keeps both the cost and the false-positive rate down.</p></li>
+<li><p><strong>Same boring deploy as my other personal tools.</strong> Next.js + Prisma/SQLite on my Mac, daily run via launchd, no cloud, no auth, no public URL. The device is the access boundary. (Architecturally it’s a sibling of my Personal Networking Agent — same stack, same single-user local posture.)</p></li>
+</ol>
+</section>
+<section id="my-role" class="level2">
+<h2 class="anchored" data-anchor-id="my-role">My role</h2>
+<p>Sole builder — architecture, the Gmail OAuth flow, the extraction schema and matching logic, the dashboard and metrics, the manual-add path, and the launchd auto-ingest. Built with Claude Code as the development environment.</p>
+</section>
+<section id="what-i-learned" class="level2">
+<h2 class="anchored" data-anchor-id="what-i-learned">What I learned</h2>
+<ul>
+<li><strong>Extraction beats data entry.</strong> The feature that makes this tool work isn’t the dashboard — it’s that I never type anything. Pointing a model at the inbox removed the exact friction that makes every manual tracker rot. The lesson generalizes: when the data already exists somewhere unstructured, the highest-leverage move is reading it, not building a nicer form.</li>
+<li><strong>Idempotency is what makes metrics trustworthy.</strong> The moment a tracker double-counts one rejection, you stop trusting all of it. Keying every event on the Gmail message id — so daily re-ingestion is safe — was a small decision that did more for the tool’s usefulness than any chart.</li>
+<li><strong>Read-only scope is a feature, not a limitation.</strong> Constraining the tool to <code>gmail.readonly</code> made it something I was actually willing to connect to my primary email. The narrowest possible permission was the thing that made adoption possible.</li>
+<li><strong>My own funnel had answers in it.</strong> Once the data was structured, the “learnings” view showed me things I’d felt but couldn’t prove — which companies auto-reject in 48 hours, where referrals genuinely moved the reply rate — and changed where I spent effort. The value wasn’t tracking for its own sake; it was the decisions the aggregate made obvious.</li>
+</ul>
+</section>
+<section id="links" class="level2">
+<h2 class="anchored" data-anchor-id="links">Links</h2>
+<p>Repo is private (it reads my personal email). Happy to walk through the read-only OAuth setup, the extraction schema, or the dedupe/matching logic.</p>
 
 
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="TWFya2V0JTIwQW5hbHlzaXMlMkNBSSUyMFN0YXJ0dXBzJTJDRGVjaXNpb24lMjBTeXN0ZW1z" data-listing-date-sort="1778198400000" data-listing-file-modified-sort="1782442304661" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1095">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../analyses/ai-startup-landscape.html" class="no-external">AI Startup Landscape — 653 Companies, May 2026</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../analyses/ai-startup-landscape.html" class="no-external">Methodology and findings from a thesis-driven scan of AI/data startups at seed–Series B</a>
-</div>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('TWFya2V0JTIwQW5hbHlzaXM='); return false;">Market Analysis</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('QUklMjBTdGFydHVwcw=='); return false;">AI Startups</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('RGVjaXNpb24lMjBTeXN0ZW1z'); return false;">Decision Systems</div>
-
-</div>
-</div>
-<div class="metadata">
-<a href="../analyses/ai-startup-landscape.html" class="no-external">
-<div class="listing-date">
-May 2026
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="RGVjaXNpb24lMjBTdXBwb3J0JTJDSW1taWdyYXRpb24lMjBBbmFseXRpY3MlMkNEYXRhJTIwUGlwZWxpbmUlMkNFbXBsb3llciUyMFJlc2VhcmNo" data-listing-date-sort="1746576000000" data-listing-file-modified-sort="1782442304661" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1146">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../analyses/visa-sponsor-search.html" class="no-external">H-1B / PERM Sponsor Search — Structured Employer Prioritization</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../analyses/visa-sponsor-search.html" class="no-external">Scored, evidence-based shortlist of 100 US employers built from fragmented visa and hiring data</a>
-</div>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('RGVjaXNpb24lMjBTdXBwb3J0'); return false;">Decision Support</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('SW1taWdyYXRpb24lMjBBbmFseXRpY3M='); return false;">Immigration Analytics</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('RGF0YSUyMFBpcGVsaW5l'); return false;">Data Pipeline</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('RW1wbG95ZXIlMjBSZXNlYXJjaA=='); return false;">Employer Research</div>
-
-</div>
-</div>
-<div class="metadata">
-<a href="../analyses/visa-sponsor-search.html" class="no-external">
-<div class="listing-date">
-May 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="TWFya2V0JTIwQW5hbHlzaXMlMkNSZWd1bGF0ZWQlMjBJbmR1c3RyeSUyQ09wZXJhdG9yJTIwU3RyYXRlZ3klMkNVbml0JTIwRWNvbm9taWNz" data-listing-date-sort="1745366400000" data-listing-file-modified-sort="1782442304661" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="887">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../analyses/nyc-cannabis-market.html" class="no-external">NYC Cannabis Dispensary Market — Where the Unit Economics Actually Work</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../analyses/nyc-cannabis-market.html" class="no-external">Operator decision memo with framework, market scan, scoring model, and ranked shortlist for siting a NYC dispensary</a>
-</div>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('TWFya2V0JTIwQW5hbHlzaXM='); return false;">Market Analysis</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('UmVndWxhdGVkJTIwSW5kdXN0cnk='); return false;">Regulated Industry</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('T3BlcmF0b3IlMjBTdHJhdGVneQ=='); return false;">Operator Strategy</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('VW5pdCUyMEVjb25vbWljcw=='); return false;">Unit Economics</div>
-
-</div>
-</div>
-<div class="metadata">
-<a href="../analyses/nyc-cannabis-market.html" class="no-external">
-<div class="listing-date">
-Apr 2025
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
