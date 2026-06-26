@@ -1,0 +1,76 @@
+---
+title: "Application Tracker"
+subtitle: "A read-only Gmail → job-application tracker. Claude reads my job-related email, extracts company/role/status/dates, and turns a noisy inbox into a funnel, response-time metrics, and a referral-impact view."
+date: "2026-06-23"
+categories: [AI Agents, Anthropic Claude, Gmail API, Personal-AI, Job Search, Productivity Systems]
+toc: true
+---
+
+::: {.section-intro}
+**Type:** Product · **Domain:** Job-search / application pipeline tracking
+**Stack:** Next.js · React · TypeScript · Tailwind · SQLite · Prisma · Anthropic Claude API (Sonnet 4.6, structured outputs) · Gmail API (read-only) · Google OAuth · launchd
+**Status:** Running locally on my Mac (port 3100), daily auto-ingest via launchd · **Role:** Sole builder
+:::
+
+## One-line summary
+
+A personal tool that reads my job-related emails, uses Claude to extract each application's company, role, status, and key dates, and assembles them into a dashboard — funnel, applications-per-day, response times, and a "does a referral actually help?" comparison — so I can see my whole job search at a glance instead of digging through my inbox.
+
+## Why I built this
+
+A real job search throws off a surprising amount of signal that's almost impossible to use, because it's all trapped in email. Confirmations, recruiter replies, "we've moved you to the next round," auto-rejections, ghosting — they arrive scattered across weeks, interleaved with newsletters and job-board spam. By the time you're 40 applications deep you've lost the thread: *which companies actually replied, how fast, how many am I applying to per week, and is the referral I worked so hard to get actually changing my odds?*
+
+Spreadsheets don't solve this, because the bottleneck isn't storage — it's data entry. Nobody reliably logs every application and every reply by hand. The information already exists in the inbox; what's missing is something to read it, understand it, and structure it.
+
+I wanted a tool that:
+
+- reads my inbox **read-only** — it can never send, delete, or modify a single email
+- recognizes which emails are about *my* applications and ignores the marketing/newsletter/job-board noise
+- extracts the structured facts (company, role, status, source, dates) without me typing anything
+- rolls scattered emails up into one record per application, with a full event timeline
+- answers the questions I actually have: response rate, time-to-first-reply, funnel stage, what's gone stale
+- tells me whether referrals are paying off, with numbers
+
+## What I built
+
+A Next.js app I run on my own Mac — single user, no auth, fully local data. Runs on port 3100.
+
+- **Read-only Gmail ingest** — connects via Google OAuth with the `gmail.readonly` scope (it is *structurally incapable* of sending or changing mail). It fetches recent messages, and a Claude **Sonnet 4.6** call with structured outputs classifies each one: is this about one of my job applications, and if so what's the company, role, status, source (Greenhouse / Lever / Ashby / Workday / direct / referral), and event date?
+- **Dedupe + smart matching** — every email is keyed by its Gmail message id so the same message never gets ingested twice. New events are matched to an existing application by normalized company name (and role); a bare rejection with no role attaches to the most recent application at that company. Status rolls up with terminal states (offer / rejection) taking precedence, and `appliedAt` / `firstReplyAt` / `lastUpdateAt` are derived from the event stream.
+- **Dashboard** — the home page shows total applications, status chips across the funnel, an applications-per-day bar chart, average time-to-first-reply, and the referral comparison.
+- **Application list + detail** — a filterable list with a 🤝 referral toggle, and a per-application page showing the full timeline of every email event that touched it.
+- **Manual add** — a `/add` form for applications that didn't come through email (paste a job URL or type the details), so the picture stays complete.
+- **Referral impact** — each application carries a `hasReferral` flag, and the home page answers "does a referral help?" by comparing reply rate and interview-or-better rate, with referral vs without.
+- **Learnings** — a view that surfaces patterns from my own data: which companies auto-rejected within days (so I stop wasting effort), which are still genuinely in review, and which are known sponsors worth prioritizing.
+- **Daily auto-run** — a macOS LaunchAgent runs the ingest every day at 5:30 PM, plus an on-demand "↻ Refresh now" button and a standalone `npm run ingest` that needs no server running.
+
+## How it works
+
+A few choices that shaped the design:
+
+1. **Read-only is the whole point.** The Gmail scope is `gmail.readonly`. The tool reads to understand; it has no ability to act on my mailbox. For something pointed at my personal email during a stressful job search, "it literally cannot send or delete anything" is the only acceptable safety posture, and it's enforced at the OAuth-scope level, not by convention.
+
+2. **The inbox is the data-entry layer.** The reason application trackers go stale is manual logging. By making Claude read the emails that already exist, the cost of keeping the tracker current drops to zero — I connect Gmail once and the funnel maintains itself. The model's job is the part humans won't do reliably: reading every email and turning it into a row.
+
+3. **Idempotent ingest via Gmail message id.** Each `EmailEvent` is uniquely keyed on its `gmailId`. Re-running the ingest — daily, or by mashing refresh — never double-counts, so the metrics stay trustworthy. An `IngestState` watermark means each run only looks at messages newer than the last fetch.
+
+4. **Application as rollup, emails as timeline.** One `Application` row holds the current state (status, dates, referral flag); a separate `EmailEvent` table holds the append-only history. Status rolls forward with offer/rejection as terminal, and the response-time metric comes from the gap between `appliedAt` and `firstReplyAt` — both inferred from the event stream rather than entered by hand.
+
+5. **Structured outputs for extraction, filters for the noise.** The classification call uses a strict JSON schema so every email comes back as a predictable record. A pre-filter drops marketing, newsletters, and job-board blasts before they ever reach the model, which keeps both the cost and the false-positive rate down.
+
+6. **Same boring deploy as my other personal tools.** Next.js + Prisma/SQLite on my Mac, daily run via launchd, no cloud, no auth, no public URL. The device is the access boundary. (Architecturally it's a sibling of my Personal Networking Agent — same stack, same single-user local posture.)
+
+## My role
+
+Sole builder — architecture, the Gmail OAuth flow, the extraction schema and matching logic, the dashboard and metrics, the manual-add path, and the launchd auto-ingest. Built with Claude Code as the development environment.
+
+## What I learned
+
+- **Extraction beats data entry.** The feature that makes this tool work isn't the dashboard — it's that I never type anything. Pointing a model at the inbox removed the exact friction that makes every manual tracker rot. The lesson generalizes: when the data already exists somewhere unstructured, the highest-leverage move is reading it, not building a nicer form.
+- **Idempotency is what makes metrics trustworthy.** The moment a tracker double-counts one rejection, you stop trusting all of it. Keying every event on the Gmail message id — so daily re-ingestion is safe — was a small decision that did more for the tool's usefulness than any chart.
+- **Read-only scope is a feature, not a limitation.** Constraining the tool to `gmail.readonly` made it something I was actually willing to connect to my primary email. The narrowest possible permission was the thing that made adoption possible.
+- **My own funnel had answers in it.** Once the data was structured, the "learnings" view showed me things I'd felt but couldn't prove — which companies auto-reject in 48 hours, where referrals genuinely moved the reply rate — and changed where I spent effort. The value wasn't tracking for its own sake; it was the decisions the aggregate made obvious.
+
+## Links
+
+Repo is private (it reads my personal email). Happy to walk through the read-only OAuth setup, the extraction schema, or the dedupe/matching logic.

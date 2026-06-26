@@ -112,6 +112,12 @@ Market scans, opportunity evaluations, and risk write-ups built to inform real d
 <p>A three-mode job-application workbench — tailored cover letters, JD-aligned resumes, and grounded "why this company / why this role" interview answers. One principle across all three: do the analytical work before writing, so the output demonstrates fit instead of gesturing at it.</p>
 <div class="featured-tags"><span>AI Agents</span><span>Workflow Tool</span><span>Anthropic Claude</span></div>
 </a>
+<a href="products/application-tracker.html" class="featured-work-card">
+<span class="featured-tag">Featured Product</span>
+<h4>Application Tracker</h4>
+<p>A read-only Gmail → job-application tracker. Claude reads my job-related email, extracts company, role, status, and dates, and turns a noisy inbox into a funnel, response-time metrics, and a "does a referral help?" view — with zero manual data entry.</p>
+<div class="featured-tags"><span>AI Agents</span><span>Gmail API</span><span>Personal-AI</span></div>
+</a>
 <a href="products/network-agent.html" class="featured-work-card">
 <span class="featured-tag">Featured Product</span>
 <h4>Personal Networking Agent</h4>
